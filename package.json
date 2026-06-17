@@ -1,0 +1,33 @@
+{
+  "name": "china-food-map",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "predev": "node scripts/build-index.mjs",
+    "build": "vue-tsc -b && vite build",
+    "prebuild": "node scripts/build-index.mjs",
+    "preview": "vite preview",
+    "build:index": "node scripts/build-index.mjs"
+  },
+  "dependencies": {
+    "@octokit/rest": "^22.0.1",
+    "fuse.js": "^7.4.2",
+    "pinyin-pro": "^3.27.0",
+    "vue": "^3.5.34",
+    "vue-router": "^5.1.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.1",
+    "@types/node": "^24.12.3",
+    "@vitejs/plugin-vue": "^6.0.6",
+    "@vue/tsconfig": "^0.9.1",
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1",
+    "tailwindcss": "^4.3.1",
+    "typescript": "~6.0.2",
+    "vite": "^8.0.12",
+    "vue-tsc": "^3.2.8"
+  }
+}

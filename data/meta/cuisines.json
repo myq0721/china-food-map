@@ -1,0 +1,11 @@
+[
+  { "name": "鲁菜", "slug": "lu", "description": "起源于山东，讲究咸鲜纯正、火候精准。" },
+  { "name": "川菜", "slug": "chuan", "description": "以麻辣鲜香著称，口味层次丰富。" },
+  { "name": "粤菜", "slug": "yue", "description": "清鲜嫩滑，注重食材本味。" },
+  { "name": "苏菜", "slug": "su", "description": "精细雅致，甜咸适中。" },
+  { "name": "闽菜", "slug": "min", "description": "鲜香清淡，擅烹海鲜。" },
+  { "name": "浙菜", "slug": "zhe", "description": "清爽鲜嫩，杭帮菜为代表。" },
+  { "name": "湘菜", "slug": "xiang", "description": "香辣酸爽，重油重色。" },
+  { "name": "徽菜", "slug": "hui", "description": "重油重色，擅长烧炖。" },
+  { "name": "其他/融合", "slug": "other", "description": "地方小吃、融合菜等。" }
+]

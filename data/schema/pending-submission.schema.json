@@ -1,0 +1,86 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/myq0721/china-food-map/data/schema/pending-submission.schema.json",
+  "title": "PendingSubmission",
+  "type": "object",
+  "required": ["id", "status", "submittedAt", "restaurant", "recommender"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-f0-9-]{36}$"
+    },
+    "status": { "type": "string", "enum": ["pending"] },
+    "submittedAt": { "type": "string", "format": "date-time" },
+    "restaurant": {
+      "type": "object",
+      "required": ["city", "name"],
+      "additionalProperties": false,
+      "properties": {
+        "city": { "type": "string", "minLength": 1 },
+        "name": { "type": "string", "minLength": 1 },
+        "cuisine": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "address": { "type": "string" },
+        "coordinates": {
+          "oneOf": [
+            { "type": "null" },
+            {
+              "type": "array",
+              "items": { "type": "number" },
+              "minItems": 2,
+              "maxItems": 2
+            }
+          ]
+        }
+      }
+    },
+    "recommender": { "$ref": "#/$defs/recommender" }
+  },
+  "$defs": {
+    "dish": {
+      "type": "object",
+      "required": ["name"],
+      "additionalProperties": false,
+      "properties": {
+        "name": { "type": "string", "minLength": 1 },
+        "price": { "type": "string" }
+      }
+    },
+    "comment": {
+      "type": "object",
+      "required": ["author", "text"],
+      "additionalProperties": false,
+      "properties": {
+        "author": { "type": "string", "minLength": 1 },
+        "text": { "type": "string", "minLength": 1 }
+      }
+    },
+    "recommender": {
+      "type": "object",
+      "required": ["authorId", "platform", "recommendedAt"],
+      "additionalProperties": false,
+      "properties": {
+        "authorId": { "type": "string", "minLength": 1 },
+        "platform": {
+          "type": "string",
+          "enum": ["github", "twitter", "douyin", "bilibili"]
+        },
+        "profileUrl": { "type": "string", "format": "uri" },
+        "recommendedAt": { "type": "string", "format": "date" },
+        "dishes": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/dish" }
+        },
+        "reason": { "type": "string" },
+        "comments": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/comment" }
+        },
+        "sourceVideoUrl": { "type": "string", "format": "uri" }
+      }
+    }
+  }
+}

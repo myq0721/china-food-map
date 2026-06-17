@@ -1,0 +1,21 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-brand: #c41e3a;
+  --color-brand-dark: #9a1830;
+  --color-surface: #faf8f5;
+  --color-card: #ffffff;
+  --color-muted: #6b7280;
+  --font-sans: 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  background: var(--color-surface);
+  color: #1f2937;
+}
+
+#app {
+  min-height: 100vh;
+}

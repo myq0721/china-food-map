@@ -1,0 +1,14 @@
+[
+  { "name": "北京", "slug": "beijing" },
+  { "name": "上海", "slug": "shanghai" },
+  { "name": "广州", "slug": "guangzhou" },
+  { "name": "深圳", "slug": "shenzhen" },
+  { "name": "成都", "slug": "chengdu" },
+  { "name": "杭州", "slug": "hangzhou" },
+  { "name": "西安", "slug": "xian" },
+  { "name": "重庆", "slug": "chongqing" },
+  { "name": "南京", "slug": "nanjing" },
+  { "name": "武汉", "slug": "wuhan" },
+  { "name": "长沙", "slug": "changsha" },
+  { "name": "厦门", "slug": "xiamen" }
+]

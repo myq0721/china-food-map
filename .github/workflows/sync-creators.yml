@@ -1,0 +1,33 @@
+name: Sync Creators
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 2 * * 1'
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: npm
+
+      - run: npm ci
+      - run: node scripts/fetch-creator-videos.mjs
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          commit-message: 'chore: sync creator video drafts'
+          title: 'chore: 同步博主探店草稿'
+          body: '自动同步 curated-creators 配置中博主的探店视频草稿，请在 /import 页面审核。'
+          branch: sync/creator-drafts
+          delete-branch: true
