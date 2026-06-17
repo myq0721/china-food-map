@@ -78,13 +78,60 @@ Twitter 主页自动生成：`https://x.com/{用户名}`
 6. 维护者合并 PR 后，运行 **Promote Pending** Action（或本地 `node scripts/promote-pending.mjs --all`）
 7. 数据合并进 `data/restaurants/` 并上线
 
+## 没有 OpenAI 密钥也能扩充数据
+
+**不配置 `OPENAI_API_KEY` 完全可以使用。** 系统会用 B 站公开 API 拉取视频标题/简介，再用规则提取城市、店名和 1–5 星评分（准确率低于 AI，但免费）。
+
+### 推荐流程（半自动 + 人工补全）
+
+```powershell
+cd X:\A_CODE\g_githubcode\china-food-map
+
+# 拉取视频列表（会自动读 B 站标签补全城市）
+node scripts/fetch-creator-videos.mjs
+
+# 已有草稿解析不准时，重新解析（约 1 分钟 / 80 条）
+npm run reparse:drafts
+
+# 2. 本地预览网站，维护者登录后打开 /import 页
+#    补全每条草稿的「城市」「店名」，批量提交待审核
+
+# 全量导入（合集城市 + 标签 + 标题，推荐）
+$env:BILI_MAX_PAGES = "10"
+$env:IMPORT_LIMIT = "0"
+npm run import:bilibili:full -- --fresh          # 清空后全量入库
+npm run import:bilibili:full -- --dry-run         # 预览
+npm run fetch:collections -- --refresh            # 更新合集→城市映射
+npm run clean:imports                             # 清理无效草稿
+npm run build:index
+```
+
+### 各方式对比
+
+| 方式 | 是否需要 OpenAI | 说明 |
+|------|-----------------|------|
+| `fetch-creator-videos.mjs` + `/import` | 否 | 最稳妥，人工补全店名 |
+| `import:bilibili:full` | 否 | 合集+标签+标题规则解析，直接入库 |
+| `import:bilibili:full --transcribe` | 是 | 加 Whisper 转写，准确率更高 |
+| 加 `OPENAI_API_KEY` | 是 | LLM 提取字段与星级 |
+
+### 想用 AI 但不想用 OpenAI
+
+脚本支持兼容 OpenAI 接口的服务（如 [DeepSeek](https://platform.deepseek.com/) 等），设置：
+
+```powershell
+$env:OPENAI_API_KEY = "你的密钥"
+$env:OPENAI_BASE_URL = "https://api.deepseek.com/v1"
+$env:OPENAI_MODEL = "deepseek-chat"
+```
+
 ## 博主探店导入
 
 1. 在 `data/meta/curated-creators.json` 配置 B 站 UP 主（默认：特厨隋卞 `3546888255048212`）
-2. **批量 AI 导入**（直接写入 `data/restaurants/`）：
+2. **批量导入**（直接写入 `data/restaurants/`）：
    ```bash
-   OPENAI_API_KEY=sk-... node scripts/import-bilibili-ai.mjs
-   OPENAI_API_KEY=sk-... IMPORT_LIMIT=3 node scripts/import-bilibili-ai.mjs --dry-run
+   npm run fetch:collections -- --refresh
+   BILI_MAX_PAGES=10 IMPORT_LIMIT=0 npm run import:bilibili:full -- --fresh
    ```
    或在 Actions 中手动触发 **Import Bilibili AI** workflow。
 3. **草稿审阅流程**：运行 `node scripts/fetch-creator-videos.mjs` → 维护者访问 `/import` 审阅 → 批量提交待审核
@@ -96,8 +143,8 @@ Twitter 主页自动生成：`https://x.com/{用户名}`
 node scripts/enrich-submission.mjs
 node scripts/enrich-submission.mjs <pending-uuid>
 
-# B 站 UP 主批量 AI 导入（直接入库）
-OPENAI_API_KEY=sk-... node scripts/import-bilibili-ai.mjs
+# B 站 UP 主批量导入（直接入库）
+BILI_MAX_PAGES=10 IMPORT_LIMIT=0 npm run import:bilibili:full -- --fresh
 
 # 同步博主视频草稿
 node scripts/fetch-creator-videos.mjs

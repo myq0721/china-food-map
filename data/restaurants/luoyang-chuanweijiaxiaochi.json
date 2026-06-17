@@ -1,0 +1,20 @@
+{
+  "id": "luoyang-chuanweijiaxiaochi",
+  "city": "洛阳",
+  "name": "川味家小吃",
+  "coordinates": null,
+  "createdAt": "2026-06-17T18:11:41.164Z",
+  "updatedAt": "2026-06-17T18:11:41.164Z",
+  "recommenders": [
+    {
+      "authorId": "3546888255048212",
+      "platform": "bilibili",
+      "profileUrl": "https://space.bilibili.com/3546888255048212",
+      "recommendedAt": "2026-06-17",
+      "rating": 4,
+      "ratingSummary": "特厨探店 |全国最便宜的盖浇饭？他们不要成本的？—川味家小吃",
+      "reason": "特厨探店 |全国最便宜的盖浇饭？他们不要成本的？—川味家小吃",
+      "sourceVideoUrl": "https://www.bilibili.com/video/BV1YTaxzxEAA"
+    }
+  ]
+}

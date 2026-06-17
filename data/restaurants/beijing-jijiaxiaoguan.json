@@ -1,0 +1,20 @@
+{
+  "id": "beijing-jijiaxiaoguan",
+  "city": "北京",
+  "name": "纪家小馆",
+  "coordinates": null,
+  "createdAt": "2026-06-17T18:11:05.009Z",
+  "updatedAt": "2026-06-17T18:11:05.009Z",
+  "recommenders": [
+    {
+      "authorId": "3546888255048212",
+      "platform": "bilibili",
+      "profileUrl": "https://space.bilibili.com/3546888255048212",
+      "recommendedAt": "2026-06-17",
+      "rating": 4,
+      "ratingSummary": "特厨探店|吃着舒服的店真的不多见—纪家小馆",
+      "reason": "特厨探店|吃着舒服的店真的不多见—纪家小馆",
+      "sourceVideoUrl": "https://www.bilibili.com/video/BV1AhPuzZEFH"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "hefei-huicaibowuguan",
+  "city": "合肥",
+  "name": "徽菜博物馆",
+  "coordinates": null,
+  "createdAt": "2026-06-17T18:10:56.238Z",
+  "updatedAt": "2026-06-17T18:10:56.238Z",
+  "recommenders": [
+    {
+      "authorId": "3546888255048212",
+      "platform": "bilibili",
+      "profileUrl": "https://space.bilibili.com/3546888255048212",
+      "recommendedAt": "2026-06-17",
+      "rating": 4,
+      "ratingSummary": "特厨探店|下了高铁冒着雨来的餐厅，就这？—徽菜博物馆餐厅",
+      "reason": "特厨探店|下了高铁冒着雨来的餐厅，就这？—徽菜博物馆餐厅",
+      "sourceVideoUrl": "https://www.bilibili.com/video/BV1DLQhBPE7W"
+    }
+  ]
+}

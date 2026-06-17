@@ -1,0 +1,20 @@
+{
+  "id": "shunde-zhengsiwei",
+  "city": "顺德",
+  "name": "蒸四味",
+  "coordinates": null,
+  "createdAt": "2026-06-17T18:11:05.896Z",
+  "updatedAt": "2026-06-17T18:11:05.896Z",
+  "recommenders": [
+    {
+      "authorId": "3546888255048212",
+      "platform": "bilibili",
+      "profileUrl": "https://space.bilibili.com/3546888255048212",
+      "recommendedAt": "2026-06-17",
+      "rating": 4,
+      "ratingSummary": "特厨探店|没有门头没有招牌的顺德小店—蒸四味",
+      "reason": "特厨探店|没有门头没有招牌的顺德小店—蒸四味",
+      "sourceVideoUrl": "https://www.bilibili.com/video/BV1wVcvzsEs9"
+    }
+  ]
+}

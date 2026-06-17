@@ -1,0 +1,20 @@
+{
+  "id": "guangzhou-baitianebinguan",
+  "city": "广州",
+  "name": "白天鹅宾馆",
+  "coordinates": null,
+  "createdAt": "2026-06-17T18:11:27.917Z",
+  "updatedAt": "2026-06-17T18:11:27.917Z",
+  "recommenders": [
+    {
+      "authorId": "3546888255048212",
+      "platform": "bilibili",
+      "profileUrl": "https://space.bilibili.com/3546888255048212",
+      "recommendedAt": "2026-06-17",
+      "rating": 5,
+      "ratingSummary": "特厨探店|粤菜天花板？！—白天鹅宾馆",
+      "reason": "特厨探店|粤菜天花板？！—白天鹅宾馆",
+      "sourceVideoUrl": "https://www.bilibili.com/video/BV13FyeB4E6X"
+    }
+  ]
+}

@@ -11,13 +11,15 @@ async function main() {
   const creatorsPath = join(root, 'data', 'meta', 'curated-creators.json')
   const draftsPath = join(root, 'data', 'imports', 'drafts.json')
   const creators = JSON.parse(await readFile(creatorsPath, 'utf-8'))
+  const maxPages = Number(process.env.BILI_MAX_PAGES ?? '3')
 
   const allItems = []
 
   for (const creator of creators) {
     if (!creator.enabled || creator.platform !== 'bilibili') continue
 
-    const videos = await fetchBilibiliSpaceVideos(creator.authorId)
+    console.log(`拉取 ${creator.displayName} 的投稿列表（最多 ${maxPages} 页）…`)
+    const videos = await fetchBilibiliSpaceVideos(creator.authorId, maxPages)
     for (const v of videos) {
       allItems.push({
         id: randomUUID(),

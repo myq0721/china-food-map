@@ -1,0 +1,20 @@
+{
+  "id": "tianjin-xinlaizicaiguan",
+  "city": "天津",
+  "name": "鑫来子菜馆",
+  "coordinates": null,
+  "createdAt": "2026-06-17T18:11:56.967Z",
+  "updatedAt": "2026-06-17T18:11:56.967Z",
+  "recommenders": [
+    {
+      "authorId": "3546888255048212",
+      "platform": "bilibili",
+      "profileUrl": "https://space.bilibili.com/3546888255048212",
+      "recommendedAt": "2026-06-17",
+      "rating": 4,
+      "ratingSummary": "特厨探店 |来人管管天津菜—鑫来子菜馆",
+      "reason": "特厨探店 |来人管管天津菜—鑫来子菜馆",
+      "sourceVideoUrl": "https://www.bilibili.com/video/BV1Xa3gzhEVT"
+    }
+  ]
+}

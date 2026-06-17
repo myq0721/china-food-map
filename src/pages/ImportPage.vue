@@ -31,6 +31,17 @@ const isMaintainer = computed(
 )
 
 const selectedIds = ref<Set<string>>(new Set())
+const showOnlyMissingCity = ref(false)
+
+const missingCityCount = computed(
+  () => drafts.value.filter((d) => !d.suggestedCity?.trim()).length,
+)
+
+const visibleDrafts = computed(() =>
+  showOnlyMissingCity.value
+    ? drafts.value.filter((d) => !d.suggestedCity?.trim())
+    : drafts.value,
+)
 
 onMounted(loadDrafts)
 
@@ -173,8 +184,18 @@ async function handleLogin() {
     <div v-if="loading" class="py-12 text-center text-stone-500">加载草稿…</div>
 
     <div v-else-if="drafts.length" class="space-y-3">
+      <div class="flex flex-wrap items-center gap-3 text-sm text-stone-600">
+        <span>共 {{ drafts.length }} 条草稿</span>
+        <span v-if="missingCityCount" class="text-amber-700">
+          {{ missingCityCount }} 条缺少城市（必填）
+        </span>
+        <label v-if="missingCityCount" class="flex items-center gap-1">
+          <input v-model="showOnlyMissingCity" type="checkbox" />
+          只看待补全城市
+        </label>
+      </div>
       <article
-        v-for="draft in drafts"
+        v-for="draft in visibleDrafts"
         :key="draft.id"
         class="rounded-xl border border-stone-200 bg-white p-4"
       >
@@ -189,8 +210,18 @@ async function handleLogin() {
               {{ draft.videoTitle }}
             </a>
             <div class="mt-2 grid gap-2 sm:grid-cols-2">
-              <input v-model="draft.suggestedCity" class="rounded border px-2 py-1 text-sm" placeholder="城市 *" />
-              <input v-model="draft.suggestedName" class="rounded border px-2 py-1 text-sm" placeholder="店名 *" />
+              <input
+                v-model="draft.suggestedCity"
+                class="rounded border px-2 py-1 text-sm"
+                :class="!draft.suggestedCity?.trim() ? 'border-amber-400 bg-amber-50' : ''"
+                placeholder="城市 *（必填）"
+              />
+              <input
+                v-model="draft.suggestedName"
+                class="rounded border px-2 py-1 text-sm"
+                :class="!draft.suggestedName?.trim() ? 'border-amber-400 bg-amber-50' : ''"
+                placeholder="店名 *"
+              />
             </div>
           </div>
         </div>

@@ -1,0 +1,20 @@
+{
+  "id": "shanghai-xijiao5hao",
+  "city": "上海",
+  "name": "西郊5号",
+  "coordinates": null,
+  "createdAt": "2026-06-17T18:10:57.993Z",
+  "updatedAt": "2026-06-17T18:10:57.993Z",
+  "recommenders": [
+    {
+      "authorId": "3546888255048212",
+      "platform": "bilibili",
+      "profileUrl": "https://space.bilibili.com/3546888255048212",
+      "recommendedAt": "2026-06-17",
+      "rating": 4,
+      "ratingSummary": "特厨探店|一顿饭4x万？是噱头还是实力—西郊5号",
+      "reason": "特厨探店|一顿饭4x万？是噱头还是实力—西郊5号",
+      "sourceVideoUrl": "https://www.bilibili.com/video/BV1j9DJB1EdU"
+    }
+  ]
+}

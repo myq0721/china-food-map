@@ -1,0 +1,20 @@
+{
+  "id": "shanghai-dakuaitoupaidang",
+  "city": "上海",
+  "name": "大块头排挡",
+  "coordinates": null,
+  "createdAt": "2026-06-17T18:11:44.668Z",
+  "updatedAt": "2026-06-17T18:11:44.668Z",
+  "recommenders": [
+    {
+      "authorId": "3546888255048212",
+      "platform": "bilibili",
+      "profileUrl": "https://space.bilibili.com/3546888255048212",
+      "recommendedAt": "2026-06-17",
+      "rating": 5,
+      "ratingSummary": "特厨探店 |半夜来吃上海夜宵天花板？—大块头排挡",
+      "reason": "特厨探店 |半夜来吃上海夜宵天花板？—大块头排挡",
+      "sourceVideoUrl": "https://www.bilibili.com/video/BV1nWYtzjE7d"
+    }
+  ]
+}

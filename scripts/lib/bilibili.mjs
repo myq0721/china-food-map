@@ -1,8 +1,20 @@
-const FOOD_KEYWORDS = ['探店', '美食', '好吃', '必吃', '打卡', '餐厅', '饭店', '小吃', '火锅', '烧烤', '早茶', '面馆', '测评']
-const CITIES = [
-  '北京', '上海', '广州', '深圳', '成都', '杭州', '西安', '重庆', '南京', '武汉',
-  '长沙', '厦门', '苏州', '天津', '青岛', '大连', '沈阳', '哈尔滨', '昆明', '贵阳',
-]
+import {
+  parseVideoFields,
+  isFoodVideoTitle,
+  heuristicRating,
+  extractCityFromText,
+} from './parse-video.mjs'
+import {
+  fetchBiliJson,
+  buildWbiUrl,
+  sleep,
+  requestHeaders,
+  BILI_HEADERS,
+} from './wbi.mjs'
+
+export { sleep, fetchBiliJson, requestHeaders, BILI_HEADERS }
+export { parseVideoFields, isFoodVideoTitle, heuristicRating, extractCityFromText }
+export { extractCityFromText as extractCity } from './parse-video.mjs'
 
 export function extractBvid(url) {
   const m = String(url).match(/BV[\w]+/i)
@@ -14,36 +26,18 @@ export function extractAvId(url) {
   return m ? m[1] : null
 }
 
-export function extractCity(text) {
-  for (const city of CITIES) {
-    if (text.includes(city)) return city
-  }
-  return ''
-}
-
+/** @deprecated 使用 parseVideoFields */
 export function extractRestaurantName(title) {
-  const patterns = [
-    /(?:探店|打卡|必吃|美食)[｜|]?(.{2,12}?)(?:！|!|？|\?|，|,|。| |$)/,
-    /(.{2,10}?)(?:店|馆|楼|酒家|餐厅|火锅|烧烤|小吃)/,
-  ]
-  for (const p of patterns) {
-    const m = title.match(p)
-    if (m?.[1]) return m[1].replace(/[【】\[\]]/g, '').trim()
-  }
-  return ''
+  return parseVideoFields({ title }).name
 }
 
-export function isFoodVideoTitle(title) {
-  return FOOD_KEYWORDS.some((k) => title.includes(k))
-}
-
-export function heuristicRating(title, desc = '') {
-  const text = `${title} ${desc}`
-  if (/必吃|绝了|天花板|强烈推荐/.test(text)) return 5
-  if (/推荐|不错|好吃|值得/.test(text)) return 4
-  if (/一般|还行/.test(text)) return 3
-  if (/避雷|不推荐|难吃/.test(text)) return 2
-  return 4
+export async function fetchBilibiliVideoTags(bvid) {
+  const data = await fetchBiliJson(
+    `https://api.bilibili.com/x/tag/archive/tags?bvid=${bvid}`,
+    'https://www.bilibili.com',
+  )
+  if (data.code !== 0) return []
+  return data.data ?? []
 }
 
 export async function fetchBilibiliVideo(bvidOrUrl) {
@@ -52,13 +46,15 @@ export async function fetchBilibiliVideo(bvidOrUrl) {
   const param = bvid ? `bvid=${bvid}` : `aid=${av}`
   if (!bvid && !av) throw new Error('无法识别 B 站视频链接')
 
-  const res = await fetch(`https://api.bilibili.com/x/web-interface/view?${param}`, {
-    headers: { 'User-Agent': 'Mozilla/5.0', Referer: 'https://www.bilibili.com' },
-  })
-  const json = await res.json()
-  if (json.code !== 0) throw new Error(json.message ?? '获取视频信息失败')
+  const res = await fetchBiliJson(
+    `https://api.bilibili.com/x/web-interface/view?${param}`,
+    'https://www.bilibili.com',
+  )
+  if (res.code !== 0) throw new Error(res.message ?? '获取视频信息失败')
 
-  const d = json.data
+  const d = res.data
+  const tags = bvid ? await fetchBilibiliVideoTags(bvid).catch(() => []) : []
+
   return {
     bvid: d.bvid,
     title: d.title,
@@ -67,52 +63,168 @@ export async function fetchBilibiliVideo(bvidOrUrl) {
     ownerMid: d.owner.mid,
     pic: d.pic,
     videoUrl: `https://www.bilibili.com/video/${d.bvid}`,
+    tags,
   }
 }
 
-export async function fetchBilibiliSpaceVideos(mid, maxPages = 3) {
+export async function enrichVideoItem(item, delayMs = 600, collectionCity = '') {
+  const bvid = item.bvid ?? extractBvid(item.videoUrl)
+  if (!bvid) return item
+
+  await sleep(delayMs)
+  const meta = await fetchBilibiliVideo(bvid)
+  const collCity = collectionCity || item.collectionCity || ''
+  const parsed = parseVideoFields({
+    title: meta.title,
+    desc: meta.desc,
+    tags: meta.tags,
+    collectionCity: collCity,
+  })
+
+  return {
+    ...item,
+    title: meta.title,
+    desc: meta.desc,
+    videoUrl: meta.videoUrl,
+    collectionCity: collCity || undefined,
+    suggestedName: parsed.name,
+    suggestedCity: parsed.city,
+    parseConfidence: parsed.city && parsed.name ? 'high' : parsed.name ? 'medium' : 'low',
+  }
+}
+
+function mapArchiveItem(v, collectionCity = '') {
+  const parsed = parseVideoFields({
+    title: v.title,
+    desc: v.desc ?? '',
+    collectionCity,
+  })
+  return {
+    bvid: v.bvid,
+    title: v.title,
+    desc: v.desc ?? v.description ?? '',
+    videoUrl: `https://www.bilibili.com/video/${v.bvid}`,
+    collectionCity: collectionCity || undefined,
+    suggestedName: parsed.name,
+    suggestedCity: parsed.city,
+    parseConfidence: parsed.city && parsed.name ? 'high' : parsed.name ? 'medium' : 'low',
+  }
+}
+
+export async function fetchBilibiliSpaceVideos(
+  mid,
+  maxPages = 3,
+  delayMs = 2000,
+  enrichTags = true,
+  { foodOnly = true, bvidToCity = null } = {},
+) {
+  const referer = `https://space.bilibili.com/${mid}`
   const items = []
   let page = 1
   const pageSize = 30
 
   while (page <= maxPages) {
-    const url = `https://api.bilibili.com/x/space/arc/search?mid=${mid}&ps=${pageSize}&tid=0&pn=${page}&order=pubdate`
-    const res = await fetch(url, {
-      headers: {
-        'User-Agent': 'Mozilla/5.0',
-        Referer: `https://space.bilibili.com/${mid}`,
-      },
-    })
-    const data = await res.json()
-    if (data.code !== 0) break
+    const listUrl = `https://api.bilibili.com/x/space/arc/list?mid=${mid}&ps=${pageSize}&pn=${page}&order=pubdate`
+    const data = await fetchBiliJson(listUrl, referer)
+
+    if (data.code !== 0) {
+      console.warn(`arc/list 失败 (${data.message})，尝试 WBI 接口…`)
+      return fetchBilibiliSpaceVideosWbi(mid, maxPages, delayMs, items, enrichTags, {
+        foodOnly,
+        bvidToCity,
+      })
+    }
+
+    const archives = data.data?.archives ?? []
+    if (!archives.length) break
+
+    for (const v of archives) {
+      if (foodOnly && !isFoodVideoTitle(v.title)) continue
+      const collCity = bvidToCity?.[v.bvid] ?? ''
+      items.push(mapArchiveItem(v, collCity))
+    }
+
+    const totalPages = Math.ceil((data.data?.page?.count ?? 0) / pageSize)
+    if (page >= totalPages || archives.length < pageSize) break
+    page++
+    await sleep(delayMs)
+  }
+
+  if (!enrichTags || !items.length) return items
+
+  console.log(`正在拉取 ${items.length} 条视频标签以补全城市…`)
+  const enriched = []
+  for (let i = 0; i < items.length; i++) {
+    const item = items[i]
+    try {
+      enriched.push(await enrichVideoItem(item, i === 0 ? 0 : 600, item.collectionCity))
+      if ((i + 1) % 10 === 0) console.log(`  已处理 ${i + 1}/${items.length}`)
+    } catch (e) {
+      console.warn(`  跳过 ${item.title}: ${e.message}`)
+      enriched.push(item)
+    }
+  }
+  return enriched
+}
+
+async function fetchBilibiliSpaceVideosWbi(mid, maxPages, delayMs, existing, enrichTags, opts = {}) {
+  const { foodOnly = true, bvidToCity = null } = opts
+  const referer = `https://space.bilibili.com/${mid}`
+  const items = [...existing]
+  let page = 1
+  const pageSize = 30
+
+  while (page <= maxPages) {
+    const url = await buildWbiUrl(
+      '/x/space/wbi/arc/search',
+      { mid, ps: pageSize, tid: 0, pn: page, order: 'pubdate' },
+      referer,
+    )
+    const data = await fetchBiliJson(url, referer)
+    if (data.code !== 0) {
+      if (items.length) {
+        console.warn(`WBI 接口失败 (${data.message})，已返回 ${items.length} 条`)
+        break
+      }
+      throw new Error(data.message ?? 'B 站空间列表失败')
+    }
 
     const vlist = data.data?.list?.vlist ?? []
     if (!vlist.length) break
 
     for (const v of vlist) {
-      if (!isFoodVideoTitle(v.title)) continue
-      items.push({
-        bvid: v.bvid,
-        title: v.title,
-        desc: v.description ?? '',
-        videoUrl: `https://www.bilibili.com/video/${v.bvid}`,
-        suggestedName: extractRestaurantName(v.title),
-        suggestedCity: extractCity(v.title),
-      })
+      if (foodOnly && !isFoodVideoTitle(v.title)) continue
+      const collCity = bvidToCity?.[v.bvid] ?? ''
+      items.push(mapArchiveItem(v, collCity))
     }
 
     if (vlist.length < pageSize) break
     page++
+    if (page <= maxPages) await sleep(delayMs)
   }
 
-  return items
+  if (!enrichTags) return items
+  const enriched = []
+  for (const item of items) {
+    try {
+      enriched.push(await enrichVideoItem(item, 600, item.collectionCity))
+    } catch {
+      enriched.push(item)
+    }
+  }
+  return enriched
 }
 
-export function parseBilibiliMeta(meta) {
-  const text = `${meta.title} ${meta.desc}`
+export function parseBilibiliMeta(meta, collectionCity = '') {
+  const parsed = parseVideoFields({
+    title: meta.title,
+    desc: meta.desc,
+    tags: meta.tags ?? [],
+    collectionCity,
+  })
   return {
-    city: extractCity(text),
-    name: extractRestaurantName(meta.title),
+    city: parsed.city,
+    name: parsed.name,
     cuisine: [],
     address: '',
     dishes: [],

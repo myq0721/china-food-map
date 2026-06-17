@@ -1,5 +1,1823 @@
 {
-  "generatedAt": "2026-06-17T16:33:06.330Z",
-  "count": 0,
-  "restaurants": []
+  "generatedAt": "2026-06-17T18:13:37.500Z",
+  "count": 79,
+  "restaurants": [
+    {
+      "id": "beijing-chuyixiaohunan",
+      "city": "北京",
+      "name": "厨忆小湖南",
+      "coordinates": null,
+      "createdAt": "2026-06-17T18:11:24.404Z",
+      "updatedAt": "2026-06-17T18:11:24.404Z",
+      "recommenders": [
+        {
+          "authorId": "3546888255048212",
+          "platform": "bilibili",
+          "profileUrl": "https://space.bilibili.com/3546888255048212",
+          "recommendedAt": "2026-06-17",
+          "rating": 4,
+          "ratingSummary": "特厨探店|求了好久，才套出来的特级厨师珍藏小馆—厨忆小湖南",
+          "reason": "特厨探店|求了好久，才套出来的特级厨师珍藏小馆—厨忆小湖南",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV17WCUBVEDJ"
+        }
+      ],
+      "recommenderCount": 1,
+      "latestRecommendedAt": "2026-06-17",
+      "averageRating": 4
+    },
+    {
+      "id": "beijing-jiangxixiaochao",
+      "city": "北京",
+      "name": "江西小炒",
+      "coordinates": null,
+      "createdAt": "2026-06-17T18:11:01.471Z",
+      "updatedAt": "2026-06-17T18:11:01.471Z",
+      "recommenders": [
+        {
+          "authorId": "3546888255048212",
+          "platform": "bilibili",
+          "profileUrl": "https://space.bilibili.com/3546888255048212",
+          "recommendedAt": "2026-06-17",
+          "rating": 4,
+          "ratingSummary": "特厨探店|四张桌子干了三碗饭（来个下联）—江西小炒",
+          "reason": "特厨探店|四张桌子干了三碗饭（来个下联）—江西小炒",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1uHANzsEEk"
+        }
+      ],
+      "recommenderCount": 1,
+      "latestRecommendedAt": "2026-06-17",
+      "averageRating": 4
+    },
+    {
+      "id": "beijing-jijiaxiaoguan",
+      "city": "北京",
+      "name": "纪家小馆",
+      "coordinates": null,
+      "createdAt": "2026-06-17T18:11:05.009Z",
+      "updatedAt": "2026-06-17T18:11:05.009Z",
+      "recommenders": [
+        {
+          "authorId": "3546888255048212",
+          "platform": "bilibili",
+          "profileUrl": "https://space.bilibili.com/3546888255048212",
+          "recommendedAt": "2026-06-17",
+          "rating": 4,
+          "ratingSummary": "特厨探店|吃着舒服的店真的不多见—纪家小馆",
+          "reason": "特厨探店|吃着舒服的店真的不多见—纪家小馆",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1AhPuzZEFH"
+        }
+      ],
+      "recommenderCount": 1,
+      "latestRecommendedAt": "2026-06-17",
+      "averageRating": 4
+    },
+    {
+      "id": "beijing-jinshanxiaoguan",
+      "city": "北京",
+      "name": "金山小馆",
+      "coordinates": null,
+      "createdAt": "2026-06-17T18:11:46.443Z",
+      "updatedAt": "2026-06-17T18:11:46.443Z",
+      "recommenders": [
+        {
+          "authorId": "3546888255048212",
+          "platform": "bilibili",
+          "profileUrl": "https://space.bilibili.com/3546888255048212",
+          "recommendedAt": "2026-06-17",
+          "rating": 4,
+          "ratingSummary": "特厨探店｜特级厨师是怎样教徒弟的？—金山小馆",
+          "reason": "@厨者王波",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1YzbAzsErN"
+        }
+      ],
+      "recommenderCount": 1,
+      "latestRecommendedAt": "2026-06-17",
+      "averageRating": 4
+    },
+    {
+      "id": "beijing-quanyimeiroubing",
+      "city": "北京",
+      "name": "全宜美肉饼",
+      "coordinates": null,
+      "createdAt": "2026-06-17T18:11:30.548Z",
+      "updatedAt": "2026-06-17T18:11:30.548Z",
+      "recommenders": [
+        {
+          "authorId": "3546888255048212",
+          "platform": "bilibili",
+          "profileUrl": "https://space.bilibili.com/3546888255048212",
+          "recommendedAt": "2026-06-17",
+          "rating": 4,
+          "ratingSummary": "特厨探店|宝藏肉饼店？怎么藏在村子里！—全宜美肉饼",
+          "reason": "特厨探店|宝藏肉饼店？怎么藏在村子里！—全宜美肉饼",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1txW2zsEWn"
+        }
+      ],
+      "recommenderCount": 1,
+      "latestRecommendedAt": "2026-06-17",
+      "averageRating": 4
+    },
+    {
+      "id": "beijing-xiaofandiandachushi",
+      "city": "北京",
+      "name": "小饭店大厨师",
+      "coordinates": null,
+      "createdAt": "2026-06-17T18:11:33.232Z",
+      "updatedAt": "2026-06-17T18:11:33.232Z",
+      "recommenders": [
+        {
+          "authorId": "3546888255048212",
+          "platform": "bilibili",
+          "profileUrl": "https://space.bilibili.com/3546888255048212",
+          "recommendedAt": "2026-06-17",
+          "rating": 4,
+          "ratingSummary": "特厨探店|很喜欢他的店名说了很多，你们就当教学视频看—小饭店大厨师",
+          "reason": "特厨探店|很喜欢他的店名说了很多，你们就当教学视频看—小饭店大厨师",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV13j4kzdE6p"
+        }
+      ],
+      "recommenderCount": 1,
+      "latestRecommendedAt": "2026-06-17",
+      "averageRating": 4
+    },
+    {
+      "id": "beijing-xiding",
+      "city": "北京",
+      "name": "喜鼎",
+      "coordinates": null,
+      "createdAt": "2026-06-17T18:11:34.129Z",
+      "updatedAt": "2026-06-17T18:11:34.129Z",
+      "recommenders": [
+        {
+          "authorId": "3546888255048212",
+          "platform": "bilibili",
+          "profileUrl": "https://space.bilibili.com/3546888255048212",
+          "recommendedAt": "2026-06-17",
+          "rating": 4,
+          "ratingSummary": "特厨探店|十几块一个的饺子到底是什么味？！—喜鼎",
+          "reason": "特厨探店|十几块一个的饺子到底是什么味？！—喜鼎",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1LCxCzPE1T"
+        }
+      ],
+      "recommenderCount": 1,
+      "latestRecommendedAt": "2026-06-17",
+      "averageRating": 4
+    },
+    {
+      "id": "beijing-zexiu",
+      "city": "北京",
+      "name": "泽秀",
+      "coordinates": null,
+      "createdAt": "2026-06-17T18:11:58.731Z",
+      "updatedAt": "2026-06-17T18:11:58.731Z",
+      "recommenders": [
+        {
+          "authorId": "3546888255048212",
+          "platform": "bilibili",
+          "profileUrl": "https://space.bilibili.com/3546888255048212",
+          "recommendedAt": "2026-06-17",
+          "rating": 4,
+          "ratingSummary": "特厨探店 |众多网红推荐的炖菜小馆—泽秀",
+          "reason": "特厨探店 |众多网红推荐的炖菜小馆—泽秀",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1YrKBzhEKF"
+        }
+      ],
+      "recommenderCount": 1,
+      "latestRecommendedAt": "2026-06-17",
+      "averageRating": 4
+    },
+    {
+      "id": "chengdu-baojiaxiongdi",
+      "city": "成都",
+      "name": "包家兄弟",
+      "coordinates": null,
+      "createdAt": "2026-06-17T18:12:03.129Z",
+      "updatedAt": "2026-06-17T18:12:03.129Z",
+      "recommenders": [
+        {
+          "authorId": "3546888255048212",
+          "platform": "bilibili",
+          "profileUrl": "https://space.bilibili.com/3546888255048212",
+          "recommendedAt": "2026-06-17",
+          "rating": 4,
+          "ratingSummary": "特厨探店 |完全没有外地人的成都小馆是什么味道—包家兄弟",
+          "reason": "特厨探店 |完全没有外地人的成都小馆是什么味道—包家兄弟",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1MrNtzoECN"
+        }
+      ],
+      "recommenderCount": 1,
+      "latestRecommendedAt": "2026-06-17",
+      "averageRating": 4
+    },
+    {
+      "id": "chengdu-furonghuang",
+      "city": "成都",
+      "name": "芙蓉凰",
+      "coordinates": null,
+      "createdAt": "2026-06-17T18:12:03.994Z",
+      "updatedAt": "2026-06-17T18:12:03.994Z",
+      "recommenders": [
+        {
+          "authorId": "3546888255048212",
+          "platform": "bilibili",
+          "profileUrl": "https://space.bilibili.com/3546888255048212",
+          "recommendedAt": "2026-06-17",
+          "rating": 4,
+          "ratingSummary": "特厨探店 |出现了!建号以来以来第一个全好评餐厅！—芙蓉凰",
+          "reason": "特厨探店 |出现了!建号以来以来第一个全好评餐厅！—芙蓉凰",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV11SMUzQEav"
+        }
+      ],
+      "recommenderCount": 1,
+      "latestRecommendedAt": "2026-06-17",
+      "averageRating": 4
+    },
+    {
+      "id": "chengdu-haonanjiajiachangcai",
+      "city": "成都",
+      "name": "浩南家家常菜",
+      "coordinates": null,
+      "createdAt": "2026-06-17T18:11:12.946Z",
+      "updatedAt": "2026-06-17T18:11:12.946Z",
+      "recommenders": [
+        {
+          "authorId": "3546888255048212",
+          "platform": "bilibili",
+          "profileUrl": "https://space.bilibili.com/3546888255048212",
+          "recommendedAt": "2026-06-17",
+          "rating": 4,
+          "ratingSummary": "特厨探店|网上没信息 全靠熟人推？！出品还好的—浩南家家常菜",
+          "reason": "特厨探店|网上没信息 全靠熟人推？！出品还好的—浩南家家常菜",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1g9z8BKEkv"
+        }
+      ],
+      "recommenderCount": 1,
+      "latestRecommendedAt": "2026-06-17",
+      "averageRating": 4
+    },
+    {
+      "id": "chengdu-hongguangmianguan",
+      "city": "成都",
+      "name": "红光面馆",
+      "coordinates": null,
+      "createdAt": "2026-06-17T18:11:13.818Z",
+      "updatedAt": "2026-06-17T18:11:13.818Z",
+      "recommenders": [
+        {
+          "authorId": "3546888255048212",
+          "platform": "bilibili",
+          "profileUrl": "https://space.bilibili.com/3546888255048212",
+          "recommendedAt": "2026-06-17",
+          "rating": 4,
+          "ratingSummary": "特厨探店|小区里，没招牌！成都本地人吃啥面？！—红光面馆",
+          "reason": "特厨探店|小区里，没招牌！成都本地人吃啥面？！—红光面馆",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1rpr4B2ENn"
+        }
+      ],
+      "recommenderCount": 1,
+      "latestRecommendedAt": "2026-06-17",
+      "averageRating": 4
+    },
+    {
+      "id": "chengdu-sihuajiachangcai",
+      "city": "成都",
+      "name": "四华家常菜",
+      "coordinates": null,
+      "createdAt": "2026-06-17T18:12:02.254Z",
+      "updatedAt": "2026-06-17T18:12:02.254Z",
+      "recommenders": [
+        {
+          "authorId": "3546888255048212",
+          "platform": "bilibili",
+          "profileUrl": "https://space.bilibili.com/3546888255048212",
+          "recommendedAt": "2026-06-17",
+          "rating": 4,
+          "ratingSummary": "特厨探店 |在成都吃趴锅边吃的小馆是什么体验—四华家常菜",
+          "reason": "特厨探店 |在成都吃趴锅边吃的小馆是什么体验—四华家常菜",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1FyMbzsEmA"
+        }
+      ],
+      "recommenderCount": 1,
+      "latestRecommendedAt": "2026-06-17",
+      "averageRating": 4
+    },
+    {
+      "id": "chengdu-tuozifandian",
+      "city": "成都",
+      "name": "驼子饭店",
+      "coordinates": null,
+      "createdAt": "2026-06-17T18:11:35.890Z",
+      "updatedAt": "2026-06-17T18:11:35.890Z",
+      "recommenders": [
+        {
+          "authorId": "3546888255048212",
+          "platform": "bilibili",
+          "profileUrl": "https://space.bilibili.com/3546888255048212",
+          "recommendedAt": "2026-06-17",
+          "rating": 4,
+          "ratingSummary": "特厨探店|藏在巷子里被本地人当食堂的一家店？！—驼子饭店",
+          "reason": "特厨探店|藏在巷子里被本地人当食堂的一家店？！—驼子饭店",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1BxnBzrEoM"
+        }
+      ],
+      "recommenderCount": 1,
+      "latestRecommendedAt": "2026-06-17",
+      "averageRating": 4
+    },
+    {
+      "id": "chengdu-xiaoli",
+      "city": "成都",
+      "name": "小李",
+      "coordinates": null,
+      "createdAt": "2026-06-17T18:12:04.888Z",
+      "updatedAt": "2026-06-17T18:12:04.888Z",
+      "recommenders": [
+        {
+          "authorId": "3546888255048212",
+          "platform": "bilibili",
+          "profileUrl": "https://space.bilibili.com/3546888255048212",
+          "recommendedAt": "2026-06-17",
+          "rating": 4,
+          "ratingSummary": "特厨探店 |全网无差评？怎么我们就这么倒霉？—小李",
+          "reason": "特厨探店 |全网无差评？怎么我们就这么倒霉？—小李",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1YWMHzREdb"
+        }
+      ],
+      "recommenderCount": 1,
+      "latestRecommendedAt": "2026-06-17",
+      "averageRating": 4
+    },
+    {
+      "id": "chengdu-xuanxuanxiaoyuan",
+      "city": "成都",
+      "name": "轩轩小院",
+      "coordinates": null,
+      "createdAt": "2026-06-17T18:11:35.017Z",
+      "updatedAt": "2026-06-17T18:11:35.017Z",
+      "recommenders": [
+        {
+          "authorId": "3546888255048212",
+          "platform": "bilibili",
+          "profileUrl": "https://space.bilibili.com/3546888255048212",
+          "recommendedAt": "2026-06-17",
+          "rating": 4,
+          "ratingSummary": "特厨探店|可怕的成都？！景区店也有这种水平？—轩轩小院",
+          "reason": "特厨探店|可怕的成都？！景区店也有这种水平？—轩轩小院",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1haHKz3EMG"
+        }
+      ],
+      "recommenderCount": 1,
+      "latestRecommendedAt": "2026-06-17",
+      "averageRating": 4
+    },
+    {
+      "id": "chengdu-xujiacai",
+      "city": "成都",
+      "name": "许家菜",
+      "coordinates": null,
+      "createdAt": "2026-06-17T18:11:14.685Z",
+      "updatedAt": "2026-06-17T18:11:14.685Z",
+      "recommenders": [
+        {
+          "authorId": "3546888255048212",
+          "platform": "bilibili",
+          "profileUrl": "https://space.bilibili.com/3546888255048212",
+          "recommendedAt": "2026-06-17",
+          "rating": 4,
+          "ratingSummary": "特厨探店|128的炒鸡蛋还货不对板？—许家菜",
+          "reason": "特厨探店|128的炒鸡蛋还货不对板？—许家菜",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1tJrgByEFC"
+        }
+      ],
+      "recommenderCount": 1,
+      "latestRecommendedAt": "2026-06-17",
+      "averageRating": 4
+    },
+    {
+      "id": "chengdu-yonglefandian",
+      "city": "成都",
+      "name": "永乐饭店",
+      "coordinates": null,
+      "createdAt": "2026-06-17T18:12:05.778Z",
+      "updatedAt": "2026-06-17T18:12:05.778Z",
+      "recommenders": [
+        {
+          "authorId": "3546888255048212",
+          "platform": "bilibili",
+          "profileUrl": "https://space.bilibili.com/3546888255048212",
+          "recommendedAt": "2026-06-17",
+          "rating": 4,
+          "ratingSummary": "特厨探店 |让特级厨师想挖人的饭店是什么样？—永乐饭店",
+          "reason": "特厨探店 |让特级厨师想挖人的饭店是什么样？—永乐饭店",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1dvTdzHE3n"
+        }
+      ],
+      "recommenderCount": 1,
+      "latestRecommendedAt": "2026-06-17",
+      "averageRating": 4
+    },
+    {
+      "id": "chengdu-zaogeyuan",
+      "city": "成都",
+      "name": "枣阁园",
+      "coordinates": null,
+      "createdAt": "2026-06-17T18:12:06.661Z",
+      "updatedAt": "2026-06-17T18:12:06.661Z",
+      "recommenders": [
+        {
+          "authorId": "3546888255048212",
+          "platform": "bilibili",
+          "profileUrl": "https://space.bilibili.com/3546888255048212",
+          "recommendedAt": "2026-06-17",
+          "rating": 4,
+          "ratingSummary": "特厨探店 |根本吃不完！成都美食暴击！—枣阁园",
+          "reason": "特厨探店 |根本吃不完！成都美食暴击！—枣阁园",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1FtTGzMEEb"
+        }
+      ],
+      "recommenderCount": 1,
+      "latestRecommendedAt": "2026-06-17",
+      "averageRating": 4
+    },
+    {
+      "id": "chongqing-renheshuishangpiao",
+      "city": "重庆",
+      "name": "人和水上飘",
+      "coordinates": null,
+      "createdAt": "2026-06-17T18:11:18.195Z",
+      "updatedAt": "2026-06-17T18:11:18.195Z",
+      "recommenders": [
+        {
+          "authorId": "3546888255048212",
+          "platform": "bilibili",
+          "profileUrl": "https://space.bilibili.com/3546888255048212",
+          "recommendedAt": "2026-06-17",
+          "rating": 4,
+          "ratingSummary": "特厨探店|“板前‘豆花，重庆的素材真是拍不完—人和水上飘",
+          "reason": "特厨探店|“板前‘豆花，重庆的素材真是拍不完—人和水上飘",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1vtq8BKEem"
+        }
+      ],
+      "recommenderCount": 1,
+      "latestRecommendedAt": "2026-06-17",
+      "averageRating": 4
+    },
+    {
+      "id": "chongqing-yutu",
+      "city": "重庆",
+      "name": "于塗",
+      "coordinates": null,
+      "createdAt": "2026-06-17T18:11:17.305Z",
+      "updatedAt": "2026-06-17T18:11:17.305Z",
+      "recommenders": [
+        {
+          "authorId": "3546888255048212",
+          "platform": "bilibili",
+          "profileUrl": "https://space.bilibili.com/3546888255048212",
+          "recommendedAt": "2026-06-17",
+          "rating": 4,
+          "ratingSummary": "特厨探店|重庆唯一一家连续8年上榜餐厅，味道到底咋样？—于塗",
+          "reason": "特厨探店|重庆唯一一家连续8年上榜餐厅，味道到底咋样？—于塗",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1bqBwBJEQu"
+        }
+      ],
+      "recommenderCount": 1,
+      "latestRecommendedAt": "2026-06-17",
+      "averageRating": 4
+    },
+    {
+      "id": "guangzhou-baitianebinguan",
+      "city": "广州",
+      "name": "白天鹅宾馆",
+      "coordinates": null,
+      "createdAt": "2026-06-17T18:11:27.917Z",
+      "updatedAt": "2026-06-17T18:11:27.917Z",
+      "recommenders": [
+        {
+          "authorId": "3546888255048212",
+          "platform": "bilibili",
+          "profileUrl": "https://space.bilibili.com/3546888255048212",
+          "recommendedAt": "2026-06-17",
+          "rating": 5,
+          "ratingSummary": "特厨探店|粤菜天花板？！—白天鹅宾馆",
+          "reason": "特厨探店|粤菜天花板？！—白天鹅宾馆",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV13FyeB4E6X"
+        }
+      ],
+      "recommenderCount": 1,
+      "latestRecommendedAt": "2026-06-17",
+      "averageRating": 5
+    },
+    {
+      "id": "guangzhou-bingsheng",
+      "city": "广州",
+      "name": "炳胜",
+      "coordinates": null,
+      "createdAt": "2026-06-17T18:11:26.167Z",
+      "updatedAt": "2026-06-17T18:11:26.167Z",
+      "recommenders": [
+        {
+          "authorId": "3546888255048212",
+          "platform": "bilibili",
+          "profileUrl": "https://space.bilibili.com/3546888255048212",
+          "recommendedAt": "2026-06-17",
+          "rating": 4,
+          "ratingSummary": "特厨探店|粤菜的另一座高山？！—炳胜",
+          "reason": "特厨探店|粤菜的另一座高山？！—炳胜",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV19Z1XBpESg"
+        }
+      ],
+      "recommenderCount": 1,
+      "latestRecommendedAt": "2026-06-17",
+      "averageRating": 4
+    },
+    {
+      "id": "guangzhou-guangzhoujiujia",
+      "city": "广州",
+      "name": "广州酒家",
+      "coordinates": null,
+      "createdAt": "2026-06-17T18:11:28.818Z",
+      "updatedAt": "2026-06-17T18:11:28.818Z",
+      "recommenders": [
+        {
+          "authorId": "3546888255048212",
+          "platform": "bilibili",
+          "profileUrl": "https://space.bilibili.com/3546888255048212",
+          "recommendedAt": "2026-06-17",
+          "rating": 4,
+          "ratingSummary": "特厨探店|广州最出名的早茶？！—广州酒家",
+          "reason": "特厨探店|广州最出名的早茶？！—广州酒家",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV13LykBEE58"
+        }
+      ],
+      "recommenderCount": 1,
+      "latestRecommendedAt": "2026-06-17",
+      "averageRating": 4
+    },
+    {
+      "id": "guangzhou-liyuan",
+      "city": "广州",
+      "name": "利苑",
+      "coordinates": null,
+      "createdAt": "2026-06-17T18:11:32.322Z",
+      "updatedAt": "2026-06-17T18:11:32.322Z",
+      "recommenders": [
+        {
+          "authorId": "3546888255048212",
+          "platform": "bilibili",
+          "profileUrl": "https://space.bilibili.com/3546888255048212",
+          "recommendedAt": "2026-06-17",
+          "rating": 4,
+          "ratingSummary": "特厨探店|卖128的干炒牛河长什么样？！—利苑",
+          "reason": "特厨探店|卖128的干炒牛河长什么样？！—利苑",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1RWWrznEM4"
+        }
+      ],
+      "recommenderCount": 1,
+      "latestRecommendedAt": "2026-06-17",
+      "averageRating": 4
+    },
+    {
+      "id": "guangzhou-qiuda",
+      "city": "广州",
+      "name": "丘大",
+      "coordinates": null,
+      "createdAt": "2026-06-17T18:11:31.438Z",
+      "updatedAt": "2026-06-17T18:11:31.438Z",
+      "recommenders": [
+        {
+          "authorId": "3546888255048212",
+          "platform": "bilibili",
+          "profileUrl": "https://space.bilibili.com/3546888255048212",
+          "recommendedAt": "2026-06-17",
+          "rating": 4,
+          "ratingSummary": "特厨探店|广州的点心到底是什么样？！—丘大",
+          "reason": "特厨探店|广州的点心到底是什么样？！—丘大",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1erscz6EKZ"
+        }
+      ],
+      "recommenderCount": 1,
+      "latestRecommendedAt": "2026-06-17",
+      "averageRating": 4
+    },
+    {
+      "id": "guangzhou-yue-xiangqunfandian",
+      "city": "广州",
+      "name": "粤·向群饭店",
+      "coordinates": null,
+      "createdAt": "2026-06-17T18:11:29.681Z",
+      "updatedAt": "2026-06-17T18:11:29.681Z",
+      "recommenders": [
+        {
+          "authorId": "3546888255048212",
+          "platform": "bilibili",
+          "profileUrl": "https://space.bilibili.com/3546888255048212",
+          "recommendedAt": "2026-06-17",
+          "rating": 4,
+          "ratingSummary": "特厨探店|拖着行李箱来吃，还吃开心了！—粤·向群饭店",
+          "reason": "特厨探店|拖着行李箱来吃，还吃开心了！—粤·向群饭店",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1TtsrzkEJU"
+        }
+      ],
+      "recommenderCount": 1,
+      "latestRecommendedAt": "2026-06-17",
+      "averageRating": 4
+    },
+    {
+      "id": "hangzhou-wojiaxiaoguan",
+      "city": "杭州",
+      "name": "我家小馆",
+      "coordinates": null,
+      "createdAt": "2026-06-17T18:11:36.763Z",
+      "updatedAt": "2026-06-17T18:11:36.763Z",
+      "recommenders": [
+        {
+          "authorId": "3546888255048212",
+          "platform": "bilibili",
+          "profileUrl": "https://space.bilibili.com/3546888255048212",
+          "recommendedAt": "2026-06-17",
+          "rating": 4,
+          "ratingSummary": "特厨探店 |六张桌子但是全好评！—我家小馆",
+          "reason": "特厨探店 |六张桌子但是全好评！—我家小馆",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1ATnpzzEa7"
+        }
+      ],
+      "recommenderCount": 1,
+      "latestRecommendedAt": "2026-06-17",
+      "averageRating": 4
+    },
+    {
+      "id": "hefei-huicaibowuguan",
+      "city": "合肥",
+      "name": "徽菜博物馆",
+      "coordinates": null,
+      "createdAt": "2026-06-17T18:10:56.238Z",
+      "updatedAt": "2026-06-17T18:10:56.238Z",
+      "recommenders": [
+        {
+          "authorId": "3546888255048212",
+          "platform": "bilibili",
+          "profileUrl": "https://space.bilibili.com/3546888255048212",
+          "recommendedAt": "2026-06-17",
+          "rating": 4,
+          "ratingSummary": "特厨探店|下了高铁冒着雨来的餐厅，就这？—徽菜博物馆餐厅",
+          "reason": "特厨探店|下了高铁冒着雨来的餐厅，就这？—徽菜博物馆餐厅",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1DLQhBPE7W"
+        }
+      ],
+      "recommenderCount": 1,
+      "latestRecommendedAt": "2026-06-17",
+      "averageRating": 4
+    },
+    {
+      "id": "hefei-jiujinfandian",
+      "city": "合肥",
+      "name": "九斤饭店",
+      "coordinates": null,
+      "createdAt": "2026-06-17T18:10:50.970Z",
+      "updatedAt": "2026-06-17T18:10:50.970Z",
+      "recommenders": [
+        {
+          "authorId": "3546888255048212",
+          "platform": "bilibili",
+          "profileUrl": "https://space.bilibili.com/3546888255048212",
+          "recommendedAt": "2026-06-17",
+          "rating": 5,
+          "ratingSummary": "特厨探店|一口说脏话，村子里的徽菜天花板？—九斤饭店",
+          "reason": "特厨探店|一口说脏话，村子里的徽菜天花板？—九斤饭店",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV12QdKBTEyQ"
+        }
+      ],
+      "recommenderCount": 1,
+      "latestRecommendedAt": "2026-06-17",
+      "averageRating": 5
+    },
+    {
+      "id": "hefei-laotaipojiachangcai",
+      "city": "合肥",
+      "name": "老太婆家常菜",
+      "coordinates": null,
+      "createdAt": "2026-06-17T18:10:47.508Z",
+      "updatedAt": "2026-06-17T18:10:47.508Z",
+      "recommenders": [
+        {
+          "authorId": "3546888255048212",
+          "platform": "bilibili",
+          "profileUrl": "https://space.bilibili.com/3546888255048212",
+          "recommendedAt": "2026-06-17",
+          "rating": 4,
+          "ratingSummary": "特厨探店|不惊艳，但是吃着超级舒服的家常菜—老太婆家常菜",
+          "reason": "特厨探店|不惊艳，但是吃着超级舒服的家常菜—老太婆家常菜",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1RUGf6oE74"
+        }
+      ],
+      "recommenderCount": 1,
+      "latestRecommendedAt": "2026-06-17",
+      "averageRating": 4
+    },
+    {
+      "id": "hefei-xinanlacaiguan",
+      "city": "合肥",
+      "name": "新安辣菜馆",
+      "coordinates": null,
+      "createdAt": "2026-06-17T18:10:54.484Z",
+      "updatedAt": "2026-06-17T18:10:54.484Z",
+      "recommenders": [
+        {
+          "authorId": "3546888255048212",
+          "platform": "bilibili",
+          "profileUrl": "https://space.bilibili.com/3546888255048212",
+          "recommendedAt": "2026-06-17",
+          "rating": 4,
+          "ratingSummary": "特厨探店|辣但不是干辣！调味也非常好的—新安辣菜馆",
+          "reason": "特厨探店|辣但不是干辣！调味也非常好的—新安辣菜馆",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1pmo7BYEX7"
+        }
+      ],
+      "recommenderCount": 1,
+      "latestRecommendedAt": "2026-06-17",
+      "averageRating": 4
+    },
+    {
+      "id": "huaian-huaianhuojiangchaoduodehuaianbinguan",
+      "city": "淮安",
+      "name": "淮安获奖超多的淮安宾馆",
+      "coordinates": null,
+      "createdAt": "2026-06-17T18:10:51.855Z",
+      "updatedAt": "2026-06-17T18:10:51.855Z",
+      "recommenders": [
+        {
+          "authorId": "3546888255048212",
+          "platform": "bilibili",
+          "profileUrl": "https://space.bilibili.com/3546888255048212",
+          "recommendedAt": "2026-06-17",
+          "rating": 4,
+          "ratingSummary": "特厨探店|淮安获奖超多的淮安宾馆餐厅体验到底怎么样？",
+          "reason": "特厨探店|淮安获奖超多的淮安宾馆餐厅体验到底怎么样？",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1cqRJBwEo6"
+        }
+      ],
+      "recommenderCount": 1,
+      "latestRecommendedAt": "2026-06-17",
+      "averageRating": 4
+    },
+    {
+      "id": "huaian-puxiancaiguan",
+      "city": "淮安",
+      "name": "蒲鲜菜馆",
+      "coordinates": null,
+      "createdAt": "2026-06-17T18:10:55.372Z",
+      "updatedAt": "2026-06-17T18:10:55.372Z",
+      "recommenders": [
+        {
+          "authorId": "3546888255048212",
+          "platform": "bilibili",
+          "profileUrl": "https://space.bilibili.com/3546888255048212",
+          "recommendedAt": "2026-06-17",
+          "rating": 4,
+          "ratingSummary": "特厨探店|来淮安物理意义上的\"偷\"菜—蒲鲜菜馆",
+          "reason": "特厨探店|来淮安物理意义上的\"偷\"菜—蒲鲜菜馆",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1KToHB7Est"
+        }
+      ],
+      "recommenderCount": 1,
+      "latestRecommendedAt": "2026-06-17",
+      "averageRating": 4
+    },
+    {
+      "id": "huaian-xiaoliuzijiaomiandian",
+      "city": "淮安",
+      "name": "小六子饺面店",
+      "coordinates": null,
+      "createdAt": "2026-06-17T18:10:53.595Z",
+      "updatedAt": "2026-06-17T18:10:53.595Z",
+      "recommenders": [
+        {
+          "authorId": "3546888255048212",
+          "platform": "bilibili",
+          "profileUrl": "https://space.bilibili.com/3546888255048212",
+          "recommendedAt": "2026-06-17",
+          "rating": 4,
+          "ratingSummary": "特厨探店|什么样的店才能被称为人生饭店？—小六子饺面店",
+          "reason": "特厨探店|什么样的店才能被称为人生饭店？—小六子饺面店",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1PE9tBpEek"
+        }
+      ],
+      "recommenderCount": 1,
+      "latestRecommendedAt": "2026-06-17",
+      "averageRating": 4
+    },
+    {
+      "id": "huangshan-yejiadayuan",
+      "city": "黄山",
+      "name": "叶家大院",
+      "coordinates": null,
+      "createdAt": "2026-06-17T18:10:50.104Z",
+      "updatedAt": "2026-06-17T18:10:50.104Z",
+      "recommenders": [
+        {
+          "authorId": "3546888255048212",
+          "platform": "bilibili",
+          "profileUrl": "https://space.bilibili.com/3546888255048212",
+          "recommendedAt": "2026-06-17",
+          "rating": 4,
+          "ratingSummary": "特厨探店|吃过但是剪视频又看馋了的—叶家大院",
+          "reason": "特厨探店|吃过但是剪视频又看馋了的—叶家大院",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV11z536jELv"
+        }
+      ],
+      "recommenderCount": 1,
+      "latestRecommendedAt": "2026-06-17",
+      "averageRating": 4
+    },
+    {
+      "id": "huhehaote-siziwangmenbadun",
+      "city": "呼和浩特",
+      "name": "四子王焖把炖",
+      "coordinates": null,
+      "createdAt": "2026-06-17T18:10:52.721Z",
+      "updatedAt": "2026-06-17T18:10:52.721Z",
+      "recommenders": [
+        {
+          "authorId": "3546888255048212",
+          "platform": "bilibili",
+          "profileUrl": "https://space.bilibili.com/3546888255048212",
+          "recommendedAt": "2026-06-17",
+          "rating": 4,
+          "ratingSummary": "特厨探店|在内蒙吃肉还能吃到爽？！—四子王焖把炖",
+          "reason": "特厨探店|在内蒙吃肉还能吃到爽？！—四子王焖把炖",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV17pREBQEDS"
+        }
+      ],
+      "recommenderCount": 1,
+      "latestRecommendedAt": "2026-06-17",
+      "averageRating": 4
+    },
+    {
+      "id": "jinan-lucaigen",
+      "city": "济南",
+      "name": "鲁菜根",
+      "coordinates": null,
+      "createdAt": "2026-06-17T18:12:07.574Z",
+      "updatedAt": "2026-06-17T18:12:07.574Z",
+      "recommenders": [
+        {
+          "authorId": "3546888255048212",
+          "platform": "bilibili",
+          "profileUrl": "https://space.bilibili.com/3546888255048212",
+          "recommendedAt": "2026-06-17",
+          "rating": 4,
+          "ratingSummary": "特厨探店 |厨师的职责到底是什么？—鲁菜根",
+          "reason": "特厨探店 |厨师的职责到底是什么？—鲁菜根",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1Ep7KzCE34"
+        }
+      ],
+      "recommenderCount": 1,
+      "latestRecommendedAt": "2026-06-17",
+      "averageRating": 4
+    },
+    {
+      "id": "luoyang-chuanweijiaxiaochi",
+      "city": "洛阳",
+      "name": "川味家小吃",
+      "coordinates": null,
+      "createdAt": "2026-06-17T18:11:41.164Z",
+      "updatedAt": "2026-06-17T18:11:41.164Z",
+      "recommenders": [
+        {
+          "authorId": "3546888255048212",
+          "platform": "bilibili",
+          "profileUrl": "https://space.bilibili.com/3546888255048212",
+          "recommendedAt": "2026-06-17",
+          "rating": 4,
+          "ratingSummary": "特厨探店 |全国最便宜的盖浇饭？他们不要成本的？—川味家小吃",
+          "reason": "特厨探店 |全国最便宜的盖浇饭？他们不要成本的？—川味家小吃",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1YTaxzxEAA"
+        }
+      ],
+      "recommenderCount": 1,
+      "latestRecommendedAt": "2026-06-17",
+      "averageRating": 4
+    },
+    {
+      "id": "nanning-laosanpian",
+      "city": "南宁",
+      "name": "老三篇",
+      "coordinates": null,
+      "createdAt": "2026-06-17T18:11:23.505Z",
+      "updatedAt": "2026-06-17T18:11:23.505Z",
+      "recommenders": [
+        {
+          "authorId": "3546888255048212",
+          "platform": "bilibili",
+          "profileUrl": "https://space.bilibili.com/3546888255048212",
+          "recommendedAt": "2026-06-17",
+          "rating": 4,
+          "ratingSummary": "特厨探店|在南宁被各种酸料香晕—老三篇",
+          "reason": "特厨探店|在南宁被各种酸料香晕—老三篇",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1C4yKBNEjF"
+        }
+      ],
+      "recommenderCount": 1,
+      "latestRecommendedAt": "2026-06-17",
+      "averageRating": 4
+    },
+    {
+      "id": "ningbo-jiukuanningbofandian",
+      "city": "宁波",
+      "name": "旧款宁波饭店",
+      "coordinates": null,
+      "createdAt": "2026-06-17T18:10:46.642Z",
+      "updatedAt": "2026-06-17T18:10:46.642Z",
+      "recommenders": [
+        {
+          "authorId": "3546888255048212",
+          "platform": "bilibili",
+          "profileUrl": "https://space.bilibili.com/3546888255048212",
+          "recommendedAt": "2026-06-17",
+          "rating": 4,
+          "ratingSummary": "特厨探店|四张桌子的小店一顿吃几千？—旧款宁波饭店",
+          "reason": "特厨探店|四张桌子的小店一顿吃几千？—旧款宁波饭店",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1t7VQ6fEN7"
+        }
+      ],
+      "recommenderCount": 1,
+      "latestRecommendedAt": "2026-06-17",
+      "averageRating": 4
+    },
+    {
+      "id": "qiqihaer-baodianmalachuan",
+      "city": "齐齐哈尔",
+      "name": "爆点麻辣串",
+      "coordinates": null,
+      "createdAt": "2026-06-17T18:11:19.067Z",
+      "updatedAt": "2026-06-17T18:11:19.067Z",
+      "recommenders": [
+        {
+          "authorId": "3546888255048212",
+          "platform": "bilibili",
+          "profileUrl": "https://space.bilibili.com/3546888255048212",
+          "recommendedAt": "2026-06-17",
+          "rating": 4,
+          "ratingSummary": "特厨探店|只有六张桌子的小店，却吃的热泪盈眶？—爆点麻辣串",
+          "reason": "特厨探店|只有六张桌子的小店，却吃的热泪盈眶？—爆点麻辣串",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1Jtm3BSE3s"
+        }
+      ],
+      "recommenderCount": 1,
+      "latestRecommendedAt": "2026-06-17",
+      "averageRating": 4
+    },
+    {
+      "id": "qiqihaer-huasongfandian",
+      "city": "齐齐哈尔",
+      "name": "华松饭店",
+      "coordinates": null,
+      "createdAt": "2026-06-17T18:11:20.854Z",
+      "updatedAt": "2026-06-17T18:11:20.854Z",
+      "recommenders": [
+        {
+          "authorId": "3546888255048212",
+          "platform": "bilibili",
+          "profileUrl": "https://space.bilibili.com/3546888255048212",
+          "recommendedAt": "2026-06-17",
+          "rating": 4,
+          "ratingSummary": "特厨探店|开车一小时才找到的齐齐哈尔神店！—华松饭店",
+          "reason": "特厨探店|开车一小时才找到的齐齐哈尔神店！—华松饭店",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1fc2eBkEMS"
+        }
+      ],
+      "recommenderCount": 1,
+      "latestRecommendedAt": "2026-06-17",
+      "averageRating": 4
+    },
+    {
+      "id": "qiqihaer-huibinbaozi",
+      "city": "齐齐哈尔",
+      "name": "汇宾包子",
+      "coordinates": null,
+      "createdAt": "2026-06-17T18:11:19.969Z",
+      "updatedAt": "2026-06-17T18:11:19.969Z",
+      "recommenders": [
+        {
+          "authorId": "3546888255048212",
+          "platform": "bilibili",
+          "profileUrl": "https://space.bilibili.com/3546888255048212",
+          "recommendedAt": "2026-06-17",
+          "rating": 4,
+          "ratingSummary": "特厨探店|在牛肉这么好的齐齐哈尔吃牛肉包子是什么体验？—汇宾包子",
+          "reason": "特厨探店|在牛肉这么好的齐齐哈尔吃牛肉包子是什么体验？—汇宾包子",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV15NmPBpEwr"
+        }
+      ],
+      "recommenderCount": 1,
+      "latestRecommendedAt": "2026-06-17",
+      "averageRating": 4
+    },
+    {
+      "id": "qiqihaer-kaorouzhidouzuihuodeliangjiashaokao",
+      "city": "齐齐哈尔",
+      "name": "烤肉之都最火的两家烧烤",
+      "coordinates": null,
+      "createdAt": "2026-06-17T18:11:21.747Z",
+      "updatedAt": "2026-06-17T18:11:21.747Z",
+      "recommenders": [
+        {
+          "authorId": "3546888255048212",
+          "platform": "bilibili",
+          "profileUrl": "https://space.bilibili.com/3546888255048212",
+          "recommendedAt": "2026-06-17",
+          "rating": 4,
+          "ratingSummary": "特厨探店|烤肉之都最火的两家烧烤，一个视频带你吃透！",
+          "reason": "特厨探店|烤肉之都最火的两家烧烤，一个视频带你吃透！",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1fvSzBvEot"
+        }
+      ],
+      "recommenderCount": 1,
+      "latestRecommendedAt": "2026-06-17",
+      "averageRating": 4
+    },
+    {
+      "id": "shanghai-bahaoyuaner",
+      "city": "上海",
+      "name": "八号院儿",
+      "coordinates": null,
+      "createdAt": "2026-06-17T18:10:45.760Z",
+      "updatedAt": "2026-06-17T18:10:45.760Z",
+      "recommenders": [
+        {
+          "authorId": "3546888255048212",
+          "platform": "bilibili",
+          "profileUrl": "https://space.bilibili.com/3546888255048212",
+          "recommendedAt": "2026-06-17",
+          "rating": 4,
+          "ratingSummary": "特厨探店|明星开的小面馆，真实水平到底怎么样—八号院儿",
+          "reason": "特厨探店|明星开的小面馆，真实水平到底怎么样—八号院儿",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1AnEx68Eh5"
+        }
+      ],
+      "recommenderCount": 1,
+      "latestRecommendedAt": "2026-06-17",
+      "averageRating": 4
+    },
+    {
+      "id": "shanghai-dakuaitoupaidang",
+      "city": "上海",
+      "name": "大块头排挡",
+      "coordinates": null,
+      "createdAt": "2026-06-17T18:11:44.668Z",
+      "updatedAt": "2026-06-17T18:11:44.668Z",
+      "recommenders": [
+        {
+          "authorId": "3546888255048212",
+          "platform": "bilibili",
+          "profileUrl": "https://space.bilibili.com/3546888255048212",
+          "recommendedAt": "2026-06-17",
+          "rating": 5,
+          "ratingSummary": "特厨探店 |半夜来吃上海夜宵天花板？—大块头排挡",
+          "reason": "特厨探店 |半夜来吃上海夜宵天花板？—大块头排挡",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1nWYtzjE7d"
+        }
+      ],
+      "recommenderCount": 1,
+      "latestRecommendedAt": "2026-06-17",
+      "averageRating": 5
+    },
+    {
+      "id": "shanghai-fu1088",
+      "city": "上海",
+      "name": "福1088",
+      "coordinates": null,
+      "createdAt": "2026-06-17T18:11:42.043Z",
+      "updatedAt": "2026-06-17T18:11:42.043Z",
+      "recommenders": [
+        {
+          "authorId": "3546888255048212",
+          "platform": "bilibili",
+          "profileUrl": "https://space.bilibili.com/3546888255048212",
+          "recommendedAt": "2026-06-17",
+          "rating": 4,
+          "ratingSummary": "特厨探店 |人均1000还有性价比？—福1088",
+          "reason": "特厨探店 |人均1000还有性价比？—福1088",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1a7hvz2Ew5"
+        }
+      ],
+      "recommenderCount": 1,
+      "latestRecommendedAt": "2026-06-17",
+      "averageRating": 4
+    },
+    {
+      "id": "shanghai-jiemei",
+      "city": "上海",
+      "name": "姐妹",
+      "coordinates": null,
+      "createdAt": "2026-06-17T18:10:57.130Z",
+      "updatedAt": "2026-06-17T18:10:57.130Z",
+      "recommenders": [
+        {
+          "authorId": "3546888255048212",
+          "platform": "bilibili",
+          "profileUrl": "https://space.bilibili.com/3546888255048212",
+          "recommendedAt": "2026-06-17",
+          "rating": 4,
+          "ratingSummary": "特厨探店|全好评！全好吃！上海街边小馆到底多好吃—姐妹餐厅",
+          "reason": "特厨探店|全好评！全好吃！上海街边小馆到底多好吃—姐妹餐厅",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1BRQNBrEcB"
+        }
+      ],
+      "recommenderCount": 1,
+      "latestRecommendedAt": "2026-06-17",
+      "averageRating": 4
+    },
+    {
+      "id": "shanghai-luyuan",
+      "city": "上海",
+      "name": "鹿园",
+      "coordinates": null,
+      "createdAt": "2026-06-17T18:10:59.726Z",
+      "updatedAt": "2026-06-17T18:10:59.726Z",
+      "recommenders": [
+        {
+          "authorId": "3546888255048212",
+          "platform": "bilibili",
+          "profileUrl": "https://space.bilibili.com/3546888255048212",
+          "recommendedAt": "2026-06-17",
+          "rating": 4,
+          "ratingSummary": "特厨探店|连续8年米*林？真实水平到底如何！—鹿园餐厅",
+          "reason": "特厨探店|连续8年米*林？真实水平到底如何！—鹿园餐厅",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV11x93BkEnq"
+        }
+      ],
+      "recommenderCount": 1,
+      "latestRecommendedAt": "2026-06-17",
+      "averageRating": 4
+    },
+    {
+      "id": "shanghai-maoshengyinshidian",
+      "city": "上海",
+      "name": "茂盛饮食店",
+      "coordinates": null,
+      "createdAt": "2026-06-17T18:10:58.859Z",
+      "updatedAt": "2026-06-17T18:10:58.859Z",
+      "recommenders": [
+        {
+          "authorId": "3546888255048212",
+          "platform": "bilibili",
+          "profileUrl": "https://space.bilibili.com/3546888255048212",
+          "recommendedAt": "2026-06-17",
+          "rating": 4,
+          "ratingSummary": "特厨探店|上海的...小店？—茂盛饮食店",
+          "reason": "特厨探店|上海的...小店？—茂盛饮食店",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1qoDgBQE8E"
+        }
+      ],
+      "recommenderCount": 1,
+      "latestRecommendedAt": "2026-06-17",
+      "averageRating": 4
+    },
+    {
+      "id": "shanghai-shigui",
+      "city": "上海",
+      "name": "食贵",
+      "coordinates": null,
+      "createdAt": "2026-06-17T18:12:00.478Z",
+      "updatedAt": "2026-06-17T18:12:00.478Z",
+      "recommenders": [
+        {
+          "authorId": "3546888255048212",
+          "platform": "bilibili",
+          "profileUrl": "https://space.bilibili.com/3546888255048212",
+          "recommendedAt": "2026-06-17",
+          "rating": 4,
+          "ratingSummary": "特厨探店 |在上海主动要差评的餐厅是什么样的？—食贵",
+          "reason": "特厨探店 |在上海主动要差评的餐厅是什么样的？—食贵",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1MZKhziEKD"
+        }
+      ],
+      "recommenderCount": 1,
+      "latestRecommendedAt": "2026-06-17",
+      "averageRating": 4
+    },
+    {
+      "id": "shanghai-shilu",
+      "city": "上海",
+      "name": "食庐",
+      "coordinates": null,
+      "createdAt": "2026-06-17T18:11:57.851Z",
+      "updatedAt": "2026-06-17T18:11:57.851Z",
+      "recommenders": [
+        {
+          "authorId": "3546888255048212",
+          "platform": "bilibili",
+          "profileUrl": "https://space.bilibili.com/3546888255048212",
+          "recommendedAt": "2026-06-17",
+          "rating": 4,
+          "ratingSummary": "特厨探店 |来上海收到私信最多的餐厅—食庐餐厅",
+          "reason": "特厨探店 |来上海收到私信最多的餐厅—食庐餐厅",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1LjgCzoEEo"
+        }
+      ],
+      "recommenderCount": 1,
+      "latestRecommendedAt": "2026-06-17",
+      "averageRating": 4
+    },
+    {
+      "id": "shanghai-xijiao5hao",
+      "city": "上海",
+      "name": "西郊5号",
+      "coordinates": null,
+      "createdAt": "2026-06-17T18:10:57.993Z",
+      "updatedAt": "2026-06-17T18:10:57.993Z",
+      "recommenders": [
+        {
+          "authorId": "3546888255048212",
+          "platform": "bilibili",
+          "profileUrl": "https://space.bilibili.com/3546888255048212",
+          "recommendedAt": "2026-06-17",
+          "rating": 4,
+          "ratingSummary": "特厨探店|一顿饭4x万？是噱头还是实力—西郊5号",
+          "reason": "特厨探店|一顿饭4x万？是噱头还是实力—西郊5号",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1j9DJB1EdU"
+        }
+      ],
+      "recommenderCount": 1,
+      "latestRecommendedAt": "2026-06-17",
+      "averageRating": 4
+    },
+    {
+      "id": "shanghai-yangfanghuoguo",
+      "city": "上海",
+      "name": "洋房火锅",
+      "coordinates": null,
+      "createdAt": "2026-06-17T18:11:43.809Z",
+      "updatedAt": "2026-06-17T18:11:43.809Z",
+      "recommenders": [
+        {
+          "authorId": "3546888255048212",
+          "platform": "bilibili",
+          "profileUrl": "https://space.bilibili.com/3546888255048212",
+          "recommendedAt": "2026-06-17",
+          "rating": 4,
+          "ratingSummary": "特厨探店 |上海“最”出名的火锅？！洋房火锅到底怎么个事!",
+          "reason": "特厨探店 |上海“最”出名的火锅？！洋房火锅到底怎么个事!",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1FyYSzGEtg"
+        }
+      ],
+      "recommenderCount": 1,
+      "latestRecommendedAt": "2026-06-17",
+      "averageRating": 4
+    },
+    {
+      "id": "shanghai-yuwaitan",
+      "city": "上海",
+      "name": "遇外滩",
+      "coordinates": null,
+      "createdAt": "2026-06-17T18:11:45.545Z",
+      "updatedAt": "2026-06-17T18:11:45.545Z",
+      "recommenders": [
+        {
+          "authorId": "3546888255048212",
+          "platform": "bilibili",
+          "profileUrl": "https://space.bilibili.com/3546888255048212",
+          "recommendedAt": "2026-06-17",
+          "rating": 4,
+          "ratingSummary": "特厨探店 |大陆第一餐厅？特厨来尝到底怎么回事！—遇外滩",
+          "reason": "特厨探店 |大陆第一餐厅？特厨来尝到底怎么回事！—遇外滩",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1rFYBzkEwt"
+        }
+      ],
+      "recommenderCount": 1,
+      "latestRecommendedAt": "2026-06-17",
+      "averageRating": 4
+    },
+    {
+      "id": "shenyang-dingxiangxiaozhen",
+      "city": "沈阳",
+      "name": "丁香小镇",
+      "coordinates": null,
+      "createdAt": "2026-06-17T18:11:49.082Z",
+      "updatedAt": "2026-06-17T18:11:49.082Z",
+      "recommenders": [
+        {
+          "authorId": "3546888255048212",
+          "platform": "bilibili",
+          "profileUrl": "https://space.bilibili.com/3546888255048212",
+          "recommendedAt": "2026-06-17",
+          "rating": 4,
+          "ratingSummary": "特厨探店 |家常菜馆藏着哈尔滨最好的锅包肉？—丁香小镇",
+          "reason": "特厨探店 |家常菜馆藏着哈尔滨最好的锅包肉？—丁香小镇",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1Nc8GzKEEM"
+        }
+      ],
+      "recommenderCount": 1,
+      "latestRecommendedAt": "2026-06-17",
+      "averageRating": 4
+    },
+    {
+      "id": "shenyang-laochujia",
+      "city": "沈阳",
+      "name": "老厨家",
+      "coordinates": null,
+      "createdAt": "2026-06-17T18:11:47.314Z",
+      "updatedAt": "2026-06-17T18:11:47.314Z",
+      "recommenders": [
+        {
+          "authorId": "3546888255048212",
+          "platform": "bilibili",
+          "profileUrl": "https://space.bilibili.com/3546888255048212",
+          "recommendedAt": "2026-06-17",
+          "rating": 4,
+          "ratingSummary": "特厨探店 |评价两极分化的锅包肉创始店？—老厨家",
+          "reason": "特厨探店 |评价两极分化的锅包肉创始店？—老厨家",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV19bhpzSEyv"
+        }
+      ],
+      "recommenderCount": 1,
+      "latestRecommendedAt": "2026-06-17",
+      "averageRating": 4
+    },
+    {
+      "id": "shenyang-zhiyinjiulou",
+      "city": "沈阳",
+      "name": "知音酒楼",
+      "coordinates": null,
+      "createdAt": "2026-06-17T18:11:48.192Z",
+      "updatedAt": "2026-06-17T18:11:48.192Z",
+      "recommenders": [
+        {
+          "authorId": "3546888255048212",
+          "platform": "bilibili",
+          "profileUrl": "https://space.bilibili.com/3546888255048212",
+          "recommendedAt": "2026-06-17",
+          "rating": 4,
+          "ratingSummary": "特厨探店 |哈尔滨还得排两次队的家常菜馆？—知音酒楼",
+          "reason": "特厨探店 |哈尔滨还得排两次队的家常菜馆？—知音酒楼",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1Hh8fzwESu"
+        }
+      ],
+      "recommenderCount": 1,
+      "latestRecommendedAt": "2026-06-17",
+      "averageRating": 4
+    },
+    {
+      "id": "shenzhen-maiyulao",
+      "city": "深圳",
+      "name": "卖鱼佬",
+      "coordinates": null,
+      "createdAt": "2026-06-17T18:11:55.232Z",
+      "updatedAt": "2026-06-17T18:11:55.232Z",
+      "recommenders": [
+        {
+          "authorId": "3546888255048212",
+          "platform": "bilibili",
+          "profileUrl": "https://space.bilibili.com/3546888255048212",
+          "recommendedAt": "2026-06-17",
+          "rating": 4,
+          "ratingSummary": "特厨探店 |只在深夜开门的海鲜粥—卖鱼佬",
+          "reason": "特厨探店 |只在深夜开门的海鲜粥—卖鱼佬",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV17zGPzxELW"
+        }
+      ],
+      "recommenderCount": 1,
+      "latestRecommendedAt": "2026-06-17",
+      "averageRating": 4
+    },
+    {
+      "id": "shijiazhuang-guofulaocaiguan",
+      "city": "石家庄",
+      "name": "国富老菜馆",
+      "coordinates": null,
+      "createdAt": "2026-06-17T18:11:27.044Z",
+      "updatedAt": "2026-06-17T18:11:27.044Z",
+      "recommenders": [
+        {
+          "authorId": "3546888255048212",
+          "platform": "bilibili",
+          "profileUrl": "https://space.bilibili.com/3546888255048212",
+          "recommendedAt": "2026-06-17",
+          "rating": 4,
+          "ratingSummary": "特厨探店|藏在菜市场，但菜做的很规矩！—国富老菜馆",
+          "reason": "特厨探店|藏在菜市场，但菜做的很规矩！—国富老菜馆",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1xM1bBzEfD"
+        }
+      ],
+      "recommenderCount": 1,
+      "latestRecommendedAt": "2026-06-17",
+      "averageRating": 4
+    },
+    {
+      "id": "shijiazhuang-haozailai",
+      "city": "石家庄",
+      "name": "好再来",
+      "coordinates": null,
+      "createdAt": "2026-06-17T18:11:52.565Z",
+      "updatedAt": "2026-06-17T18:11:52.565Z",
+      "recommenders": [
+        {
+          "authorId": "3546888255048212",
+          "platform": "bilibili",
+          "profileUrl": "https://space.bilibili.com/3546888255048212",
+          "recommendedAt": "2026-06-17",
+          "rating": 4,
+          "ratingSummary": "特厨探店 |管管这家餐厅！—好再来",
+          "reason": "特厨探店 |管管这家餐厅！—好再来",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1H2gFz7EDf"
+        }
+      ],
+      "recommenderCount": 1,
+      "latestRecommendedAt": "2026-06-17",
+      "averageRating": 4
+    },
+    {
+      "id": "shunde-shunfengshaoji",
+      "city": "顺德",
+      "name": "顺峰烧鸡",
+      "coordinates": null,
+      "createdAt": "2026-06-17T18:11:08.539Z",
+      "updatedAt": "2026-06-17T18:11:08.539Z",
+      "recommenders": [
+        {
+          "authorId": "3546888255048212",
+          "platform": "bilibili",
+          "profileUrl": "https://space.bilibili.com/3546888255048212",
+          "recommendedAt": "2026-06-17",
+          "rating": 4,
+          "ratingSummary": "特厨探店|一桌子菜吃出了上下两极？！—顺峰烧鸡",
+          "reason": "特厨探店|一桌子菜吃出了上下两极？！—顺峰烧鸡",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1m4FXzyEt9"
+        }
+      ],
+      "recommenderCount": 1,
+      "latestRecommendedAt": "2026-06-17",
+      "averageRating": 4
+    },
+    {
+      "id": "shunde-xiangjiangfandian",
+      "city": "顺德",
+      "name": "香江饭店",
+      "coordinates": null,
+      "createdAt": "2026-06-17T18:11:07.673Z",
+      "updatedAt": "2026-06-17T18:11:07.673Z",
+      "recommenders": [
+        {
+          "authorId": "3546888255048212",
+          "platform": "bilibili",
+          "profileUrl": "https://space.bilibili.com/3546888255048212",
+          "recommendedAt": "2026-06-17",
+          "rating": 4,
+          "ratingSummary": "特厨探店|美食之都最爱的老字号？！—香江饭店",
+          "reason": "特厨探店|美食之都最爱的老字号？！—香江饭店",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1BUc4ztEsz"
+        }
+      ],
+      "recommenderCount": 1,
+      "latestRecommendedAt": "2026-06-17",
+      "averageRating": 4
+    },
+    {
+      "id": "shunde-zhengsiwei",
+      "city": "顺德",
+      "name": "蒸四味",
+      "coordinates": null,
+      "createdAt": "2026-06-17T18:11:05.896Z",
+      "updatedAt": "2026-06-17T18:11:05.896Z",
+      "recommenders": [
+        {
+          "authorId": "3546888255048212",
+          "platform": "bilibili",
+          "profileUrl": "https://space.bilibili.com/3546888255048212",
+          "recommendedAt": "2026-06-17",
+          "rating": 4,
+          "ratingSummary": "特厨探店|没有门头没有招牌的顺德小店—蒸四味",
+          "reason": "特厨探店|没有门头没有招牌的顺德小店—蒸四味",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1wVcvzsEs9"
+        }
+      ],
+      "recommenderCount": 1,
+      "latestRecommendedAt": "2026-06-17",
+      "averageRating": 4
+    },
+    {
+      "id": "taiyuan-haiwanghuangjiangmianguan",
+      "city": "太原",
+      "name": "海旺黄酱面馆",
+      "coordinates": null,
+      "createdAt": "2026-06-17T18:11:04.144Z",
+      "updatedAt": "2026-06-17T18:11:04.144Z",
+      "recommenders": [
+        {
+          "authorId": "3546888255048212",
+          "platform": "bilibili",
+          "profileUrl": "https://space.bilibili.com/3546888255048212",
+          "recommendedAt": "2026-06-17",
+          "rating": 4,
+          "ratingSummary": "特厨探店|麻麻咧咧的面是什么面？—海旺黄酱面馆",
+          "reason": "特厨探店|麻麻咧咧的面是什么面？—海旺黄酱面馆",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV17LNGzbEyd"
+        }
+      ],
+      "recommenderCount": 1,
+      "latestRecommendedAt": "2026-06-17",
+      "averageRating": 4
+    },
+    {
+      "id": "taiyuan-shanxifandian",
+      "city": "太原",
+      "name": "山西饭店",
+      "coordinates": null,
+      "createdAt": "2026-06-17T18:11:03.231Z",
+      "updatedAt": "2026-06-17T18:11:03.231Z",
+      "recommenders": [
+        {
+          "authorId": "3546888255048212",
+          "platform": "bilibili",
+          "profileUrl": "https://space.bilibili.com/3546888255048212",
+          "recommendedAt": "2026-06-17",
+          "rating": 5,
+          "ratingSummary": "特厨探店|山西菜天花板？！—山西饭店",
+          "reason": "特厨探店|山西菜天花板？！—山西饭店",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1ozcCzBEMD"
+        }
+      ],
+      "recommenderCount": 1,
+      "latestRecommendedAt": "2026-06-17",
+      "averageRating": 5
+    },
+    {
+      "id": "taiyuan-tongzehe",
+      "city": "太原",
+      "name": "同泽和",
+      "coordinates": null,
+      "createdAt": "2026-06-17T18:11:02.336Z",
+      "updatedAt": "2026-06-17T18:11:02.336Z",
+      "recommenders": [
+        {
+          "authorId": "3546888255048212",
+          "platform": "bilibili",
+          "profileUrl": "https://space.bilibili.com/3546888255048212",
+          "recommendedAt": "2026-06-17",
+          "rating": 4,
+          "ratingSummary": "特厨探店|太原便宜又好吃的饭店是什么样的？—同泽和",
+          "reason": "特厨探店|太原便宜又好吃的饭店是什么样的？—同泽和",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV147wBzGEek"
+        }
+      ],
+      "recommenderCount": 1,
+      "latestRecommendedAt": "2026-06-17",
+      "averageRating": 4
+    },
+    {
+      "id": "tianjin-hongshunchaocai",
+      "city": "天津",
+      "name": "宏顺炒菜",
+      "coordinates": null,
+      "createdAt": "2026-06-17T18:11:56.105Z",
+      "updatedAt": "2026-06-17T18:11:56.105Z",
+      "recommenders": [
+        {
+          "authorId": "3546888255048212",
+          "platform": "bilibili",
+          "profileUrl": "https://space.bilibili.com/3546888255048212",
+          "recommendedAt": "2026-06-17",
+          "rating": 4,
+          "ratingSummary": "特厨探店 |在天津炸鸡怎么吃—宏顺炒菜",
+          "reason": "特厨探店 |在天津炸鸡怎么吃—宏顺炒菜",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1zF3ez6Erw"
+        }
+      ],
+      "recommenderCount": 1,
+      "latestRecommendedAt": "2026-06-17",
+      "averageRating": 4
+    },
+    {
+      "id": "tianjin-xinlaizicaiguan",
+      "city": "天津",
+      "name": "鑫来子菜馆",
+      "coordinates": null,
+      "createdAt": "2026-06-17T18:11:56.967Z",
+      "updatedAt": "2026-06-17T18:11:56.967Z",
+      "recommenders": [
+        {
+          "authorId": "3546888255048212",
+          "platform": "bilibili",
+          "profileUrl": "https://space.bilibili.com/3546888255048212",
+          "recommendedAt": "2026-06-17",
+          "rating": 4,
+          "ratingSummary": "特厨探店 |来人管管天津菜—鑫来子菜馆",
+          "reason": "特厨探店 |来人管管天津菜—鑫来子菜馆",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1Xa3gzhEVT"
+        }
+      ],
+      "recommenderCount": 1,
+      "latestRecommendedAt": "2026-06-17",
+      "averageRating": 4
+    },
+    {
+      "id": "tianjin-yifashun",
+      "city": "天津",
+      "name": "益发顺",
+      "coordinates": null,
+      "createdAt": "2026-06-17T18:11:49.953Z",
+      "updatedAt": "2026-06-17T18:11:49.953Z",
+      "recommenders": [
+        {
+          "authorId": "3546888255048212",
+          "platform": "bilibili",
+          "profileUrl": "https://space.bilibili.com/3546888255048212",
+          "recommendedAt": "2026-06-17",
+          "rating": 4,
+          "ratingSummary": "特厨探店 |评论里提到最多的天津饭店？—益发顺",
+          "reason": "特厨探店 |评论里提到最多的天津饭店？—益发顺",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV18hbSzjEGG"
+        }
+      ],
+      "recommenderCount": 1,
+      "latestRecommendedAt": "2026-06-17",
+      "averageRating": 4
+    },
+    {
+      "id": "tianjin-yuquanfanzhuang",
+      "city": "天津",
+      "name": "玉泉饭庄",
+      "coordinates": null,
+      "createdAt": "2026-06-17T18:11:50.830Z",
+      "updatedAt": "2026-06-17T18:11:50.830Z",
+      "recommenders": [
+        {
+          "authorId": "3546888255048212",
+          "platform": "bilibili",
+          "profileUrl": "https://space.bilibili.com/3546888255048212",
+          "recommendedAt": "2026-06-17",
+          "rating": 4,
+          "ratingSummary": "特厨探店 |四位数也有性价比的一道菜？—玉泉饭庄",
+          "reason": "特厨探店 |四位数也有性价比的一道菜？—玉泉饭庄",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1oGgnzcEiq"
+        }
+      ],
+      "recommenderCount": 1,
+      "latestRecommendedAt": "2026-06-17",
+      "averageRating": 4
+    },
+    {
+      "id": "wulumuqi-teselazijidapanji",
+      "city": "乌鲁木齐",
+      "name": "特色辣子鸡大盘鸡",
+      "coordinates": null,
+      "createdAt": "2026-06-17T18:10:43.971Z",
+      "updatedAt": "2026-06-17T18:10:43.971Z",
+      "recommenders": [
+        {
+          "authorId": "3546888255048212",
+          "platform": "bilibili",
+          "profileUrl": "https://space.bilibili.com/3546888255048212",
+          "recommendedAt": "2026-06-17",
+          "rating": 4,
+          "ratingSummary": "特厨探店|不好找，无环境，但好吃的—特色辣子鸡大盘鸡",
+          "reason": "特厨探店|不好找，无环境，但好吃的—特色辣子鸡大盘鸡",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1qYJu6gEqk"
+        }
+      ],
+      "recommenderCount": 1,
+      "latestRecommendedAt": "2026-06-17",
+      "averageRating": 4
+    },
+    {
+      "id": "wuxi-erquanyuanlaocaiguan",
+      "city": "无锡",
+      "name": "二泉园老菜馆",
+      "coordinates": null,
+      "createdAt": "2026-06-17T18:10:49.238Z",
+      "updatedAt": "2026-06-17T18:10:49.238Z",
+      "recommenders": [
+        {
+          "authorId": "3546888255048212",
+          "platform": "bilibili",
+          "profileUrl": "https://space.bilibili.com/3546888255048212",
+          "recommendedAt": "2026-06-17",
+          "rating": 4,
+          "ratingSummary": "特厨探店|讲究的淮扬菜是什么样？—二泉园老菜馆",
+          "reason": "特厨探店|讲究的淮扬菜是什么样？—二泉园老菜馆",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1C8L36jEYN"
+        }
+      ],
+      "recommenderCount": 1,
+      "latestRecommendedAt": "2026-06-17",
+      "averageRating": 4
+    },
+    {
+      "id": "wuxi-pangmeifandian",
+      "city": "无锡",
+      "name": "胖妹饭店",
+      "coordinates": null,
+      "createdAt": "2026-06-17T18:10:48.373Z",
+      "updatedAt": "2026-06-17T18:10:48.373Z",
+      "recommenders": [
+        {
+          "authorId": "3546888255048212",
+          "platform": "bilibili",
+          "profileUrl": "https://space.bilibili.com/3546888255048212",
+          "recommendedAt": "2026-06-17",
+          "rating": 4,
+          "ratingSummary": "特厨探店|差点全好评！超坦诚的老板做出来的菜是什么味道？—胖妹饭店",
+          "reason": "特厨探店|差点全好评！超坦诚的老板做出来的菜是什么味道？—胖妹饭店",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1e4Ly64EvL"
+        }
+      ],
+      "recommenderCount": 1,
+      "latestRecommendedAt": "2026-06-17",
+      "averageRating": 4
+    },
+    {
+      "id": "wuxi-yaoxingfandian",
+      "city": "无锡",
+      "name": "耀兴饭店",
+      "coordinates": null,
+      "createdAt": "2026-06-17T18:10:44.836Z",
+      "updatedAt": "2026-06-17T18:10:44.836Z",
+      "recommenders": [
+        {
+          "authorId": "3546888255048212",
+          "platform": "bilibili",
+          "profileUrl": "https://space.bilibili.com/3546888255048212",
+          "recommendedAt": "2026-06-17",
+          "rating": 4,
+          "ratingSummary": "特厨探店|开在家里手慢无？！好吃的—耀兴饭店",
+          "reason": "特厨探店|开在家里手慢无？！好吃的—耀兴饭店",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1xaEo6pEyd"
+        }
+      ],
+      "recommenderCount": 1,
+      "latestRecommendedAt": "2026-06-17",
+      "averageRating": 4
+    },
+    {
+      "id": "xian-lianhuacanyin",
+      "city": "西安",
+      "name": "莲花餐饮",
+      "coordinates": null,
+      "createdAt": "2026-06-17T18:11:53.452Z",
+      "updatedAt": "2026-06-17T18:11:53.452Z",
+      "recommenders": [
+        {
+          "authorId": "3546888255048212",
+          "platform": "bilibili",
+          "profileUrl": "https://space.bilibili.com/3546888255048212",
+          "recommendedAt": "2026-06-17",
+          "rating": 4,
+          "ratingSummary": "特厨探店 |西安全好评餐厅？！—莲花餐饮",
+          "reason": "特厨探店 |西安全好评餐厅？！—莲花餐饮",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1URuBzaEAQ"
+        }
+      ],
+      "recommenderCount": 1,
+      "latestRecommendedAt": "2026-06-17",
+      "averageRating": 4
+    },
+    {
+      "id": "xian-liujilazhiroujiumianpian",
+      "city": "西安",
+      "name": "刘记腊汁肉揪面片",
+      "coordinates": null,
+      "createdAt": "2026-06-17T18:11:54.365Z",
+      "updatedAt": "2026-06-17T18:11:54.365Z",
+      "recommenders": [
+        {
+          "authorId": "3546888255048212",
+          "platform": "bilibili",
+          "profileUrl": "https://space.bilibili.com/3546888255048212",
+          "recommendedAt": "2026-06-17",
+          "rating": 4,
+          "ratingSummary": "特厨探店 |西安“香闷了”的面？-刘记腊汁肉揪面片",
+          "reason": "特厨探店 |西安“香闷了”的面？-刘记腊汁肉揪面片",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1U1u3z9EAT"
+        }
+      ],
+      "recommenderCount": 1,
+      "latestRecommendedAt": "2026-06-17",
+      "averageRating": 4
+    },
+    {
+      "id": "xian-xianfanzhuang",
+      "city": "西安",
+      "name": "西安饭庄",
+      "coordinates": null,
+      "createdAt": "2026-06-17T18:11:51.694Z",
+      "updatedAt": "2026-06-17T18:11:51.694Z",
+      "recommenders": [
+        {
+          "authorId": "3546888255048212",
+          "platform": "bilibili",
+          "profileUrl": "https://space.bilibili.com/3546888255048212",
+          "recommendedAt": "2026-06-17",
+          "rating": 4,
+          "ratingSummary": "特厨探店 |西安最有名的饭店？—西安饭庄",
+          "reason": "特厨探店 |西安最有名的饭店？—西安饭庄",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1viumziEoF"
+        }
+      ],
+      "recommenderCount": 1,
+      "latestRecommendedAt": "2026-06-17",
+      "averageRating": 4
+    }
+  ]
 }

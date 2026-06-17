@@ -1,0 +1,20 @@
+{
+  "id": "shanghai-bahaoyuaner",
+  "city": "上海",
+  "name": "八号院儿",
+  "coordinates": null,
+  "createdAt": "2026-06-17T18:10:45.760Z",
+  "updatedAt": "2026-06-17T18:10:45.760Z",
+  "recommenders": [
+    {
+      "authorId": "3546888255048212",
+      "platform": "bilibili",
+      "profileUrl": "https://space.bilibili.com/3546888255048212",
+      "recommendedAt": "2026-06-17",
+      "rating": 4,
+      "ratingSummary": "特厨探店|明星开的小面馆，真实水平到底怎么样—八号院儿",
+      "reason": "特厨探店|明星开的小面馆，真实水平到底怎么样—八号院儿",
+      "sourceVideoUrl": "https://www.bilibili.com/video/BV1AnEx68Eh5"
+    }
+  ]
+}

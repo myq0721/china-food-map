@@ -1,0 +1,20 @@
+{
+  "id": "chengdu-xiaoli",
+  "city": "成都",
+  "name": "小李",
+  "coordinates": null,
+  "createdAt": "2026-06-17T18:12:04.888Z",
+  "updatedAt": "2026-06-17T18:12:04.888Z",
+  "recommenders": [
+    {
+      "authorId": "3546888255048212",
+      "platform": "bilibili",
+      "profileUrl": "https://space.bilibili.com/3546888255048212",
+      "recommendedAt": "2026-06-17",
+      "rating": 4,
+      "ratingSummary": "特厨探店 |全网无差评？怎么我们就这么倒霉？—小李",
+      "reason": "特厨探店 |全网无差评？怎么我们就这么倒霉？—小李",
+      "sourceVideoUrl": "https://www.bilibili.com/video/BV1YWMHzREdb"
+    }
+  ]
+}

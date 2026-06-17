@@ -1,0 +1,20 @@
+{
+  "id": "shunde-xiangjiangfandian",
+  "city": "顺德",
+  "name": "香江饭店",
+  "coordinates": null,
+  "createdAt": "2026-06-17T18:11:07.673Z",
+  "updatedAt": "2026-06-17T18:11:07.673Z",
+  "recommenders": [
+    {
+      "authorId": "3546888255048212",
+      "platform": "bilibili",
+      "profileUrl": "https://space.bilibili.com/3546888255048212",
+      "recommendedAt": "2026-06-17",
+      "rating": 4,
+      "ratingSummary": "特厨探店|美食之都最爱的老字号？！—香江饭店",
+      "reason": "特厨探店|美食之都最爱的老字号？！—香江饭店",
+      "sourceVideoUrl": "https://www.bilibili.com/video/BV1BUc4ztEsz"
+    }
+  ]
+}

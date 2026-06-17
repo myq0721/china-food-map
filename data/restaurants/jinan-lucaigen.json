@@ -1,0 +1,20 @@
+{
+  "id": "jinan-lucaigen",
+  "city": "济南",
+  "name": "鲁菜根",
+  "coordinates": null,
+  "createdAt": "2026-06-17T18:12:07.574Z",
+  "updatedAt": "2026-06-17T18:12:07.574Z",
+  "recommenders": [
+    {
+      "authorId": "3546888255048212",
+      "platform": "bilibili",
+      "profileUrl": "https://space.bilibili.com/3546888255048212",
+      "recommendedAt": "2026-06-17",
+      "rating": 4,
+      "ratingSummary": "特厨探店 |厨师的职责到底是什么？—鲁菜根",
+      "reason": "特厨探店 |厨师的职责到底是什么？—鲁菜根",
+      "sourceVideoUrl": "https://www.bilibili.com/video/BV1Ep7KzCE34"
+    }
+  ]
+}

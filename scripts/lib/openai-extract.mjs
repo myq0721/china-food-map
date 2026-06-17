@@ -1,4 +1,10 @@
-import { heuristicRating, extractCity, extractRestaurantName } from './bilibili.mjs'
+import {
+  heuristicRating,
+  extractCityFromText,
+  parseVideoFields,
+  parseSuibanTitle,
+  isPlausibleRestaurantName,
+} from './parse-video.mjs'
 
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY
 const OPENAI_BASE = process.env.OPENAI_BASE_URL ?? 'https://api.openai.com/v1'
@@ -99,9 +105,16 @@ export async function rateTextSubmission(text) {
 
 function fallbackExtract(text, context) {
   const title = context.title ?? text.slice(0, 100)
+  const parsed = parseVideoFields({ title, desc: '' })
+  const suiban = parseSuibanTitle(title)
+  const name = suiban.name && isPlausibleRestaurantName(suiban.name, title)
+    ? suiban.name
+    : isPlausibleRestaurantName(parsed.name, title)
+      ? parsed.name
+      : suiban.name || parsed.name
   return {
-    city: extractCity(text),
-    name: extractRestaurantName(title),
+    city: parsed.city || extractCityFromText(title) || extractCityFromText(text),
+    name,
     cuisine: [],
     address: '',
     dishes: [],

@@ -1,0 +1,20 @@
+{
+  "id": "shijiazhuang-haozailai",
+  "city": "石家庄",
+  "name": "好再来",
+  "coordinates": null,
+  "createdAt": "2026-06-17T18:11:52.565Z",
+  "updatedAt": "2026-06-17T18:11:52.565Z",
+  "recommenders": [
+    {
+      "authorId": "3546888255048212",
+      "platform": "bilibili",
+      "profileUrl": "https://space.bilibili.com/3546888255048212",
+      "recommendedAt": "2026-06-17",
+      "rating": 4,
+      "ratingSummary": "特厨探店 |管管这家餐厅！—好再来",
+      "reason": "特厨探店 |管管这家餐厅！—好再来",
+      "sourceVideoUrl": "https://www.bilibili.com/video/BV1H2gFz7EDf"
+    }
+  ]
+}

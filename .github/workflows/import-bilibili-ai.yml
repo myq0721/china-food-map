@@ -49,7 +49,7 @@ jobs:
         run: |
           ARGS=""
           if [ "${{ inputs.dry_run }}" = "true" ]; then ARGS="--dry-run"; fi
-          node scripts/import-bilibili-ai.mjs $ARGS
+          node scripts/import-bilibili-full.mjs $ARGS
 
       - name: Create Pull Request
         if: inputs.dry_run == false

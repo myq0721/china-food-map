@@ -1,0 +1,20 @@
+{
+  "id": "beijing-quanyimeiroubing",
+  "city": "北京",
+  "name": "全宜美肉饼",
+  "coordinates": null,
+  "createdAt": "2026-06-17T18:11:30.548Z",
+  "updatedAt": "2026-06-17T18:11:30.548Z",
+  "recommenders": [
+    {
+      "authorId": "3546888255048212",
+      "platform": "bilibili",
+      "profileUrl": "https://space.bilibili.com/3546888255048212",
+      "recommendedAt": "2026-06-17",
+      "rating": 4,
+      "ratingSummary": "特厨探店|宝藏肉饼店？怎么藏在村子里！—全宜美肉饼",
+      "reason": "特厨探店|宝藏肉饼店？怎么藏在村子里！—全宜美肉饼",
+      "sourceVideoUrl": "https://www.bilibili.com/video/BV1txW2zsEWn"
+    }
+  ]
+}

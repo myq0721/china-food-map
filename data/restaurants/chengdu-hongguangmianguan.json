@@ -1,0 +1,20 @@
+{
+  "id": "chengdu-hongguangmianguan",
+  "city": "成都",
+  "name": "红光面馆",
+  "coordinates": null,
+  "createdAt": "2026-06-17T18:11:13.818Z",
+  "updatedAt": "2026-06-17T18:11:13.818Z",
+  "recommenders": [
+    {
+      "authorId": "3546888255048212",
+      "platform": "bilibili",
+      "profileUrl": "https://space.bilibili.com/3546888255048212",
+      "recommendedAt": "2026-06-17",
+      "rating": 4,
+      "ratingSummary": "特厨探店|小区里，没招牌！成都本地人吃啥面？！—红光面馆",
+      "reason": "特厨探店|小区里，没招牌！成都本地人吃啥面？！—红光面馆",
+      "sourceVideoUrl": "https://www.bilibili.com/video/BV1rpr4B2ENn"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "huangshan-yejiadayuan",
+  "city": "黄山",
+  "name": "叶家大院",
+  "coordinates": null,
+  "createdAt": "2026-06-17T18:10:50.104Z",
+  "updatedAt": "2026-06-17T18:10:50.104Z",
+  "recommenders": [
+    {
+      "authorId": "3546888255048212",
+      "platform": "bilibili",
+      "profileUrl": "https://space.bilibili.com/3546888255048212",
+      "recommendedAt": "2026-06-17",
+      "rating": 4,
+      "ratingSummary": "特厨探店|吃过但是剪视频又看馋了的—叶家大院",
+      "reason": "特厨探店|吃过但是剪视频又看馋了的—叶家大院",
+      "sourceVideoUrl": "https://www.bilibili.com/video/BV11z536jELv"
+    }
+  ]
+}

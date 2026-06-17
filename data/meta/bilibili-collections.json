@@ -1,0 +1,274 @@
+{
+  "generatedAt": "2026-06-17T18:09:29.683Z",
+  "mid": "3546888255048212",
+  "seasons": [
+    {
+      "seasonId": 5622142,
+      "name": "合集·北京",
+      "city": "北京",
+      "bvids": [
+        "BV1AvJhzbE45",
+        "BV114EezqEm2",
+        "BV1BxGXzbEis",
+        "BV1xANUzVE4T",
+        "BV1YrKBzhEKF",
+        "BV1YzbAzsErN",
+        "BV17WCUBVEDJ",
+        "BV1txW2zsEWn",
+        "BV1LCxCzPE1T",
+        "BV13j4kzdE6p",
+        "BV1uHANzsEEk"
+      ]
+    },
+    {
+      "seasonId": 5622138,
+      "name": "合集·山东",
+      "city": "济南",
+      "bvids": [
+        "BV1Ep7KzCE34",
+        "BV1v7jqzWE7N",
+        "BV1ykjtzLEub"
+      ]
+    },
+    {
+      "seasonId": 5622132,
+      "name": "合集·成都",
+      "city": "成都",
+      "bvids": [
+        "BV1YWMHzREdb",
+        "BV1dvTdzHE3n",
+        "BV1FtTGzMEEb",
+        "BV11SMUzQEav",
+        "BV1MrNtzoECN",
+        "BV1FyMbzsEmA",
+        "BV1haHKz3EMG",
+        "BV1BxnBzrEoM",
+        "BV1rpr4B2ENn",
+        "BV1tJrgByEFC",
+        "BV1g9z8BKEkv"
+      ]
+    },
+    {
+      "seasonId": 7197647,
+      "name": "合集·齐齐哈尔",
+      "city": "齐齐哈尔",
+      "bvids": [
+        "BV1Jtm3BSE3s",
+        "BV15NmPBpEwr",
+        "BV1fc2eBkEMS",
+        "BV1fvSzBvEot"
+      ]
+    },
+    {
+      "seasonId": 8235506,
+      "name": "合集·无锡",
+      "city": "无锡",
+      "bvids": [
+        "BV1e4Ly64EvL",
+        "BV1C8L36jEYN"
+      ]
+    },
+    {
+      "seasonId": 5797152,
+      "name": "合集·天津",
+      "city": "天津",
+      "bvids": [
+        "BV1zF3ez6Erw",
+        "BV1Xa3gzhEVT",
+        "BV18hbSzjEGG",
+        "BV1oGgnzcEiq"
+      ]
+    },
+    {
+      "seasonId": 6254985,
+      "name": "合集·东北",
+      "city": "沈阳",
+      "bvids": [
+        "BV19bhpzSEyv",
+        "BV1Hh8fzwESu",
+        "BV1Nc8GzKEEM"
+      ]
+    },
+    {
+      "seasonId": 5860851,
+      "name": "合集·西安",
+      "city": "西安",
+      "bvids": [
+        "BV1URuBzaEAQ",
+        "BV1viumziEoF",
+        "BV1U1u3z9EAT"
+      ]
+    },
+    {
+      "seasonId": 6802283,
+      "name": "合集·广州",
+      "city": "广州",
+      "bvids": [
+        "BV19Z1XBpESg",
+        "BV13FyeB4E6X",
+        "BV13LykBEE58",
+        "BV1TtsrzkEJU",
+        "BV1erscz6EKZ",
+        "BV1RWWrznEM4"
+      ]
+    },
+    {
+      "seasonId": 5716937,
+      "name": "合集·上海",
+      "city": "上海",
+      "bvids": [
+        "BV1bqKnzgEwU",
+        "BV1MZKhziEKD",
+        "BV1LjgCzoEEo",
+        "BV1rFYBzkEwt",
+        "BV1nWYtzjE7d",
+        "BV1a7hvz2Ew5",
+        "BV1FyYSzGEtg",
+        "BV1BRQNBrEcB",
+        "BV1j9DJB1EdU",
+        "BV1qoDgBQE8E",
+        "BV11x93BkEnq"
+      ]
+    },
+    {
+      "seasonId": 5953245,
+      "name": "合集·河北",
+      "city": "石家庄",
+      "bvids": [
+        "BV1H2gFz7EDf",
+        "BV1xM1bBzEfD"
+      ]
+    },
+    {
+      "seasonId": 8235513,
+      "name": "合集·安徽",
+      "city": "合肥",
+      "bvids": [
+        "BV1pmo7BYEX7",
+        "BV1DLQhBPE7W",
+        "BV1RUGf6oE74",
+        "BV12QdKBTEyQ"
+      ]
+    },
+    {
+      "seasonId": 7197657,
+      "name": "合集·重庆",
+      "city": "重庆",
+      "bvids": [
+        "BV1bXBgB3E77",
+        "BV1bqBwBJEQu",
+        "BV1vtq8BKEem"
+      ]
+    },
+    {
+      "seasonId": 8235552,
+      "name": "合集·顺德",
+      "city": "顺德",
+      "bvids": [
+        "BV1wVcvzsEs9",
+        "BV1BUc4ztEsz",
+        "BV1m4FXzyEt9",
+        "BV1UQcTz9E8U"
+      ]
+    },
+    {
+      "seasonId": 8235532,
+      "name": "合集·山西",
+      "city": "太原",
+      "bvids": [
+        "BV147wBzGEek",
+        "BV1ozcCzBEMD",
+        "BV17LNGzbEyd"
+      ]
+    },
+    {
+      "seasonId": 8235574,
+      "name": "合集·淮安",
+      "city": "淮安",
+      "bvids": [
+        "BV1cqRJBwEo6",
+        "BV1PE9tBpEek",
+        "BV1KToHB7Est"
+      ]
+    }
+  ],
+  "bvidToCity": {
+    "BV1AvJhzbE45": "北京",
+    "BV114EezqEm2": "北京",
+    "BV1BxGXzbEis": "北京",
+    "BV1xANUzVE4T": "北京",
+    "BV1YrKBzhEKF": "北京",
+    "BV1YzbAzsErN": "北京",
+    "BV17WCUBVEDJ": "北京",
+    "BV1txW2zsEWn": "北京",
+    "BV1LCxCzPE1T": "北京",
+    "BV13j4kzdE6p": "北京",
+    "BV1uHANzsEEk": "北京",
+    "BV1Ep7KzCE34": "济南",
+    "BV1v7jqzWE7N": "济南",
+    "BV1ykjtzLEub": "济南",
+    "BV1YWMHzREdb": "成都",
+    "BV1dvTdzHE3n": "成都",
+    "BV1FtTGzMEEb": "成都",
+    "BV11SMUzQEav": "成都",
+    "BV1MrNtzoECN": "成都",
+    "BV1FyMbzsEmA": "成都",
+    "BV1haHKz3EMG": "成都",
+    "BV1BxnBzrEoM": "成都",
+    "BV1rpr4B2ENn": "成都",
+    "BV1tJrgByEFC": "成都",
+    "BV1g9z8BKEkv": "成都",
+    "BV1Jtm3BSE3s": "齐齐哈尔",
+    "BV15NmPBpEwr": "齐齐哈尔",
+    "BV1fc2eBkEMS": "齐齐哈尔",
+    "BV1fvSzBvEot": "齐齐哈尔",
+    "BV1e4Ly64EvL": "无锡",
+    "BV1C8L36jEYN": "无锡",
+    "BV1zF3ez6Erw": "天津",
+    "BV1Xa3gzhEVT": "天津",
+    "BV18hbSzjEGG": "天津",
+    "BV1oGgnzcEiq": "天津",
+    "BV19bhpzSEyv": "沈阳",
+    "BV1Hh8fzwESu": "沈阳",
+    "BV1Nc8GzKEEM": "沈阳",
+    "BV1URuBzaEAQ": "西安",
+    "BV1viumziEoF": "西安",
+    "BV1U1u3z9EAT": "西安",
+    "BV19Z1XBpESg": "广州",
+    "BV13FyeB4E6X": "广州",
+    "BV13LykBEE58": "广州",
+    "BV1TtsrzkEJU": "广州",
+    "BV1erscz6EKZ": "广州",
+    "BV1RWWrznEM4": "广州",
+    "BV1bqKnzgEwU": "上海",
+    "BV1MZKhziEKD": "上海",
+    "BV1LjgCzoEEo": "上海",
+    "BV1rFYBzkEwt": "上海",
+    "BV1nWYtzjE7d": "上海",
+    "BV1a7hvz2Ew5": "上海",
+    "BV1FyYSzGEtg": "上海",
+    "BV1BRQNBrEcB": "上海",
+    "BV1j9DJB1EdU": "上海",
+    "BV1qoDgBQE8E": "上海",
+    "BV11x93BkEnq": "上海",
+    "BV1H2gFz7EDf": "石家庄",
+    "BV1xM1bBzEfD": "石家庄",
+    "BV1pmo7BYEX7": "合肥",
+    "BV1DLQhBPE7W": "合肥",
+    "BV1RUGf6oE74": "合肥",
+    "BV12QdKBTEyQ": "合肥",
+    "BV1bXBgB3E77": "重庆",
+    "BV1bqBwBJEQu": "重庆",
+    "BV1vtq8BKEem": "重庆",
+    "BV1wVcvzsEs9": "顺德",
+    "BV1BUc4ztEsz": "顺德",
+    "BV1m4FXzyEt9": "顺德",
+    "BV1UQcTz9E8U": "顺德",
+    "BV147wBzGEek": "太原",
+    "BV1ozcCzBEMD": "太原",
+    "BV17LNGzbEyd": "太原",
+    "BV1cqRJBwEo6": "淮安",
+    "BV1PE9tBpEek": "淮安",
+    "BV1KToHB7Est": "淮安"
+  }
+}

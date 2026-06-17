@@ -1,0 +1,20 @@
+{
+  "id": "xian-lianhuacanyin",
+  "city": "西安",
+  "name": "莲花餐饮",
+  "coordinates": null,
+  "createdAt": "2026-06-17T18:11:53.452Z",
+  "updatedAt": "2026-06-17T18:11:53.452Z",
+  "recommenders": [
+    {
+      "authorId": "3546888255048212",
+      "platform": "bilibili",
+      "profileUrl": "https://space.bilibili.com/3546888255048212",
+      "recommendedAt": "2026-06-17",
+      "rating": 4,
+      "ratingSummary": "特厨探店 |西安全好评餐厅？！—莲花餐饮",
+      "reason": "特厨探店 |西安全好评餐厅？！—莲花餐饮",
+      "sourceVideoUrl": "https://www.bilibili.com/video/BV1URuBzaEAQ"
+    }
+  ]
+}
