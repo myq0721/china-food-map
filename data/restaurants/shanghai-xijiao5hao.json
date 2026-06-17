@@ -4,17 +4,23 @@
   "name": "西郊5号",
   "coordinates": null,
   "createdAt": "2026-06-17T18:10:57.993Z",
-  "updatedAt": "2026-06-17T18:10:57.993Z",
+  "updatedAt": "2026-06-17T18:39:27.048Z",
   "recommenders": [
     {
       "authorId": "3546888255048212",
       "platform": "bilibili",
       "profileUrl": "https://space.bilibili.com/3546888255048212",
       "recommendedAt": "2026-06-17",
-      "rating": 4,
-      "ratingSummary": "特厨探店|一顿饭4x万？是噱头还是实力—西郊5号",
-      "reason": "特厨探店|一顿饭4x万？是噱头还是实力—西郊5号",
-      "sourceVideoUrl": "https://www.bilibili.com/video/BV1j9DJB1EdU"
+      "rating": 3,
+      "ratingSummary": "看个人口味：一顿饭4x万？是噱头还是实力",
+      "reason": "特厨隋卞探店「西郊5号」，从菜品火候、调味与性价比综合体验来看，优缺点都比较明显，建议按招牌菜点单。观众热议：当你压力大的时候，想想在隋特厨旁边堂烹鲍鱼的厨师；新手偷师来了（推荐尝试：一顿饭。",
+      "sourceVideoUrl": "https://www.bilibili.com/video/BV1j9DJB1EdU",
+      "dishes": [
+        {
+          "name": "一顿饭"
+        }
+      ],
+      "displayName": "特厨隋卞"
     }
   ]
 }

@@ -1,0 +1,34 @@
+{
+  "_说明": "在此文件填写任意格式的饭店推荐，运行 npm run convert:manual 转为 data/restaurants/*.json",
+  "_字段说明": {
+    "city": "城市（必填）",
+    "name": "店名（必填）",
+    "cuisine": "菜系数组，如 [\"川菜\"]",
+    "address": "地址，可空",
+    "rating": "1-5 星，可空则由脚本推断",
+    "ratingSummary": "一句话简评，可空",
+    "reason": "探店体验描述，可空",
+    "dishes": "推荐菜 [{\"name\":\"\",\"price\":\"\"}]",
+    "videoUrl": "B 站链接，有则自动拉评论补全",
+    "recommender": "推荐者，可省略（默认特厨隋卞）"
+  },
+  "entries": [
+    {
+      "city": "北京",
+      "name": "示例饭店",
+      "cuisine": ["湘菜"],
+      "address": "",
+      "rating": 4,
+      "ratingSummary": "值得一试：家常湘味扎实",
+      "reason": "环境一般但口味在线，小炒肉下饭。",
+      "dishes": [{ "name": "小炒肉" }],
+      "videoUrl": "",
+      "recommender": {
+        "platform": "bilibili",
+        "authorId": "3546888255048212",
+        "displayName": "特厨隋卞",
+        "profileUrl": "https://space.bilibili.com/3546888255048212"
+      }
+    }
+  ]
+}

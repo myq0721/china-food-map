@@ -4,7 +4,7 @@
   "name": "耀兴饭店",
   "coordinates": null,
   "createdAt": "2026-06-17T18:10:44.836Z",
-  "updatedAt": "2026-06-17T18:10:44.836Z",
+  "updatedAt": "2026-06-17T18:39:58.845Z",
   "recommenders": [
     {
       "authorId": "3546888255048212",
@@ -12,9 +12,18 @@
       "profileUrl": "https://space.bilibili.com/3546888255048212",
       "recommendedAt": "2026-06-17",
       "rating": 4,
-      "ratingSummary": "特厨探店|开在家里手慢无？！好吃的—耀兴饭店",
-      "reason": "特厨探店|开在家里手慢无？！好吃的—耀兴饭店",
-      "sourceVideoUrl": "https://www.bilibili.com/video/BV1xaEo6pEyd"
+      "ratingSummary": "值得一试：开在家里手慢无？！好吃的",
+      "reason": "特厨隋卞探店「耀兴饭店」，从菜品火候、调味与性价比综合体验来看，整体味道靠谱，有几道亮点菜，适合附近觅食。观众热议：省流：\n《刚才有老鼠》\n《真够烂的看着》\n《豆成泥了》\n《表面一层鳝鱼下面都是蒜》\n《菜没有名字》；护食？发来推荐尝试：耀兴饭。",
+      "sourceVideoUrl": "https://www.bilibili.com/video/BV1xaEo6pEyd",
+      "dishes": [
+        {
+          "name": "耀兴饭"
+        }
+      ],
+      "displayName": "特厨隋卞"
     }
+  ],
+  "cuisine": [
+    "苏菜"
   ]
 }

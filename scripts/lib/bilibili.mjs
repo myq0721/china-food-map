@@ -56,6 +56,7 @@ export async function fetchBilibiliVideo(bvidOrUrl) {
   const tags = bvid ? await fetchBilibiliVideoTags(bvid).catch(() => []) : []
 
   return {
+    aid: d.aid,
     bvid: d.bvid,
     title: d.title,
     desc: d.desc ?? '',

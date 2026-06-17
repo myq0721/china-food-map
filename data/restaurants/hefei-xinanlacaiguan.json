@@ -4,17 +4,21 @@
   "name": "新安辣菜馆",
   "coordinates": null,
   "createdAt": "2026-06-17T18:10:54.484Z",
-  "updatedAt": "2026-06-17T18:10:54.484Z",
+  "updatedAt": "2026-06-17T18:38:55.621Z",
   "recommenders": [
     {
       "authorId": "3546888255048212",
       "platform": "bilibili",
       "profileUrl": "https://space.bilibili.com/3546888255048212",
       "recommendedAt": "2026-06-17",
-      "rating": 4,
-      "ratingSummary": "特厨探店|辣但不是干辣！调味也非常好的—新安辣菜馆",
-      "reason": "特厨探店|辣但不是干辣！调味也非常好的—新安辣菜馆",
-      "sourceVideoUrl": "https://www.bilibili.com/video/BV1pmo7BYEX7"
+      "rating": 3,
+      "ratingSummary": "中规中矩：辣但不是干辣！调味也非常好的",
+      "reason": "特厨隋卞探店「新安辣菜馆」，从菜品火候、调味与性价比综合体验来看，优缺点都比较明显，建议按招牌菜点单。观众热议：你要是夸隋老师菜做的好，他也就微微一笑。但你要是夸隋老师长的帅还能吃辣，他高低要送你一盘虾。；而且是中辣",
+      "sourceVideoUrl": "https://www.bilibili.com/video/BV1pmo7BYEX7",
+      "displayName": "特厨隋卞"
     }
+  ],
+  "cuisine": [
+    "徽菜"
   ]
 }

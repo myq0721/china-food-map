@@ -4,17 +4,29 @@
   "name": "西安饭庄",
   "coordinates": null,
   "createdAt": "2026-06-17T18:11:51.694Z",
-  "updatedAt": "2026-06-17T18:11:51.694Z",
+  "updatedAt": "2026-06-17T18:40:03.070Z",
   "recommenders": [
     {
       "authorId": "3546888255048212",
       "platform": "bilibili",
       "profileUrl": "https://space.bilibili.com/3546888255048212",
       "recommendedAt": "2026-06-17",
-      "rating": 4,
-      "ratingSummary": "特厨探店 |西安最有名的饭店？—西安饭庄",
-      "reason": "特厨探店 |西安最有名的饭店？—西安饭庄",
-      "sourceVideoUrl": "https://www.bilibili.com/video/BV1viumziEoF"
+      "rating": 3,
+      "ratingSummary": "有好有坏：西安最有名的饭店",
+      "reason": "特厨隋卞探店「西安饭庄」，从菜品火候、调味与性价比综合体验来看，优缺点都比较明显，建议按招牌菜点单。观众热议：猪脚饭+吮指原味鸡+番茄鱼薯条+肉夹馍，不说味道，我说实话，人家要吃招牌菜，服务员给上这种组合，也是人才。；隋老师就是见它啥菜都有，都给整不会了，才叫服务员推荐的推荐尝试：西安最有名的饭、西安饭。",
+      "sourceVideoUrl": "https://www.bilibili.com/video/BV1viumziEoF",
+      "dishes": [
+        {
+          "name": "西安最有名的饭"
+        },
+        {
+          "name": "西安饭"
+        }
+      ],
+      "displayName": "特厨隋卞"
     }
+  ],
+  "cuisine": [
+    "西北菜"
   ]
 }

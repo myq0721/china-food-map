@@ -4,7 +4,7 @@
   "name": "九斤饭店",
   "coordinates": null,
   "createdAt": "2026-06-17T18:10:50.970Z",
-  "updatedAt": "2026-06-17T18:10:50.970Z",
+  "updatedAt": "2026-06-17T18:38:52.802Z",
   "recommenders": [
     {
       "authorId": "3546888255048212",
@@ -12,9 +12,18 @@
       "profileUrl": "https://space.bilibili.com/3546888255048212",
       "recommendedAt": "2026-06-17",
       "rating": 5,
-      "ratingSummary": "特厨探店|一口说脏话，村子里的徽菜天花板？—九斤饭店",
-      "reason": "特厨探店|一口说脏话，村子里的徽菜天花板？—九斤饭店",
-      "sourceVideoUrl": "https://www.bilibili.com/video/BV12QdKBTEyQ"
+      "ratingSummary": "水准在线：一口说脏话，村子里的徽菜天花板",
+      "reason": "特厨隋卞探店「九斤饭店」，从菜品火候、调味与性价比综合体验来看，整体表现突出，多项菜品在线，值得专程打卡。观众热议：人在黄山的酒店躺尸，还在纠结午饭去哪吃，就刷到视频了，现在中午十一点，开车过去大概半小时，兄弟们等我消息；还有20分钟就到，方便就直播推荐尝试：九斤饭。",
+      "sourceVideoUrl": "https://www.bilibili.com/video/BV12QdKBTEyQ",
+      "dishes": [
+        {
+          "name": "九斤饭"
+        }
+      ],
+      "displayName": "特厨隋卞"
     }
+  ],
+  "cuisine": [
+    "徽菜"
   ]
 }

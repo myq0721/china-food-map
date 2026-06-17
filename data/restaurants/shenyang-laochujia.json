@@ -4,17 +4,26 @@
   "name": "老厨家",
   "coordinates": null,
   "createdAt": "2026-06-17T18:11:47.314Z",
-  "updatedAt": "2026-06-17T18:11:47.314Z",
+  "updatedAt": "2026-06-17T18:39:32.950Z",
   "recommenders": [
     {
       "authorId": "3546888255048212",
       "platform": "bilibili",
       "profileUrl": "https://space.bilibili.com/3546888255048212",
       "recommendedAt": "2026-06-17",
-      "rating": 4,
-      "ratingSummary": "特厨探店 |评价两极分化的锅包肉创始店？—老厨家",
-      "reason": "特厨探店 |评价两极分化的锅包肉创始店？—老厨家",
-      "sourceVideoUrl": "https://www.bilibili.com/video/BV19bhpzSEyv"
+      "rating": 3,
+      "ratingSummary": "有好有坏：评价两极分化的锅包肉创始店",
+      "reason": "特厨隋卞探店「老厨家」，从菜品火候、调味与性价比综合体验来看，优缺点都比较明显，建议按招牌菜点单。观众热议：“来都来了”中译中→“也就那样”；只能说是很委婉了推荐尝试：评价两极分化的锅包肉。",
+      "sourceVideoUrl": "https://www.bilibili.com/video/BV19bhpzSEyv",
+      "dishes": [
+        {
+          "name": "评价两极分化的锅包肉"
+        }
+      ],
+      "displayName": "特厨隋卞"
     }
+  ],
+  "cuisine": [
+    "东北菜"
   ]
 }

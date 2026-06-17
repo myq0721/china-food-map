@@ -4,17 +4,21 @@
   "name": "厨忆小湖南",
   "coordinates": null,
   "createdAt": "2026-06-17T18:11:24.404Z",
-  "updatedAt": "2026-06-17T18:11:24.404Z",
+  "updatedAt": "2026-06-17T18:38:11.422Z",
   "recommenders": [
     {
       "authorId": "3546888255048212",
       "platform": "bilibili",
       "profileUrl": "https://space.bilibili.com/3546888255048212",
       "recommendedAt": "2026-06-17",
-      "rating": 4,
-      "ratingSummary": "特厨探店|求了好久，才套出来的特级厨师珍藏小馆—厨忆小湖南",
-      "reason": "特厨探店|求了好久，才套出来的特级厨师珍藏小馆—厨忆小湖南",
-      "sourceVideoUrl": "https://www.bilibili.com/video/BV17WCUBVEDJ"
+      "rating": 3,
+      "ratingSummary": "看个人口味：求了好久，才套出来的特级厨师珍藏小馆",
+      "reason": "特厨隋卞探店「厨忆小湖南」，从菜品火候、调味与性价比综合体验来看，优缺点都比较明显，建议按招牌菜点单。观众热议：人在店里，店主已经在骂街了“谁tm知道今天这么多人，都没备这么多菜”；客人：我寻思今天不是双休日么人多不是很正常",
+      "sourceVideoUrl": "https://www.bilibili.com/video/BV17WCUBVEDJ",
+      "displayName": "特厨隋卞"
     }
+  ],
+  "cuisine": [
+    "湘菜"
   ]
 }

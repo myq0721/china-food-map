@@ -4,17 +4,26 @@
   "name": "永乐饭店",
   "coordinates": null,
   "createdAt": "2026-06-17T18:12:05.778Z",
-  "updatedAt": "2026-06-17T18:12:05.778Z",
+  "updatedAt": "2026-06-17T18:38:35.771Z",
   "recommenders": [
     {
       "authorId": "3546888255048212",
       "platform": "bilibili",
       "profileUrl": "https://space.bilibili.com/3546888255048212",
       "recommendedAt": "2026-06-17",
-      "rating": 4,
-      "ratingSummary": "特厨探店 |让特级厨师想挖人的饭店是什么样？—永乐饭店",
-      "reason": "特厨探店 |让特级厨师想挖人的饭店是什么样？—永乐饭店",
-      "sourceVideoUrl": "https://www.bilibili.com/video/BV1dvTdzHE3n"
+      "rating": 5,
+      "ratingSummary": "水准在线：让特级厨师想挖人的饭店是什么样",
+      "reason": "特厨隋卞探店「永乐饭店」，从菜品火候、调味与性价比综合体验来看，整体表现突出，多项菜品在线，值得专程打卡。观众热议：隋老师比两根手指的意思是让师傅跟他走，以后隋老师挣500分他200，很可以了。；两成吧，100推荐尝试：永乐饭。",
+      "sourceVideoUrl": "https://www.bilibili.com/video/BV1dvTdzHE3n",
+      "dishes": [
+        {
+          "name": "永乐饭"
+        }
+      ],
+      "displayName": "特厨隋卞"
     }
+  ],
+  "cuisine": [
+    "川菜"
   ]
 }

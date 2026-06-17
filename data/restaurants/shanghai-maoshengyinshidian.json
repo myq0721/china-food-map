@@ -4,17 +4,18 @@
   "name": "茂盛饮食店",
   "coordinates": null,
   "createdAt": "2026-06-17T18:10:58.859Z",
-  "updatedAt": "2026-06-17T18:10:58.859Z",
+  "updatedAt": "2026-06-17T18:39:22.835Z",
   "recommenders": [
     {
       "authorId": "3546888255048212",
       "platform": "bilibili",
       "profileUrl": "https://space.bilibili.com/3546888255048212",
       "recommendedAt": "2026-06-17",
-      "rating": 4,
-      "ratingSummary": "特厨探店|上海的...小店？—茂盛饮食店",
-      "reason": "特厨探店|上海的...小店？—茂盛饮食店",
-      "sourceVideoUrl": "https://www.bilibili.com/video/BV1qoDgBQE8E"
+      "rating": 2,
+      "ratingSummary": "慎重选择：上海的...小店",
+      "reason": "特厨隋卞探店「茂盛饮食店」，从菜品火候、调味与性价比综合体验来看，与预期有差距，部分菜品或体验拖了后腿。观众热议：这是要固定封面风格了吗；我感觉是这样的封面，暗示是广",
+      "sourceVideoUrl": "https://www.bilibili.com/video/BV1qoDgBQE8E",
+      "displayName": "特厨隋卞"
     }
   ]
 }

@@ -4,17 +4,21 @@
   "name": "徽菜博物馆",
   "coordinates": null,
   "createdAt": "2026-06-17T18:10:56.238Z",
-  "updatedAt": "2026-06-17T18:10:56.238Z",
+  "updatedAt": "2026-06-17T18:38:51.405Z",
   "recommenders": [
     {
       "authorId": "3546888255048212",
       "platform": "bilibili",
       "profileUrl": "https://space.bilibili.com/3546888255048212",
       "recommendedAt": "2026-06-17",
-      "rating": 4,
-      "ratingSummary": "特厨探店|下了高铁冒着雨来的餐厅，就这？—徽菜博物馆餐厅",
-      "reason": "特厨探店|下了高铁冒着雨来的餐厅，就这？—徽菜博物馆餐厅",
-      "sourceVideoUrl": "https://www.bilibili.com/video/BV1DLQhBPE7W"
+      "rating": 2,
+      "ratingSummary": "略有失望：下了高铁冒着雨来的餐厅，就这",
+      "reason": "特厨隋卞探店「徽菜博物馆」，从菜品火候、调味与性价比综合体验来看，与预期有差距，部分菜品或体验拖了后腿。观众热议：我们在这吃出一根头发；说谢谢了吗",
+      "sourceVideoUrl": "https://www.bilibili.com/video/BV1DLQhBPE7W",
+      "displayName": "特厨隋卞"
     }
+  ],
+  "cuisine": [
+    "徽菜"
   ]
 }

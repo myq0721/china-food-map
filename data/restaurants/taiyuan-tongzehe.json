@@ -4,7 +4,7 @@
   "name": "同泽和",
   "coordinates": null,
   "createdAt": "2026-06-17T18:11:02.336Z",
-  "updatedAt": "2026-06-17T18:11:02.336Z",
+  "updatedAt": "2026-06-17T18:39:47.313Z",
   "recommenders": [
     {
       "authorId": "3546888255048212",
@@ -12,9 +12,15 @@
       "profileUrl": "https://space.bilibili.com/3546888255048212",
       "recommendedAt": "2026-06-17",
       "rating": 4,
-      "ratingSummary": "特厨探店|太原便宜又好吃的饭店是什么样的？—同泽和",
-      "reason": "特厨探店|太原便宜又好吃的饭店是什么样的？—同泽和",
-      "sourceVideoUrl": "https://www.bilibili.com/video/BV147wBzGEek"
+      "ratingSummary": "值得推荐：太原便宜又好吃的饭店是什么样的",
+      "reason": "特厨隋卞探店「同泽和」，从菜品火候、调味与性价比综合体验来看，整体味道靠谱，有几道亮点菜，适合附近觅食。观众热议：省流；拖出去，不对，裱起来！推荐尝试：太原便宜又好吃的饭。",
+      "sourceVideoUrl": "https://www.bilibili.com/video/BV147wBzGEek",
+      "dishes": [
+        {
+          "name": "太原便宜又好吃的饭"
+        }
+      ],
+      "displayName": "特厨隋卞"
     }
   ]
 }

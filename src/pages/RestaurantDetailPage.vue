@@ -52,7 +52,9 @@ const restaurant = computed(() => getById(id.value))
           <StarRating v-if="rec.rating" :rating="rec.rating" size="sm" />
         </div>
 
-        <p v-if="rec.ratingSummary" class="mb-2 text-sm text-stone-600 italic">{{ rec.ratingSummary }}</p>
+        <p v-if="rec.ratingSummary" class="mb-1 text-sm font-medium text-stone-700">
+          {{ rec.ratingSummary }}
+        </p>
 
         <p v-if="rec.sourceVideoUrl" class="mb-3 text-sm">
           <a :href="rec.sourceVideoUrl" target="_blank" rel="noopener noreferrer" class="text-brand hover:underline">
@@ -60,7 +62,9 @@ const restaurant = computed(() => getById(id.value))
           </a>
         </p>
 
-        <p v-if="rec.reason" class="mb-3 text-stone-700">{{ rec.reason }}</p>
+        <p v-if="rec.reason && rec.reason !== rec.ratingSummary" class="mb-3 text-sm leading-relaxed text-stone-600">
+          {{ rec.reason }}
+        </p>
 
         <div v-if="rec.dishes?.length" class="mb-3">
           <h4 class="mb-1 text-sm font-medium text-stone-600">推荐菜</h4>

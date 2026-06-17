@@ -4,7 +4,7 @@
   "name": "老三篇",
   "coordinates": null,
   "createdAt": "2026-06-17T18:11:23.505Z",
-  "updatedAt": "2026-06-17T18:11:23.505Z",
+  "updatedAt": "2026-06-17T18:39:07.133Z",
   "recommenders": [
     {
       "authorId": "3546888255048212",
@@ -12,9 +12,10 @@
       "profileUrl": "https://space.bilibili.com/3546888255048212",
       "recommendedAt": "2026-06-17",
       "rating": 4,
-      "ratingSummary": "特厨探店|在南宁被各种酸料香晕—老三篇",
-      "reason": "特厨探店|在南宁被各种酸料香晕—老三篇",
-      "sourceVideoUrl": "https://www.bilibili.com/video/BV1C4yKBNEjF"
+      "ratingSummary": "值得一试：在南宁被各种酸料香晕",
+      "reason": "特厨隋卞探店「老三篇」，从菜品火候、调味与性价比综合体验来看，整体味道靠谱，有几道亮点菜，适合附近觅食。观众热议：上一期刚笑隋老师的食堂没了，转眼我的食堂就没了；老哥这店叫啥",
+      "sourceVideoUrl": "https://www.bilibili.com/video/BV1C4yKBNEjF",
+      "displayName": "特厨隋卞"
     }
   ]
 }

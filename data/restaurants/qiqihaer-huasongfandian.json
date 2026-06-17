@@ -4,17 +4,26 @@
   "name": "华松饭店",
   "coordinates": null,
   "createdAt": "2026-06-17T18:11:20.854Z",
-  "updatedAt": "2026-06-17T18:11:20.854Z",
+  "updatedAt": "2026-06-17T18:39:11.345Z",
   "recommenders": [
     {
       "authorId": "3546888255048212",
       "platform": "bilibili",
       "profileUrl": "https://space.bilibili.com/3546888255048212",
       "recommendedAt": "2026-06-17",
-      "rating": 4,
-      "ratingSummary": "特厨探店|开车一小时才找到的齐齐哈尔神店！—华松饭店",
-      "reason": "特厨探店|开车一小时才找到的齐齐哈尔神店！—华松饭店",
-      "sourceVideoUrl": "https://www.bilibili.com/video/BV1fc2eBkEMS"
+      "rating": 3,
+      "ratingSummary": "看个人口味：开车一小时才找到的齐齐哈尔神店",
+      "reason": "特厨隋卞探店「华松饭店」，从菜品火候、调味与性价比综合体验来看，优缺点都比较明显，建议按招牌菜点单。观众热议：齐齐哈尔牛肉就是纯粹的数值怪，一点操作都不用。不管你是煮还是烤还是怎么做，只要做熟了就好吃。当然切薄片生吃也行。在这基础上只要加上点厨艺，那就是绝美~；回复 @下雨声真烦 :品种加气候加纬度推荐尝试：华松饭。",
+      "sourceVideoUrl": "https://www.bilibili.com/video/BV1fc2eBkEMS",
+      "dishes": [
+        {
+          "name": "华松饭"
+        }
+      ],
+      "displayName": "特厨隋卞"
     }
+  ],
+  "cuisine": [
+    "东北菜"
   ]
 }

@@ -4,17 +4,21 @@
   "name": "丘大",
   "coordinates": null,
   "createdAt": "2026-06-17T18:11:31.438Z",
-  "updatedAt": "2026-06-17T18:11:31.438Z",
+  "updatedAt": "2026-06-17T18:38:47.185Z",
   "recommenders": [
     {
       "authorId": "3546888255048212",
       "platform": "bilibili",
       "profileUrl": "https://space.bilibili.com/3546888255048212",
       "recommendedAt": "2026-06-17",
-      "rating": 4,
-      "ratingSummary": "特厨探店|广州的点心到底是什么样？！—丘大",
-      "reason": "特厨探店|广州的点心到底是什么样？！—丘大",
-      "sourceVideoUrl": "https://www.bilibili.com/video/BV1erscz6EKZ"
+      "rating": 2,
+      "ratingSummary": "不太推荐：广州的点心到底是什么样",
+      "reason": "特厨隋卞探店「丘大」，从菜品火候、调味与性价比综合体验来看，与预期有差距，部分菜品或体验拖了后腿。观众热议：最后的总结挺到位的，很多非连锁的广式老字号，大厨都是意识流选手，有时下手重，有时刚刚好，这都是常有的事；太对了就是意识流",
+      "sourceVideoUrl": "https://www.bilibili.com/video/BV1erscz6EKZ",
+      "displayName": "特厨隋卞"
     }
+  ],
+  "cuisine": [
+    "粤菜"
   ]
 }

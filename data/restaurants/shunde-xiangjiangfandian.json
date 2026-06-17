@@ -4,17 +4,26 @@
   "name": "香江饭店",
   "coordinates": null,
   "createdAt": "2026-06-17T18:11:07.673Z",
-  "updatedAt": "2026-06-17T18:11:07.673Z",
+  "updatedAt": "2026-06-17T18:39:41.650Z",
   "recommenders": [
     {
       "authorId": "3546888255048212",
       "platform": "bilibili",
       "profileUrl": "https://space.bilibili.com/3546888255048212",
       "recommendedAt": "2026-06-17",
-      "rating": 4,
-      "ratingSummary": "特厨探店|美食之都最爱的老字号？！—香江饭店",
-      "reason": "特厨探店|美食之都最爱的老字号？！—香江饭店",
-      "sourceVideoUrl": "https://www.bilibili.com/video/BV1BUc4ztEsz"
+      "rating": 2,
+      "ratingSummary": "略有失望：美食之都最爱的老字号",
+      "reason": "特厨隋卞探店「香江饭店」，从菜品火候、调味与性价比综合体验来看，与预期有差距，部分菜品或体验拖了后腿。观众热议：我就一个建议，大家回村后不要晨跑，我昨天早上出去晨跑一圈回来，晚上就听到村里老人议论我，说我大清早的不知道从谁家被窝跑回家的；神了推荐尝试：香江饭。",
+      "sourceVideoUrl": "https://www.bilibili.com/video/BV1BUc4ztEsz",
+      "dishes": [
+        {
+          "name": "香江饭"
+        }
+      ],
+      "displayName": "特厨隋卞"
     }
+  ],
+  "cuisine": [
+    "粤菜"
   ]
 }

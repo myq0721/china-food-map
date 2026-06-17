@@ -4,17 +4,21 @@
   "name": "四华家常菜",
   "coordinates": null,
   "createdAt": "2026-06-17T18:12:02.254Z",
-  "updatedAt": "2026-06-17T18:12:02.254Z",
+  "updatedAt": "2026-06-17T18:38:28.660Z",
   "recommenders": [
     {
       "authorId": "3546888255048212",
       "platform": "bilibili",
       "profileUrl": "https://space.bilibili.com/3546888255048212",
       "recommendedAt": "2026-06-17",
-      "rating": 4,
-      "ratingSummary": "特厨探店 |在成都吃趴锅边吃的小馆是什么体验—四华家常菜",
-      "reason": "特厨探店 |在成都吃趴锅边吃的小馆是什么体验—四华家常菜",
-      "sourceVideoUrl": "https://www.bilibili.com/video/BV1FyMbzsEmA"
+      "rating": 3,
+      "ratingSummary": "有好有坏：在成都吃趴锅边吃的小馆是什么体验",
+      "reason": "特厨隋卞探店「四华家常菜」，从菜品火候、调味与性价比综合体验来看，优缺点都比较明显，建议按招牌菜点单。观众热议：不知道大家有没有这种感觉，隋老师自己干以后变得更自然了，没有像以前一样要绷着，僵硬；以前拍广告只分五百，现在广告可以硬插，甚至可以不拍广告，那自然很开心咯，简而言之，没有心理负担。",
+      "sourceVideoUrl": "https://www.bilibili.com/video/BV1FyMbzsEmA",
+      "displayName": "特厨隋卞"
     }
+  ],
+  "cuisine": [
+    "川菜"
   ]
 }

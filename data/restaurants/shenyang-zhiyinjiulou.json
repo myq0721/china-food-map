@@ -4,17 +4,21 @@
   "name": "知音酒楼",
   "coordinates": null,
   "createdAt": "2026-06-17T18:11:48.192Z",
-  "updatedAt": "2026-06-17T18:11:48.192Z",
+  "updatedAt": "2026-06-17T18:39:34.483Z",
   "recommenders": [
     {
       "authorId": "3546888255048212",
       "platform": "bilibili",
       "profileUrl": "https://space.bilibili.com/3546888255048212",
       "recommendedAt": "2026-06-17",
-      "rating": 4,
-      "ratingSummary": "特厨探店 |哈尔滨还得排两次队的家常菜馆？—知音酒楼",
-      "reason": "特厨探店 |哈尔滨还得排两次队的家常菜馆？—知音酒楼",
-      "sourceVideoUrl": "https://www.bilibili.com/video/BV1Hh8fzwESu"
+      "rating": 2,
+      "ratingSummary": "期待偏高：哈尔滨还得排两次队的家常菜馆",
+      "reason": "特厨隋卞探店「知音酒楼」，从菜品火候、调味与性价比综合体验来看，与预期有差距，部分菜品或体验拖了后腿。观众热议：看特厨这一口东北菜吃下去也太香啦！小源馋的直流口水🤤；来都来了，抽点什么吧",
+      "sourceVideoUrl": "https://www.bilibili.com/video/BV1Hh8fzwESu",
+      "displayName": "特厨隋卞"
     }
+  ],
+  "cuisine": [
+    "东北菜"
   ]
 }

@@ -125,7 +125,26 @@ $env:OPENAI_BASE_URL = "https://api.deepseek.com/v1"
 $env:OPENAI_MODEL = "deepseek-chat"
 ```
 
-## 博主探店导入
+## 手动添加饭店
+
+编辑 [`data/imports/manual-draft.json`](data/imports/manual-draft.json)，填入 `entries` 数组后运行：
+
+```bash
+npm run convert:manual
+npm run build:index
+```
+
+## 核实星级与描述（标题 + 热评）
+
+```bash
+npm run enrich:restaurants   # 拉 B 站热评，差异化星级/简评/菜系
+```
+
+## Giscus 留言板
+
+1. 在 GitHub 仓库 **Actions** 运行 **Setup Giscus** workflow（自动启用 Discussions 并写入 `data/meta/giscus.json`）
+2. 推送后 GitHub Pages 构建即可加载评论区
+
 
 1. 在 `data/meta/curated-creators.json` 配置 B 站 UP 主（默认：特厨隋卞 `3546888255048212`）
 2. **批量导入**（直接写入 `data/restaurants/`）：

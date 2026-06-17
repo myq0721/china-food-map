@@ -4,17 +4,21 @@
   "name": "我家小馆",
   "coordinates": null,
   "createdAt": "2026-06-17T18:11:36.763Z",
-  "updatedAt": "2026-06-17T18:11:36.763Z",
+  "updatedAt": "2026-06-17T18:38:50.002Z",
   "recommenders": [
     {
       "authorId": "3546888255048212",
       "platform": "bilibili",
       "profileUrl": "https://space.bilibili.com/3546888255048212",
       "recommendedAt": "2026-06-17",
-      "rating": 4,
-      "ratingSummary": "特厨探店 |六张桌子但是全好评！—我家小馆",
-      "reason": "特厨探店 |六张桌子但是全好评！—我家小馆",
-      "sourceVideoUrl": "https://www.bilibili.com/video/BV1ATnpzzEa7"
+      "rating": 5,
+      "ratingSummary": "强烈推荐：六张桌子但是全好评",
+      "reason": "特厨隋卞探店「我家小馆」，从菜品火候、调味与性价比综合体验来看，整体表现突出，多项菜品在线，值得专程打卡。观众热议：住附近的吃过的来评价一下这家店现在基本只接预约单，去年有个网红来探过一次，那段时间店老板膨胀了导致水平下降口碑爆炸。他家海鲜也就食材比较新鲜，菜单会根据季节变化，做法未必对你胃口，跟风慎重。；地址在龙湖西溪天街对面小区楼下商铺里，那附近还有个熊野拉面也很火爆",
+      "sourceVideoUrl": "https://www.bilibili.com/video/BV1ATnpzzEa7",
+      "displayName": "特厨隋卞"
     }
+  ],
+  "cuisine": [
+    "苏菜"
   ]
 }

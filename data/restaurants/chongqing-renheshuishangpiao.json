@@ -4,17 +4,21 @@
   "name": "人和水上飘",
   "coordinates": null,
   "createdAt": "2026-06-17T18:11:18.195Z",
-  "updatedAt": "2026-06-17T18:11:18.195Z",
+  "updatedAt": "2026-06-17T18:38:38.588Z",
   "recommenders": [
     {
       "authorId": "3546888255048212",
       "platform": "bilibili",
       "profileUrl": "https://space.bilibili.com/3546888255048212",
       "recommendedAt": "2026-06-17",
-      "rating": 4,
-      "ratingSummary": "特厨探店|“板前‘豆花，重庆的素材真是拍不完—人和水上飘",
-      "reason": "特厨探店|“板前‘豆花，重庆的素材真是拍不完—人和水上飘",
-      "sourceVideoUrl": "https://www.bilibili.com/video/BV1vtq8BKEem"
+      "rating": 3,
+      "ratingSummary": "有好有坏：“板前‘豆花，重庆的素材真是拍不完",
+      "reason": "特厨隋卞探店「人和水上飘」，从菜品火候、调味与性价比综合体验来看，优缺点都比较明显，建议按招牌菜点单。观众热议：很好，还有什么店，统统说出来！；回复 @九号立方体 :好吧，如果对有点年代感的老川菜酒家感兴趣，南坪老步行街有一家会利元酒楼，吃几十年了，东西做得比较传统规整，强推粉蒸肉。",
+      "sourceVideoUrl": "https://www.bilibili.com/video/BV1vtq8BKEem",
+      "displayName": "特厨隋卞"
     }
+  ],
+  "cuisine": [
+    "川菜"
   ]
 }

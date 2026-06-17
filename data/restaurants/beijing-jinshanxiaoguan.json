@@ -4,17 +4,21 @@
   "name": "金山小馆",
   "coordinates": null,
   "createdAt": "2026-06-17T18:11:46.443Z",
-  "updatedAt": "2026-06-17T18:11:46.443Z",
+  "updatedAt": "2026-06-17T18:38:15.740Z",
   "recommenders": [
     {
       "authorId": "3546888255048212",
       "platform": "bilibili",
       "profileUrl": "https://space.bilibili.com/3546888255048212",
       "recommendedAt": "2026-06-17",
-      "rating": 4,
-      "ratingSummary": "特厨探店｜特级厨师是怎样教徒弟的？—金山小馆",
-      "reason": "@厨者王波",
-      "sourceVideoUrl": "https://www.bilibili.com/video/BV1YzbAzsErN"
+      "rating": 3,
+      "ratingSummary": "不算惊艳：特级厨师是怎样教徒弟的",
+      "reason": "@厨者王波观众热议：厨师王给我一种，导师叫你点评师兄的论文的感觉，看得我浑身都是汗，太吓人了；回复 @杨兴启 :师兄弟是看拜师早晚，不看年龄，90岁老头晚进门一天，也得叫9个月的娃娃一声师兄",
+      "sourceVideoUrl": "https://www.bilibili.com/video/BV1YzbAzsErN",
+      "displayName": "特厨隋卞"
     }
+  ],
+  "cuisine": [
+    "北京菜"
   ]
 }

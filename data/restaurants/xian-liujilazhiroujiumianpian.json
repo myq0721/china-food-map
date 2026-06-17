@@ -4,17 +4,26 @@
   "name": "刘记腊汁肉揪面片",
   "coordinates": null,
   "createdAt": "2026-06-17T18:11:54.365Z",
-  "updatedAt": "2026-06-17T18:11:54.365Z",
+  "updatedAt": "2026-06-17T18:40:01.610Z",
   "recommenders": [
     {
       "authorId": "3546888255048212",
       "platform": "bilibili",
       "profileUrl": "https://space.bilibili.com/3546888255048212",
       "recommendedAt": "2026-06-17",
-      "rating": 4,
-      "ratingSummary": "特厨探店 |西安“香闷了”的面？-刘记腊汁肉揪面片",
-      "reason": "特厨探店 |西安“香闷了”的面？-刘记腊汁肉揪面片",
-      "sourceVideoUrl": "https://www.bilibili.com/video/BV1U1u3z9EAT"
+      "rating": 3,
+      "ratingSummary": "有好有坏：西安“香闷了”的面",
+      "reason": "特厨隋卞探店「刘记腊汁肉揪面片」，从菜品火候、调味与性价比综合体验来看，优缺点都比较明显，建议按招牌菜点单。观众热议：我听说伍佰老师在这的，人呢？怎么没看见？；剪头发了，视频里那短头发就是推荐尝试：刘记腊汁肉揪面。",
+      "sourceVideoUrl": "https://www.bilibili.com/video/BV1U1u3z9EAT",
+      "dishes": [
+        {
+          "name": "刘记腊汁肉揪面"
+        }
+      ],
+      "displayName": "特厨隋卞"
     }
+  ],
+  "cuisine": [
+    "西北菜"
   ]
 }

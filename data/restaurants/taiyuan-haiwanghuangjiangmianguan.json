@@ -4,17 +4,29 @@
   "name": "海旺黄酱面馆",
   "coordinates": null,
   "createdAt": "2026-06-17T18:11:04.144Z",
-  "updatedAt": "2026-06-17T18:11:04.144Z",
+  "updatedAt": "2026-06-17T18:39:44.483Z",
   "recommenders": [
     {
       "authorId": "3546888255048212",
       "platform": "bilibili",
       "profileUrl": "https://space.bilibili.com/3546888255048212",
       "recommendedAt": "2026-06-17",
-      "rating": 4,
-      "ratingSummary": "特厨探店|麻麻咧咧的面是什么面？—海旺黄酱面馆",
-      "reason": "特厨探店|麻麻咧咧的面是什么面？—海旺黄酱面馆",
-      "sourceVideoUrl": "https://www.bilibili.com/video/BV17LNGzbEyd"
+      "rating": 3,
+      "ratingSummary": "看个人口味：麻麻咧咧的面是什么面",
+      "reason": "特厨隋卞探店「海旺黄酱面馆」，从菜品火候、调味与性价比综合体验来看，优缺点都比较明显，建议按招牌菜点单。观众热议：离我三公里啊，这下得找时间试试了；回复 @琉璃雏菊 :北方可涨不起来，跟南方不一样，如果因为火爆涨价，大概率一个月这家店就消失了推荐尝试：麻麻咧咧的面、是什么面、海旺黄酱面。",
+      "sourceVideoUrl": "https://www.bilibili.com/video/BV17LNGzbEyd",
+      "dishes": [
+        {
+          "name": "麻麻咧咧的面"
+        },
+        {
+          "name": "是什么面"
+        },
+        {
+          "name": "海旺黄酱面"
+        }
+      ],
+      "displayName": "特厨隋卞"
     }
   ]
 }

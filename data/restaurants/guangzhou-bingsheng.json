@@ -4,17 +4,21 @@
   "name": "炳胜",
   "coordinates": null,
   "createdAt": "2026-06-17T18:11:26.167Z",
-  "updatedAt": "2026-06-17T18:11:26.167Z",
+  "updatedAt": "2026-06-17T18:38:42.865Z",
   "recommenders": [
     {
       "authorId": "3546888255048212",
       "platform": "bilibili",
       "profileUrl": "https://space.bilibili.com/3546888255048212",
       "recommendedAt": "2026-06-17",
-      "rating": 4,
-      "ratingSummary": "特厨探店|粤菜的另一座高山？！—炳胜",
-      "reason": "特厨探店|粤菜的另一座高山？！—炳胜",
-      "sourceVideoUrl": "https://www.bilibili.com/video/BV19Z1XBpESg"
+      "rating": 3,
+      "ratingSummary": "不算惊艳：粤菜的另一座高山",
+      "reason": "特厨隋卞探店「炳胜」，从菜品火候、调味与性价比综合体验来看，优缺点都比较明显，建议按招牌菜点单。观众热议：回复 @诗人死于风中 :鱼切半然后切段其实说条也没毛病。；根据你描述的咸香辣口，我推断是川菜的家常味。又加了整粒的蒜，听起来有点像犀浦鲶鱼或者大蒜烧鲶鱼的变种。我印象里川菜的烧菜，尤其是烧鱼的部分很少有改条炸制后烧的。这种改刀加先炸后烧的技法听起来很像是为了结合山东当地的饮食习惯做出的改良。",
+      "sourceVideoUrl": "https://www.bilibili.com/video/BV19Z1XBpESg",
+      "displayName": "特厨隋卞"
     }
+  ],
+  "cuisine": [
+    "粤菜"
   ]
 }

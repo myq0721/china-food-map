@@ -4,17 +4,21 @@
   "name": "于塗",
   "coordinates": null,
   "createdAt": "2026-06-17T18:11:17.305Z",
-  "updatedAt": "2026-06-17T18:11:17.305Z",
+  "updatedAt": "2026-06-17T18:38:40.007Z",
   "recommenders": [
     {
       "authorId": "3546888255048212",
       "platform": "bilibili",
       "profileUrl": "https://space.bilibili.com/3546888255048212",
       "recommendedAt": "2026-06-17",
-      "rating": 4,
-      "ratingSummary": "特厨探店|重庆唯一一家连续8年上榜餐厅，味道到底咋样？—于塗",
-      "reason": "特厨探店|重庆唯一一家连续8年上榜餐厅，味道到底咋样？—于塗",
-      "sourceVideoUrl": "https://www.bilibili.com/video/BV1bqBwBJEQu"
+      "rating": 2,
+      "ratingSummary": "不太推荐：重庆唯一一家连续8年上榜餐厅，味道到底咋样",
+      "reason": "特厨隋卞探店「于塗」，从菜品火候、调味与性价比综合体验来看，与预期有差距，部分菜品或体验拖了后腿。观众热议：价格这么商务的餐厅还能上错菜啊；大家心里清楚就行",
+      "sourceVideoUrl": "https://www.bilibili.com/video/BV1bqBwBJEQu",
+      "displayName": "特厨隋卞"
     }
+  ],
+  "cuisine": [
+    "川菜"
   ]
 }

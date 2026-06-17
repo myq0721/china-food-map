@@ -4,17 +4,29 @@
   "name": "红光面馆",
   "coordinates": null,
   "createdAt": "2026-06-17T18:11:13.818Z",
-  "updatedAt": "2026-06-17T18:11:13.818Z",
+  "updatedAt": "2026-06-17T18:38:27.187Z",
   "recommenders": [
     {
       "authorId": "3546888255048212",
       "platform": "bilibili",
       "profileUrl": "https://space.bilibili.com/3546888255048212",
       "recommendedAt": "2026-06-17",
-      "rating": 4,
-      "ratingSummary": "特厨探店|小区里，没招牌！成都本地人吃啥面？！—红光面馆",
-      "reason": "特厨探店|小区里，没招牌！成都本地人吃啥面？！—红光面馆",
-      "sourceVideoUrl": "https://www.bilibili.com/video/BV1rpr4B2ENn"
+      "rating": 3,
+      "ratingSummary": "不算惊艳：小区里，没招牌！成都本地人吃啥面",
+      "reason": "特厨隋卞探店「红光面馆」，从菜品火候、调味与性价比综合体验来看，优缺点都比较明显，建议按招牌菜点单。观众热议：另外胡记被人发tiktok了很多东南亚来吃的说是  上次去老板在说  还遇到过隔壁桌就是新加坡来吃的；回复 @哈喽哈哦以 :我日了，躲垃圾箱旁边都能被找到吗，这nm以后我去了吃啥啊推荐尝试：成都本地人吃啥面、红光面。",
+      "sourceVideoUrl": "https://www.bilibili.com/video/BV1rpr4B2ENn",
+      "dishes": [
+        {
+          "name": "成都本地人吃啥面"
+        },
+        {
+          "name": "红光面"
+        }
+      ],
+      "displayName": "特厨隋卞"
     }
+  ],
+  "cuisine": [
+    "川菜"
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-17T18:13:37.500Z",
+  "generatedAt": "2026-06-17T18:40:03.547Z",
   "count": 79,
   "restaurants": [
     {
@@ -8,22 +8,26 @@
       "name": "厨忆小湖南",
       "coordinates": null,
       "createdAt": "2026-06-17T18:11:24.404Z",
-      "updatedAt": "2026-06-17T18:11:24.404Z",
+      "updatedAt": "2026-06-17T18:38:11.422Z",
       "recommenders": [
         {
           "authorId": "3546888255048212",
           "platform": "bilibili",
           "profileUrl": "https://space.bilibili.com/3546888255048212",
           "recommendedAt": "2026-06-17",
-          "rating": 4,
-          "ratingSummary": "特厨探店|求了好久，才套出来的特级厨师珍藏小馆—厨忆小湖南",
-          "reason": "特厨探店|求了好久，才套出来的特级厨师珍藏小馆—厨忆小湖南",
-          "sourceVideoUrl": "https://www.bilibili.com/video/BV17WCUBVEDJ"
+          "rating": 3,
+          "ratingSummary": "看个人口味：求了好久，才套出来的特级厨师珍藏小馆",
+          "reason": "特厨隋卞探店「厨忆小湖南」，从菜品火候、调味与性价比综合体验来看，优缺点都比较明显，建议按招牌菜点单。观众热议：人在店里，店主已经在骂街了“谁tm知道今天这么多人，都没备这么多菜”；客人：我寻思今天不是双休日么人多不是很正常",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV17WCUBVEDJ",
+          "displayName": "特厨隋卞"
         }
+      ],
+      "cuisine": [
+        "湘菜"
       ],
       "recommenderCount": 1,
       "latestRecommendedAt": "2026-06-17",
-      "averageRating": 4
+      "averageRating": 3
     },
     {
       "id": "beijing-jiangxixiaochao",
@@ -31,22 +35,31 @@
       "name": "江西小炒",
       "coordinates": null,
       "createdAt": "2026-06-17T18:11:01.471Z",
-      "updatedAt": "2026-06-17T18:11:01.471Z",
+      "updatedAt": "2026-06-17T18:38:12.807Z",
       "recommenders": [
         {
           "authorId": "3546888255048212",
           "platform": "bilibili",
           "profileUrl": "https://space.bilibili.com/3546888255048212",
           "recommendedAt": "2026-06-17",
-          "rating": 4,
-          "ratingSummary": "特厨探店|四张桌子干了三碗饭（来个下联）—江西小炒",
-          "reason": "特厨探店|四张桌子干了三碗饭（来个下联）—江西小炒",
-          "sourceVideoUrl": "https://www.bilibili.com/video/BV1uHANzsEEk"
+          "rating": 2,
+          "ratingSummary": "期待偏高：四张桌子干了三碗饭（来个下联）",
+          "reason": "特厨隋卞探店「江西小炒」，从菜品火候、调味与性价比综合体验来看，与预期有差距，部分菜品或体验拖了后腿。观众热议：已经吃完了，家常味，不要有太高期待，如果离得太远其实不用专门跑一趟，店里一共四张小桌子，已经被隋坡大军占领了老板夫妻两个人，老板炒菜老板娘切菜收桌，快要忙不过来了都；回复 @hahaheheeee : 这种馆子没那么多偷手的，这就不是个主打厨艺的店。食材够新鲜，猛火咵咵的这么一炒，味道就出来了。只要食材没问题，品控是有保证的。最多忙不过来。推荐尝试：四张桌子干了三碗饭。",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1uHANzsEEk",
+          "dishes": [
+            {
+              "name": "四张桌子干了三碗饭"
+            }
+          ],
+          "displayName": "特厨隋卞"
         }
+      ],
+      "cuisine": [
+        "北京菜"
       ],
       "recommenderCount": 1,
       "latestRecommendedAt": "2026-06-17",
-      "averageRating": 4
+      "averageRating": 2
     },
     {
       "id": "beijing-jijiaxiaoguan",
@@ -54,7 +67,7 @@
       "name": "纪家小馆",
       "coordinates": null,
       "createdAt": "2026-06-17T18:11:05.009Z",
-      "updatedAt": "2026-06-17T18:11:05.009Z",
+      "updatedAt": "2026-06-17T18:38:14.253Z",
       "recommenders": [
         {
           "authorId": "3546888255048212",
@@ -62,10 +75,14 @@
           "profileUrl": "https://space.bilibili.com/3546888255048212",
           "recommendedAt": "2026-06-17",
           "rating": 4,
-          "ratingSummary": "特厨探店|吃着舒服的店真的不多见—纪家小馆",
-          "reason": "特厨探店|吃着舒服的店真的不多见—纪家小馆",
-          "sourceVideoUrl": "https://www.bilibili.com/video/BV1AhPuzZEFH"
+          "ratingSummary": "值得一试：吃着舒服的店真的不多见",
+          "reason": "特厨隋卞探店「纪家小馆」，从菜品火候、调味与性价比综合体验来看，整体味道靠谱，有几道亮点菜，适合附近觅食。观众热议：我奶打包给我用的饭盒；私房菜！",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1AhPuzZEFH",
+          "displayName": "特厨隋卞"
         }
+      ],
+      "cuisine": [
+        "北京菜"
       ],
       "recommenderCount": 1,
       "latestRecommendedAt": "2026-06-17",
@@ -77,22 +94,26 @@
       "name": "金山小馆",
       "coordinates": null,
       "createdAt": "2026-06-17T18:11:46.443Z",
-      "updatedAt": "2026-06-17T18:11:46.443Z",
+      "updatedAt": "2026-06-17T18:38:15.740Z",
       "recommenders": [
         {
           "authorId": "3546888255048212",
           "platform": "bilibili",
           "profileUrl": "https://space.bilibili.com/3546888255048212",
           "recommendedAt": "2026-06-17",
-          "rating": 4,
-          "ratingSummary": "特厨探店｜特级厨师是怎样教徒弟的？—金山小馆",
-          "reason": "@厨者王波",
-          "sourceVideoUrl": "https://www.bilibili.com/video/BV1YzbAzsErN"
+          "rating": 3,
+          "ratingSummary": "不算惊艳：特级厨师是怎样教徒弟的",
+          "reason": "@厨者王波观众热议：厨师王给我一种，导师叫你点评师兄的论文的感觉，看得我浑身都是汗，太吓人了；回复 @杨兴启 :师兄弟是看拜师早晚，不看年龄，90岁老头晚进门一天，也得叫9个月的娃娃一声师兄",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1YzbAzsErN",
+          "displayName": "特厨隋卞"
         }
+      ],
+      "cuisine": [
+        "北京菜"
       ],
       "recommenderCount": 1,
       "latestRecommendedAt": "2026-06-17",
-      "averageRating": 4
+      "averageRating": 3
     },
     {
       "id": "beijing-quanyimeiroubing",
@@ -100,22 +121,34 @@
       "name": "全宜美肉饼",
       "coordinates": null,
       "createdAt": "2026-06-17T18:11:30.548Z",
-      "updatedAt": "2026-06-17T18:11:30.548Z",
+      "updatedAt": "2026-06-17T18:38:17.233Z",
       "recommenders": [
         {
           "authorId": "3546888255048212",
           "platform": "bilibili",
           "profileUrl": "https://space.bilibili.com/3546888255048212",
           "recommendedAt": "2026-06-17",
-          "rating": 4,
-          "ratingSummary": "特厨探店|宝藏肉饼店？怎么藏在村子里！—全宜美肉饼",
-          "reason": "特厨探店|宝藏肉饼店？怎么藏在村子里！—全宜美肉饼",
-          "sourceVideoUrl": "https://www.bilibili.com/video/BV1txW2zsEWn"
+          "rating": 3,
+          "ratingSummary": "有好有坏：宝藏肉饼店？怎么藏在村子里",
+          "reason": "特厨隋卞探店「全宜美肉饼」，从菜品火候、调味与性价比综合体验来看，优缺点都比较明显，建议按招牌菜点单。观众热议：李总：说词，说词。隋坡：没感觉。；咸淡正好推荐尝试：宝藏肉、全宜美肉。",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1txW2zsEWn",
+          "dishes": [
+            {
+              "name": "宝藏肉"
+            },
+            {
+              "name": "全宜美肉"
+            }
+          ],
+          "displayName": "特厨隋卞"
         }
+      ],
+      "cuisine": [
+        "北京菜"
       ],
       "recommenderCount": 1,
       "latestRecommendedAt": "2026-06-17",
-      "averageRating": 4
+      "averageRating": 3
     },
     {
       "id": "beijing-xiaofandiandachushi",
@@ -123,22 +156,26 @@
       "name": "小饭店大厨师",
       "coordinates": null,
       "createdAt": "2026-06-17T18:11:33.232Z",
-      "updatedAt": "2026-06-17T18:11:33.232Z",
+      "updatedAt": "2026-06-17T18:38:18.676Z",
       "recommenders": [
         {
           "authorId": "3546888255048212",
           "platform": "bilibili",
           "profileUrl": "https://space.bilibili.com/3546888255048212",
           "recommendedAt": "2026-06-17",
-          "rating": 4,
-          "ratingSummary": "特厨探店|很喜欢他的店名说了很多，你们就当教学视频看—小饭店大厨师",
-          "reason": "特厨探店|很喜欢他的店名说了很多，你们就当教学视频看—小饭店大厨师",
-          "sourceVideoUrl": "https://www.bilibili.com/video/BV13j4kzdE6p"
+          "rating": 3,
+          "ratingSummary": "有好有坏：很喜欢他的店名说了很多，你们就当教学视频看",
+          "reason": "特厨隋卞探店「小饭店大厨师」，从菜品火候、调味与性价比综合体验来看，优缺点都比较明显，建议按招牌菜点单。观众热议：明天招牌加俩字\n小饭馆大厨师探过；兴许人厨师姓大呢",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV13j4kzdE6p",
+          "displayName": "特厨隋卞"
         }
+      ],
+      "cuisine": [
+        "北京菜"
       ],
       "recommenderCount": 1,
       "latestRecommendedAt": "2026-06-17",
-      "averageRating": 4
+      "averageRating": 3
     },
     {
       "id": "beijing-xiding",
@@ -146,22 +183,31 @@
       "name": "喜鼎",
       "coordinates": null,
       "createdAt": "2026-06-17T18:11:34.129Z",
-      "updatedAt": "2026-06-17T18:11:34.129Z",
+      "updatedAt": "2026-06-17T18:38:20.093Z",
       "recommenders": [
         {
           "authorId": "3546888255048212",
           "platform": "bilibili",
           "profileUrl": "https://space.bilibili.com/3546888255048212",
           "recommendedAt": "2026-06-17",
-          "rating": 4,
-          "ratingSummary": "特厨探店|十几块一个的饺子到底是什么味？！—喜鼎",
-          "reason": "特厨探店|十几块一个的饺子到底是什么味？！—喜鼎",
-          "sourceVideoUrl": "https://www.bilibili.com/video/BV1LCxCzPE1T"
+          "rating": 3,
+          "ratingSummary": "不算惊艳：十几块一个的饺子到底是什么味",
+          "reason": "特厨隋卞探店「喜鼎」，从菜品火候、调味与性价比综合体验来看，优缺点都比较明显，建议按招牌菜点单。观众热议：啊啊啊特厨你这口饺子咬下去，屏幕前的小源口水也跟着流成河了！；没活儿发个券儿得了推荐尝试：十几块一个的饺子。",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1LCxCzPE1T",
+          "dishes": [
+            {
+              "name": "十几块一个的饺子"
+            }
+          ],
+          "displayName": "特厨隋卞"
         }
+      ],
+      "cuisine": [
+        "北京菜"
       ],
       "recommenderCount": 1,
       "latestRecommendedAt": "2026-06-17",
-      "averageRating": 4
+      "averageRating": 3
     },
     {
       "id": "beijing-zexiu",
@@ -169,7 +215,7 @@
       "name": "泽秀",
       "coordinates": null,
       "createdAt": "2026-06-17T18:11:58.731Z",
-      "updatedAt": "2026-06-17T18:11:58.731Z",
+      "updatedAt": "2026-06-17T18:38:21.535Z",
       "recommenders": [
         {
           "authorId": "3546888255048212",
@@ -177,10 +223,14 @@
           "profileUrl": "https://space.bilibili.com/3546888255048212",
           "recommendedAt": "2026-06-17",
           "rating": 4,
-          "ratingSummary": "特厨探店 |众多网红推荐的炖菜小馆—泽秀",
-          "reason": "特厨探店 |众多网红推荐的炖菜小馆—泽秀",
-          "sourceVideoUrl": "https://www.bilibili.com/video/BV1YrKBzhEKF"
+          "ratingSummary": "整体不错：众多网红推荐的炖菜小馆",
+          "reason": "特厨隋卞探店「泽秀」，从菜品火候、调味与性价比综合体验来看，整体味道靠谱，有几道亮点菜，适合附近觅食。观众热议：高情商：（炖牛肉）买回来是熟的太高了这情商；这是最便宜那种牛肉，就是牛肉差到已经不把它用各种科技先处理好都没法卖的地步。网上很多十几二十块的牛肉就是这样的。",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1YrKBzhEKF",
+          "displayName": "特厨隋卞"
         }
+      ],
+      "cuisine": [
+        "北京菜"
       ],
       "recommenderCount": 1,
       "latestRecommendedAt": "2026-06-17",
@@ -192,22 +242,26 @@
       "name": "包家兄弟",
       "coordinates": null,
       "createdAt": "2026-06-17T18:12:03.129Z",
-      "updatedAt": "2026-06-17T18:12:03.129Z",
+      "updatedAt": "2026-06-17T18:38:22.923Z",
       "recommenders": [
         {
           "authorId": "3546888255048212",
           "platform": "bilibili",
           "profileUrl": "https://space.bilibili.com/3546888255048212",
           "recommendedAt": "2026-06-17",
-          "rating": 4,
-          "ratingSummary": "特厨探店 |完全没有外地人的成都小馆是什么味道—包家兄弟",
-          "reason": "特厨探店 |完全没有外地人的成都小馆是什么味道—包家兄弟",
-          "sourceVideoUrl": "https://www.bilibili.com/video/BV1MrNtzoECN"
+          "rating": 3,
+          "ratingSummary": "中规中矩：完全没有外地人的成都小馆是什么味道",
+          "reason": "特厨隋卞探店「包家兄弟」，从菜品火候、调味与性价比综合体验来看，优缺点都比较明显，建议按招牌菜点单。观众热议：感觉隋老师越来越开朗了；！我也明显感觉到，自从单干了之后，整个人有生气了，笑的也多了，说话也自然多了。看得出原来真的压抑",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1MrNtzoECN",
+          "displayName": "特厨隋卞"
         }
+      ],
+      "cuisine": [
+        "川菜"
       ],
       "recommenderCount": 1,
       "latestRecommendedAt": "2026-06-17",
-      "averageRating": 4
+      "averageRating": 3
     },
     {
       "id": "chengdu-furonghuang",
@@ -215,283 +269,7 @@
       "name": "芙蓉凰",
       "coordinates": null,
       "createdAt": "2026-06-17T18:12:03.994Z",
-      "updatedAt": "2026-06-17T18:12:03.994Z",
-      "recommenders": [
-        {
-          "authorId": "3546888255048212",
-          "platform": "bilibili",
-          "profileUrl": "https://space.bilibili.com/3546888255048212",
-          "recommendedAt": "2026-06-17",
-          "rating": 4,
-          "ratingSummary": "特厨探店 |出现了!建号以来以来第一个全好评餐厅！—芙蓉凰",
-          "reason": "特厨探店 |出现了!建号以来以来第一个全好评餐厅！—芙蓉凰",
-          "sourceVideoUrl": "https://www.bilibili.com/video/BV11SMUzQEav"
-        }
-      ],
-      "recommenderCount": 1,
-      "latestRecommendedAt": "2026-06-17",
-      "averageRating": 4
-    },
-    {
-      "id": "chengdu-haonanjiajiachangcai",
-      "city": "成都",
-      "name": "浩南家家常菜",
-      "coordinates": null,
-      "createdAt": "2026-06-17T18:11:12.946Z",
-      "updatedAt": "2026-06-17T18:11:12.946Z",
-      "recommenders": [
-        {
-          "authorId": "3546888255048212",
-          "platform": "bilibili",
-          "profileUrl": "https://space.bilibili.com/3546888255048212",
-          "recommendedAt": "2026-06-17",
-          "rating": 4,
-          "ratingSummary": "特厨探店|网上没信息 全靠熟人推？！出品还好的—浩南家家常菜",
-          "reason": "特厨探店|网上没信息 全靠熟人推？！出品还好的—浩南家家常菜",
-          "sourceVideoUrl": "https://www.bilibili.com/video/BV1g9z8BKEkv"
-        }
-      ],
-      "recommenderCount": 1,
-      "latestRecommendedAt": "2026-06-17",
-      "averageRating": 4
-    },
-    {
-      "id": "chengdu-hongguangmianguan",
-      "city": "成都",
-      "name": "红光面馆",
-      "coordinates": null,
-      "createdAt": "2026-06-17T18:11:13.818Z",
-      "updatedAt": "2026-06-17T18:11:13.818Z",
-      "recommenders": [
-        {
-          "authorId": "3546888255048212",
-          "platform": "bilibili",
-          "profileUrl": "https://space.bilibili.com/3546888255048212",
-          "recommendedAt": "2026-06-17",
-          "rating": 4,
-          "ratingSummary": "特厨探店|小区里，没招牌！成都本地人吃啥面？！—红光面馆",
-          "reason": "特厨探店|小区里，没招牌！成都本地人吃啥面？！—红光面馆",
-          "sourceVideoUrl": "https://www.bilibili.com/video/BV1rpr4B2ENn"
-        }
-      ],
-      "recommenderCount": 1,
-      "latestRecommendedAt": "2026-06-17",
-      "averageRating": 4
-    },
-    {
-      "id": "chengdu-sihuajiachangcai",
-      "city": "成都",
-      "name": "四华家常菜",
-      "coordinates": null,
-      "createdAt": "2026-06-17T18:12:02.254Z",
-      "updatedAt": "2026-06-17T18:12:02.254Z",
-      "recommenders": [
-        {
-          "authorId": "3546888255048212",
-          "platform": "bilibili",
-          "profileUrl": "https://space.bilibili.com/3546888255048212",
-          "recommendedAt": "2026-06-17",
-          "rating": 4,
-          "ratingSummary": "特厨探店 |在成都吃趴锅边吃的小馆是什么体验—四华家常菜",
-          "reason": "特厨探店 |在成都吃趴锅边吃的小馆是什么体验—四华家常菜",
-          "sourceVideoUrl": "https://www.bilibili.com/video/BV1FyMbzsEmA"
-        }
-      ],
-      "recommenderCount": 1,
-      "latestRecommendedAt": "2026-06-17",
-      "averageRating": 4
-    },
-    {
-      "id": "chengdu-tuozifandian",
-      "city": "成都",
-      "name": "驼子饭店",
-      "coordinates": null,
-      "createdAt": "2026-06-17T18:11:35.890Z",
-      "updatedAt": "2026-06-17T18:11:35.890Z",
-      "recommenders": [
-        {
-          "authorId": "3546888255048212",
-          "platform": "bilibili",
-          "profileUrl": "https://space.bilibili.com/3546888255048212",
-          "recommendedAt": "2026-06-17",
-          "rating": 4,
-          "ratingSummary": "特厨探店|藏在巷子里被本地人当食堂的一家店？！—驼子饭店",
-          "reason": "特厨探店|藏在巷子里被本地人当食堂的一家店？！—驼子饭店",
-          "sourceVideoUrl": "https://www.bilibili.com/video/BV1BxnBzrEoM"
-        }
-      ],
-      "recommenderCount": 1,
-      "latestRecommendedAt": "2026-06-17",
-      "averageRating": 4
-    },
-    {
-      "id": "chengdu-xiaoli",
-      "city": "成都",
-      "name": "小李",
-      "coordinates": null,
-      "createdAt": "2026-06-17T18:12:04.888Z",
-      "updatedAt": "2026-06-17T18:12:04.888Z",
-      "recommenders": [
-        {
-          "authorId": "3546888255048212",
-          "platform": "bilibili",
-          "profileUrl": "https://space.bilibili.com/3546888255048212",
-          "recommendedAt": "2026-06-17",
-          "rating": 4,
-          "ratingSummary": "特厨探店 |全网无差评？怎么我们就这么倒霉？—小李",
-          "reason": "特厨探店 |全网无差评？怎么我们就这么倒霉？—小李",
-          "sourceVideoUrl": "https://www.bilibili.com/video/BV1YWMHzREdb"
-        }
-      ],
-      "recommenderCount": 1,
-      "latestRecommendedAt": "2026-06-17",
-      "averageRating": 4
-    },
-    {
-      "id": "chengdu-xuanxuanxiaoyuan",
-      "city": "成都",
-      "name": "轩轩小院",
-      "coordinates": null,
-      "createdAt": "2026-06-17T18:11:35.017Z",
-      "updatedAt": "2026-06-17T18:11:35.017Z",
-      "recommenders": [
-        {
-          "authorId": "3546888255048212",
-          "platform": "bilibili",
-          "profileUrl": "https://space.bilibili.com/3546888255048212",
-          "recommendedAt": "2026-06-17",
-          "rating": 4,
-          "ratingSummary": "特厨探店|可怕的成都？！景区店也有这种水平？—轩轩小院",
-          "reason": "特厨探店|可怕的成都？！景区店也有这种水平？—轩轩小院",
-          "sourceVideoUrl": "https://www.bilibili.com/video/BV1haHKz3EMG"
-        }
-      ],
-      "recommenderCount": 1,
-      "latestRecommendedAt": "2026-06-17",
-      "averageRating": 4
-    },
-    {
-      "id": "chengdu-xujiacai",
-      "city": "成都",
-      "name": "许家菜",
-      "coordinates": null,
-      "createdAt": "2026-06-17T18:11:14.685Z",
-      "updatedAt": "2026-06-17T18:11:14.685Z",
-      "recommenders": [
-        {
-          "authorId": "3546888255048212",
-          "platform": "bilibili",
-          "profileUrl": "https://space.bilibili.com/3546888255048212",
-          "recommendedAt": "2026-06-17",
-          "rating": 4,
-          "ratingSummary": "特厨探店|128的炒鸡蛋还货不对板？—许家菜",
-          "reason": "特厨探店|128的炒鸡蛋还货不对板？—许家菜",
-          "sourceVideoUrl": "https://www.bilibili.com/video/BV1tJrgByEFC"
-        }
-      ],
-      "recommenderCount": 1,
-      "latestRecommendedAt": "2026-06-17",
-      "averageRating": 4
-    },
-    {
-      "id": "chengdu-yonglefandian",
-      "city": "成都",
-      "name": "永乐饭店",
-      "coordinates": null,
-      "createdAt": "2026-06-17T18:12:05.778Z",
-      "updatedAt": "2026-06-17T18:12:05.778Z",
-      "recommenders": [
-        {
-          "authorId": "3546888255048212",
-          "platform": "bilibili",
-          "profileUrl": "https://space.bilibili.com/3546888255048212",
-          "recommendedAt": "2026-06-17",
-          "rating": 4,
-          "ratingSummary": "特厨探店 |让特级厨师想挖人的饭店是什么样？—永乐饭店",
-          "reason": "特厨探店 |让特级厨师想挖人的饭店是什么样？—永乐饭店",
-          "sourceVideoUrl": "https://www.bilibili.com/video/BV1dvTdzHE3n"
-        }
-      ],
-      "recommenderCount": 1,
-      "latestRecommendedAt": "2026-06-17",
-      "averageRating": 4
-    },
-    {
-      "id": "chengdu-zaogeyuan",
-      "city": "成都",
-      "name": "枣阁园",
-      "coordinates": null,
-      "createdAt": "2026-06-17T18:12:06.661Z",
-      "updatedAt": "2026-06-17T18:12:06.661Z",
-      "recommenders": [
-        {
-          "authorId": "3546888255048212",
-          "platform": "bilibili",
-          "profileUrl": "https://space.bilibili.com/3546888255048212",
-          "recommendedAt": "2026-06-17",
-          "rating": 4,
-          "ratingSummary": "特厨探店 |根本吃不完！成都美食暴击！—枣阁园",
-          "reason": "特厨探店 |根本吃不完！成都美食暴击！—枣阁园",
-          "sourceVideoUrl": "https://www.bilibili.com/video/BV1FtTGzMEEb"
-        }
-      ],
-      "recommenderCount": 1,
-      "latestRecommendedAt": "2026-06-17",
-      "averageRating": 4
-    },
-    {
-      "id": "chongqing-renheshuishangpiao",
-      "city": "重庆",
-      "name": "人和水上飘",
-      "coordinates": null,
-      "createdAt": "2026-06-17T18:11:18.195Z",
-      "updatedAt": "2026-06-17T18:11:18.195Z",
-      "recommenders": [
-        {
-          "authorId": "3546888255048212",
-          "platform": "bilibili",
-          "profileUrl": "https://space.bilibili.com/3546888255048212",
-          "recommendedAt": "2026-06-17",
-          "rating": 4,
-          "ratingSummary": "特厨探店|“板前‘豆花，重庆的素材真是拍不完—人和水上飘",
-          "reason": "特厨探店|“板前‘豆花，重庆的素材真是拍不完—人和水上飘",
-          "sourceVideoUrl": "https://www.bilibili.com/video/BV1vtq8BKEem"
-        }
-      ],
-      "recommenderCount": 1,
-      "latestRecommendedAt": "2026-06-17",
-      "averageRating": 4
-    },
-    {
-      "id": "chongqing-yutu",
-      "city": "重庆",
-      "name": "于塗",
-      "coordinates": null,
-      "createdAt": "2026-06-17T18:11:17.305Z",
-      "updatedAt": "2026-06-17T18:11:17.305Z",
-      "recommenders": [
-        {
-          "authorId": "3546888255048212",
-          "platform": "bilibili",
-          "profileUrl": "https://space.bilibili.com/3546888255048212",
-          "recommendedAt": "2026-06-17",
-          "rating": 4,
-          "ratingSummary": "特厨探店|重庆唯一一家连续8年上榜餐厅，味道到底咋样？—于塗",
-          "reason": "特厨探店|重庆唯一一家连续8年上榜餐厅，味道到底咋样？—于塗",
-          "sourceVideoUrl": "https://www.bilibili.com/video/BV1bqBwBJEQu"
-        }
-      ],
-      "recommenderCount": 1,
-      "latestRecommendedAt": "2026-06-17",
-      "averageRating": 4
-    },
-    {
-      "id": "guangzhou-baitianebinguan",
-      "city": "广州",
-      "name": "白天鹅宾馆",
-      "coordinates": null,
-      "createdAt": "2026-06-17T18:11:27.917Z",
-      "updatedAt": "2026-06-17T18:11:27.917Z",
+      "updatedAt": "2026-06-17T18:38:24.370Z",
       "recommenders": [
         {
           "authorId": "3546888255048212",
@@ -499,10 +277,361 @@
           "profileUrl": "https://space.bilibili.com/3546888255048212",
           "recommendedAt": "2026-06-17",
           "rating": 5,
-          "ratingSummary": "特厨探店|粤菜天花板？！—白天鹅宾馆",
-          "reason": "特厨探店|粤菜天花板？！—白天鹅宾馆",
-          "sourceVideoUrl": "https://www.bilibili.com/video/BV13FyeB4E6X"
+          "ratingSummary": "水准在线：出现了!建号以来以来第一个全好评餐厅",
+          "reason": "特厨隋卞探店「芙蓉凰」，从菜品火候、调味与性价比综合体验来看，整体表现突出，多项菜品在线，值得专程打卡。观众热议：能让隋大厨全员好评 这个店要爆了；那这家餐厅厨子要骂娘了就像这个雪花鸡淖，费时费力的，要是都点这些菜后厨真忙不过来，虽然可能给涨点工资，但是也不太可能。",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV11SMUzQEav",
+          "displayName": "特厨隋卞"
         }
+      ],
+      "cuisine": [
+        "川菜"
+      ],
+      "recommenderCount": 1,
+      "latestRecommendedAt": "2026-06-17",
+      "averageRating": 5
+    },
+    {
+      "id": "chengdu-haonanjiajiachangcai",
+      "city": "成都",
+      "name": "浩南家家常菜",
+      "coordinates": null,
+      "createdAt": "2026-06-17T18:11:12.946Z",
+      "updatedAt": "2026-06-17T18:38:25.762Z",
+      "recommenders": [
+        {
+          "authorId": "3546888255048212",
+          "platform": "bilibili",
+          "profileUrl": "https://space.bilibili.com/3546888255048212",
+          "recommendedAt": "2026-06-17",
+          "rating": 3,
+          "ratingSummary": "看个人口味：网上没信息 全靠熟人推？！出品还好的",
+          "reason": "特厨隋卞探店「浩南家家常菜」，从菜品火候、调味与性价比综合体验来看，优缺点都比较明显，建议按招牌菜点单。观众热议：这种店以前是专门用来商务宴请的，现在抓的严了所以说是熟人推荐才可以来。价格不高是因为现在也可以宴请，但有餐标，菜品价格超了就很麻烦了。普通人就不用想了，真面相普通人这店一开一个亏本的。；合理，有些店就是面相特定人群聚餐用的",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1g9z8BKEkv",
+          "displayName": "特厨隋卞"
+        }
+      ],
+      "cuisine": [
+        "川菜"
+      ],
+      "recommenderCount": 1,
+      "latestRecommendedAt": "2026-06-17",
+      "averageRating": 3
+    },
+    {
+      "id": "chengdu-hongguangmianguan",
+      "city": "成都",
+      "name": "红光面馆",
+      "coordinates": null,
+      "createdAt": "2026-06-17T18:11:13.818Z",
+      "updatedAt": "2026-06-17T18:38:27.187Z",
+      "recommenders": [
+        {
+          "authorId": "3546888255048212",
+          "platform": "bilibili",
+          "profileUrl": "https://space.bilibili.com/3546888255048212",
+          "recommendedAt": "2026-06-17",
+          "rating": 3,
+          "ratingSummary": "不算惊艳：小区里，没招牌！成都本地人吃啥面",
+          "reason": "特厨隋卞探店「红光面馆」，从菜品火候、调味与性价比综合体验来看，优缺点都比较明显，建议按招牌菜点单。观众热议：另外胡记被人发tiktok了很多东南亚来吃的说是  上次去老板在说  还遇到过隔壁桌就是新加坡来吃的；回复 @哈喽哈哦以 :我日了，躲垃圾箱旁边都能被找到吗，这nm以后我去了吃啥啊推荐尝试：成都本地人吃啥面、红光面。",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1rpr4B2ENn",
+          "dishes": [
+            {
+              "name": "成都本地人吃啥面"
+            },
+            {
+              "name": "红光面"
+            }
+          ],
+          "displayName": "特厨隋卞"
+        }
+      ],
+      "cuisine": [
+        "川菜"
+      ],
+      "recommenderCount": 1,
+      "latestRecommendedAt": "2026-06-17",
+      "averageRating": 3
+    },
+    {
+      "id": "chengdu-sihuajiachangcai",
+      "city": "成都",
+      "name": "四华家常菜",
+      "coordinates": null,
+      "createdAt": "2026-06-17T18:12:02.254Z",
+      "updatedAt": "2026-06-17T18:38:28.660Z",
+      "recommenders": [
+        {
+          "authorId": "3546888255048212",
+          "platform": "bilibili",
+          "profileUrl": "https://space.bilibili.com/3546888255048212",
+          "recommendedAt": "2026-06-17",
+          "rating": 3,
+          "ratingSummary": "有好有坏：在成都吃趴锅边吃的小馆是什么体验",
+          "reason": "特厨隋卞探店「四华家常菜」，从菜品火候、调味与性价比综合体验来看，优缺点都比较明显，建议按招牌菜点单。观众热议：不知道大家有没有这种感觉，隋老师自己干以后变得更自然了，没有像以前一样要绷着，僵硬；以前拍广告只分五百，现在广告可以硬插，甚至可以不拍广告，那自然很开心咯，简而言之，没有心理负担。",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1FyMbzsEmA",
+          "displayName": "特厨隋卞"
+        }
+      ],
+      "cuisine": [
+        "川菜"
+      ],
+      "recommenderCount": 1,
+      "latestRecommendedAt": "2026-06-17",
+      "averageRating": 3
+    },
+    {
+      "id": "chengdu-tuozifandian",
+      "city": "成都",
+      "name": "驼子饭店",
+      "coordinates": null,
+      "createdAt": "2026-06-17T18:11:35.890Z",
+      "updatedAt": "2026-06-17T18:38:30.048Z",
+      "recommenders": [
+        {
+          "authorId": "3546888255048212",
+          "platform": "bilibili",
+          "profileUrl": "https://space.bilibili.com/3546888255048212",
+          "recommendedAt": "2026-06-17",
+          "rating": 3,
+          "ratingSummary": "看个人口味：藏在巷子里被本地人当食堂的一家店",
+          "reason": "特厨隋卞探店「驼子饭店」，从菜品火候、调味与性价比综合体验来看，优缺点都比较明显，建议按招牌菜点单。观众热议：希望国庆节老板脸上还有笑容。；老板国庆出去旅游，那笑容就没收过推荐尝试：驼子饭。",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1BxnBzrEoM",
+          "dishes": [
+            {
+              "name": "驼子饭"
+            }
+          ],
+          "displayName": "特厨隋卞"
+        }
+      ],
+      "cuisine": [
+        "川菜"
+      ],
+      "recommenderCount": 1,
+      "latestRecommendedAt": "2026-06-17",
+      "averageRating": 3
+    },
+    {
+      "id": "chengdu-xiaoli",
+      "city": "成都",
+      "name": "小李",
+      "coordinates": null,
+      "createdAt": "2026-06-17T18:12:04.888Z",
+      "updatedAt": "2026-06-17T18:38:31.460Z",
+      "recommenders": [
+        {
+          "authorId": "3546888255048212",
+          "platform": "bilibili",
+          "profileUrl": "https://space.bilibili.com/3546888255048212",
+          "recommendedAt": "2026-06-17",
+          "rating": 2,
+          "ratingSummary": "略有失望：全网无差评？怎么我们就这么倒霉",
+          "reason": "特厨隋卞探店「小李」，从菜品火候、调味与性价比综合体验来看，与预期有差距，部分菜品或体验拖了后腿。观众热议：这家店方差巨大，\n我和朋友来旅游第一天差点把勺子吃进去，第二天巴巴盼着晚饭来吃了第二顿\n怎么说呢……还不如吃勺子呢；现在网友说话太硬核了，逼着我一高中毕业十几年的人回忆一下数学知识点",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1YWMHzREdb",
+          "displayName": "特厨隋卞"
+        }
+      ],
+      "cuisine": [
+        "川菜"
+      ],
+      "recommenderCount": 1,
+      "latestRecommendedAt": "2026-06-17",
+      "averageRating": 2
+    },
+    {
+      "id": "chengdu-xuanxuanxiaoyuan",
+      "city": "成都",
+      "name": "轩轩小院",
+      "coordinates": null,
+      "createdAt": "2026-06-17T18:11:35.017Z",
+      "updatedAt": "2026-06-17T18:38:32.907Z",
+      "recommenders": [
+        {
+          "authorId": "3546888255048212",
+          "platform": "bilibili",
+          "profileUrl": "https://space.bilibili.com/3546888255048212",
+          "recommendedAt": "2026-06-17",
+          "rating": 3,
+          "ratingSummary": "有好有坏：可怕的成都？！景区店也有这种水平",
+          "reason": "特厨隋卞探店「轩轩小院」，从菜品火候、调味与性价比综合体验来看，优缺点都比较明显，建议按招牌菜点单。观众热议：这个不是景区店 只是恰好开在了景区；是先开在那里然后再有的景区吗？",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1haHKz3EMG",
+          "displayName": "特厨隋卞"
+        }
+      ],
+      "cuisine": [
+        "川菜"
+      ],
+      "recommenderCount": 1,
+      "latestRecommendedAt": "2026-06-17",
+      "averageRating": 3
+    },
+    {
+      "id": "chengdu-xujiacai",
+      "city": "成都",
+      "name": "许家菜",
+      "coordinates": null,
+      "createdAt": "2026-06-17T18:11:14.685Z",
+      "updatedAt": "2026-06-17T18:38:34.326Z",
+      "recommenders": [
+        {
+          "authorId": "3546888255048212",
+          "platform": "bilibili",
+          "profileUrl": "https://space.bilibili.com/3546888255048212",
+          "recommendedAt": "2026-06-17",
+          "rating": 3,
+          "ratingSummary": "不算惊艳：128的炒鸡蛋还货不对板",
+          "reason": "特厨隋卞探店「许家菜」，从菜品火候、调味与性价比综合体验来看，优缺点都比较明显，建议按招牌菜点单。观众热议：这么高档的菜馆，鸡蛋没有了不说，做出来货不对板也不退菜；炒鸡蛋那人叫蓝壳推荐尝试：的炒鸡。",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1tJrgByEFC",
+          "dishes": [
+            {
+              "name": "的炒鸡"
+            }
+          ],
+          "displayName": "特厨隋卞"
+        }
+      ],
+      "cuisine": [
+        "川菜"
+      ],
+      "recommenderCount": 1,
+      "latestRecommendedAt": "2026-06-17",
+      "averageRating": 3
+    },
+    {
+      "id": "chengdu-yonglefandian",
+      "city": "成都",
+      "name": "永乐饭店",
+      "coordinates": null,
+      "createdAt": "2026-06-17T18:12:05.778Z",
+      "updatedAt": "2026-06-17T18:38:35.771Z",
+      "recommenders": [
+        {
+          "authorId": "3546888255048212",
+          "platform": "bilibili",
+          "profileUrl": "https://space.bilibili.com/3546888255048212",
+          "recommendedAt": "2026-06-17",
+          "rating": 5,
+          "ratingSummary": "水准在线：让特级厨师想挖人的饭店是什么样",
+          "reason": "特厨隋卞探店「永乐饭店」，从菜品火候、调味与性价比综合体验来看，整体表现突出，多项菜品在线，值得专程打卡。观众热议：隋老师比两根手指的意思是让师傅跟他走，以后隋老师挣500分他200，很可以了。；两成吧，100推荐尝试：永乐饭。",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1dvTdzHE3n",
+          "dishes": [
+            {
+              "name": "永乐饭"
+            }
+          ],
+          "displayName": "特厨隋卞"
+        }
+      ],
+      "cuisine": [
+        "川菜"
+      ],
+      "recommenderCount": 1,
+      "latestRecommendedAt": "2026-06-17",
+      "averageRating": 5
+    },
+    {
+      "id": "chengdu-zaogeyuan",
+      "city": "成都",
+      "name": "枣阁园",
+      "coordinates": null,
+      "createdAt": "2026-06-17T18:12:06.661Z",
+      "updatedAt": "2026-06-17T18:38:37.177Z",
+      "recommenders": [
+        {
+          "authorId": "3546888255048212",
+          "platform": "bilibili",
+          "profileUrl": "https://space.bilibili.com/3546888255048212",
+          "recommendedAt": "2026-06-17",
+          "rating": 3,
+          "ratingSummary": "不算惊艳：根本吃不完！成都美食暴击",
+          "reason": "特厨隋卞探店「枣阁园」，从菜品火候、调味与性价比综合体验来看，优缺点都比较明显，建议按招牌菜点单。观众热议：光说便宜新鲜你们可能觉得没什么如果我说这家店开在成都1环内呢。；那不得夸老板做慈善，真是做了大功德。多少工薪阶级忙碌一天能15块吃顿新鲜热乎的饱饭哟。",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1FtTGzMEEb",
+          "displayName": "特厨隋卞"
+        }
+      ],
+      "cuisine": [
+        "川菜"
+      ],
+      "recommenderCount": 1,
+      "latestRecommendedAt": "2026-06-17",
+      "averageRating": 3
+    },
+    {
+      "id": "chongqing-renheshuishangpiao",
+      "city": "重庆",
+      "name": "人和水上飘",
+      "coordinates": null,
+      "createdAt": "2026-06-17T18:11:18.195Z",
+      "updatedAt": "2026-06-17T18:38:38.588Z",
+      "recommenders": [
+        {
+          "authorId": "3546888255048212",
+          "platform": "bilibili",
+          "profileUrl": "https://space.bilibili.com/3546888255048212",
+          "recommendedAt": "2026-06-17",
+          "rating": 3,
+          "ratingSummary": "有好有坏：“板前‘豆花，重庆的素材真是拍不完",
+          "reason": "特厨隋卞探店「人和水上飘」，从菜品火候、调味与性价比综合体验来看，优缺点都比较明显，建议按招牌菜点单。观众热议：很好，还有什么店，统统说出来！；回复 @九号立方体 :好吧，如果对有点年代感的老川菜酒家感兴趣，南坪老步行街有一家会利元酒楼，吃几十年了，东西做得比较传统规整，强推粉蒸肉。",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1vtq8BKEem",
+          "displayName": "特厨隋卞"
+        }
+      ],
+      "cuisine": [
+        "川菜"
+      ],
+      "recommenderCount": 1,
+      "latestRecommendedAt": "2026-06-17",
+      "averageRating": 3
+    },
+    {
+      "id": "chongqing-yutu",
+      "city": "重庆",
+      "name": "于塗",
+      "coordinates": null,
+      "createdAt": "2026-06-17T18:11:17.305Z",
+      "updatedAt": "2026-06-17T18:38:40.007Z",
+      "recommenders": [
+        {
+          "authorId": "3546888255048212",
+          "platform": "bilibili",
+          "profileUrl": "https://space.bilibili.com/3546888255048212",
+          "recommendedAt": "2026-06-17",
+          "rating": 2,
+          "ratingSummary": "不太推荐：重庆唯一一家连续8年上榜餐厅，味道到底咋样",
+          "reason": "特厨隋卞探店「于塗」，从菜品火候、调味与性价比综合体验来看，与预期有差距，部分菜品或体验拖了后腿。观众热议：价格这么商务的餐厅还能上错菜啊；大家心里清楚就行",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1bqBwBJEQu",
+          "displayName": "特厨隋卞"
+        }
+      ],
+      "cuisine": [
+        "川菜"
+      ],
+      "recommenderCount": 1,
+      "latestRecommendedAt": "2026-06-17",
+      "averageRating": 2
+    },
+    {
+      "id": "guangzhou-baitianebinguan",
+      "city": "广州",
+      "name": "白天鹅宾馆",
+      "coordinates": null,
+      "createdAt": "2026-06-17T18:11:27.917Z",
+      "updatedAt": "2026-06-17T18:38:41.408Z",
+      "recommenders": [
+        {
+          "authorId": "3546888255048212",
+          "platform": "bilibili",
+          "profileUrl": "https://space.bilibili.com/3546888255048212",
+          "recommendedAt": "2026-06-17",
+          "rating": 5,
+          "ratingSummary": "值得专程：粤菜天花板",
+          "reason": "特厨隋卞探店「白天鹅宾馆」，从菜品火候、调味与性价比综合体验来看，整体表现突出，多项菜品在线，值得专程打卡。观众热议：就说白天鹅实诚吧，看到隋坡老师来了也不换主厨给做；听说都是先点菜他们再进去，就是避免被专门对待",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV13FyeB4E6X",
+          "displayName": "特厨隋卞"
+        }
+      ],
+      "cuisine": [
+        "粤菜"
       ],
       "recommenderCount": 1,
       "latestRecommendedAt": "2026-06-17",
@@ -514,22 +643,26 @@
       "name": "炳胜",
       "coordinates": null,
       "createdAt": "2026-06-17T18:11:26.167Z",
-      "updatedAt": "2026-06-17T18:11:26.167Z",
+      "updatedAt": "2026-06-17T18:38:42.865Z",
       "recommenders": [
         {
           "authorId": "3546888255048212",
           "platform": "bilibili",
           "profileUrl": "https://space.bilibili.com/3546888255048212",
           "recommendedAt": "2026-06-17",
-          "rating": 4,
-          "ratingSummary": "特厨探店|粤菜的另一座高山？！—炳胜",
-          "reason": "特厨探店|粤菜的另一座高山？！—炳胜",
-          "sourceVideoUrl": "https://www.bilibili.com/video/BV19Z1XBpESg"
+          "rating": 3,
+          "ratingSummary": "不算惊艳：粤菜的另一座高山",
+          "reason": "特厨隋卞探店「炳胜」，从菜品火候、调味与性价比综合体验来看，优缺点都比较明显，建议按招牌菜点单。观众热议：回复 @诗人死于风中 :鱼切半然后切段其实说条也没毛病。；根据你描述的咸香辣口，我推断是川菜的家常味。又加了整粒的蒜，听起来有点像犀浦鲶鱼或者大蒜烧鲶鱼的变种。我印象里川菜的烧菜，尤其是烧鱼的部分很少有改条炸制后烧的。这种改刀加先炸后烧的技法听起来很像是为了结合山东当地的饮食习惯做出的改良。",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV19Z1XBpESg",
+          "displayName": "特厨隋卞"
         }
+      ],
+      "cuisine": [
+        "粤菜"
       ],
       "recommenderCount": 1,
       "latestRecommendedAt": "2026-06-17",
-      "averageRating": 4
+      "averageRating": 3
     },
     {
       "id": "guangzhou-guangzhoujiujia",
@@ -537,22 +670,26 @@
       "name": "广州酒家",
       "coordinates": null,
       "createdAt": "2026-06-17T18:11:28.818Z",
-      "updatedAt": "2026-06-17T18:11:28.818Z",
+      "updatedAt": "2026-06-17T18:38:44.265Z",
       "recommenders": [
         {
           "authorId": "3546888255048212",
           "platform": "bilibili",
           "profileUrl": "https://space.bilibili.com/3546888255048212",
           "recommendedAt": "2026-06-17",
-          "rating": 4,
-          "ratingSummary": "特厨探店|广州最出名的早茶？！—广州酒家",
-          "reason": "特厨探店|广州最出名的早茶？！—广州酒家",
-          "sourceVideoUrl": "https://www.bilibili.com/video/BV13LykBEE58"
+          "rating": 2,
+          "ratingSummary": "不太推荐：广州最出名的早茶",
+          "reason": "特厨隋卞探店「广州酒家」，从菜品火候、调味与性价比综合体验来看，与预期有差距，部分菜品或体验拖了后腿。观众热议：每盘三个，来四个人，问：你怎么分；按照地位分长辈和幼子得吃，中间的没份儿",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV13LykBEE58",
+          "displayName": "特厨隋卞"
         }
+      ],
+      "cuisine": [
+        "粤菜"
       ],
       "recommenderCount": 1,
       "latestRecommendedAt": "2026-06-17",
-      "averageRating": 4
+      "averageRating": 2
     },
     {
       "id": "guangzhou-liyuan",
@@ -560,22 +697,31 @@
       "name": "利苑",
       "coordinates": null,
       "createdAt": "2026-06-17T18:11:32.322Z",
-      "updatedAt": "2026-06-17T18:11:32.322Z",
+      "updatedAt": "2026-06-17T18:38:45.749Z",
       "recommenders": [
         {
           "authorId": "3546888255048212",
           "platform": "bilibili",
           "profileUrl": "https://space.bilibili.com/3546888255048212",
           "recommendedAt": "2026-06-17",
-          "rating": 4,
-          "ratingSummary": "特厨探店|卖128的干炒牛河长什么样？！—利苑",
-          "reason": "特厨探店|卖128的干炒牛河长什么样？！—利苑",
-          "sourceVideoUrl": "https://www.bilibili.com/video/BV1RWWrznEM4"
+          "rating": 2,
+          "ratingSummary": "慎重选择：卖128的干炒牛河长什么样",
+          "reason": "特厨隋卞探店「利苑」，从菜品火候、调味与性价比综合体验来看，与预期有差距，部分菜品或体验拖了后腿。观众热议：今晚厨房有人要遭殃了；有人要被主厨提干了推荐尝试：的干炒牛河。",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1RWWrznEM4",
+          "dishes": [
+            {
+              "name": "的干炒牛河"
+            }
+          ],
+          "displayName": "特厨隋卞"
         }
+      ],
+      "cuisine": [
+        "粤菜"
       ],
       "recommenderCount": 1,
       "latestRecommendedAt": "2026-06-17",
-      "averageRating": 4
+      "averageRating": 2
     },
     {
       "id": "guangzhou-qiuda",
@@ -583,22 +729,26 @@
       "name": "丘大",
       "coordinates": null,
       "createdAt": "2026-06-17T18:11:31.438Z",
-      "updatedAt": "2026-06-17T18:11:31.438Z",
+      "updatedAt": "2026-06-17T18:38:47.185Z",
       "recommenders": [
         {
           "authorId": "3546888255048212",
           "platform": "bilibili",
           "profileUrl": "https://space.bilibili.com/3546888255048212",
           "recommendedAt": "2026-06-17",
-          "rating": 4,
-          "ratingSummary": "特厨探店|广州的点心到底是什么样？！—丘大",
-          "reason": "特厨探店|广州的点心到底是什么样？！—丘大",
-          "sourceVideoUrl": "https://www.bilibili.com/video/BV1erscz6EKZ"
+          "rating": 2,
+          "ratingSummary": "不太推荐：广州的点心到底是什么样",
+          "reason": "特厨隋卞探店「丘大」，从菜品火候、调味与性价比综合体验来看，与预期有差距，部分菜品或体验拖了后腿。观众热议：最后的总结挺到位的，很多非连锁的广式老字号，大厨都是意识流选手，有时下手重，有时刚刚好，这都是常有的事；太对了就是意识流",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1erscz6EKZ",
+          "displayName": "特厨隋卞"
         }
+      ],
+      "cuisine": [
+        "粤菜"
       ],
       "recommenderCount": 1,
       "latestRecommendedAt": "2026-06-17",
-      "averageRating": 4
+      "averageRating": 2
     },
     {
       "id": "guangzhou-yue-xiangqunfandian",
@@ -606,7 +756,7 @@
       "name": "粤·向群饭店",
       "coordinates": null,
       "createdAt": "2026-06-17T18:11:29.681Z",
-      "updatedAt": "2026-06-17T18:11:29.681Z",
+      "updatedAt": "2026-06-17T18:38:48.566Z",
       "recommenders": [
         {
           "authorId": "3546888255048212",
@@ -614,10 +764,19 @@
           "profileUrl": "https://space.bilibili.com/3546888255048212",
           "recommendedAt": "2026-06-17",
           "rating": 4,
-          "ratingSummary": "特厨探店|拖着行李箱来吃，还吃开心了！—粤·向群饭店",
-          "reason": "特厨探店|拖着行李箱来吃，还吃开心了！—粤·向群饭店",
-          "sourceVideoUrl": "https://www.bilibili.com/video/BV1TtsrzkEJU"
+          "ratingSummary": "味道靠谱：拖着行李箱来吃，还吃开心了",
+          "reason": "特厨隋卞探店「粤·向群饭店」，从菜品火候、调味与性价比综合体验来看，整体味道靠谱，有几道亮点菜，适合附近觅食。观众热议：向群是老饭店，那道肉饼是老人餐，给牙口不好的老人吃肉的，肉剁的很碎，肉饼能夹起来但是入口一呡就化。；一般去向群大多数都跟“康伯康婶”一个年纪的老人，而在那边大的中青年，不是去上班就是出了国的，有几个像老人家一样有空推荐尝试：向群饭。",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1TtsrzkEJU",
+          "dishes": [
+            {
+              "name": "向群饭"
+            }
+          ],
+          "displayName": "特厨隋卞"
         }
+      ],
+      "cuisine": [
+        "粤菜"
       ],
       "recommenderCount": 1,
       "latestRecommendedAt": "2026-06-17",
@@ -629,53 +788,7 @@
       "name": "我家小馆",
       "coordinates": null,
       "createdAt": "2026-06-17T18:11:36.763Z",
-      "updatedAt": "2026-06-17T18:11:36.763Z",
-      "recommenders": [
-        {
-          "authorId": "3546888255048212",
-          "platform": "bilibili",
-          "profileUrl": "https://space.bilibili.com/3546888255048212",
-          "recommendedAt": "2026-06-17",
-          "rating": 4,
-          "ratingSummary": "特厨探店 |六张桌子但是全好评！—我家小馆",
-          "reason": "特厨探店 |六张桌子但是全好评！—我家小馆",
-          "sourceVideoUrl": "https://www.bilibili.com/video/BV1ATnpzzEa7"
-        }
-      ],
-      "recommenderCount": 1,
-      "latestRecommendedAt": "2026-06-17",
-      "averageRating": 4
-    },
-    {
-      "id": "hefei-huicaibowuguan",
-      "city": "合肥",
-      "name": "徽菜博物馆",
-      "coordinates": null,
-      "createdAt": "2026-06-17T18:10:56.238Z",
-      "updatedAt": "2026-06-17T18:10:56.238Z",
-      "recommenders": [
-        {
-          "authorId": "3546888255048212",
-          "platform": "bilibili",
-          "profileUrl": "https://space.bilibili.com/3546888255048212",
-          "recommendedAt": "2026-06-17",
-          "rating": 4,
-          "ratingSummary": "特厨探店|下了高铁冒着雨来的餐厅，就这？—徽菜博物馆餐厅",
-          "reason": "特厨探店|下了高铁冒着雨来的餐厅，就这？—徽菜博物馆餐厅",
-          "sourceVideoUrl": "https://www.bilibili.com/video/BV1DLQhBPE7W"
-        }
-      ],
-      "recommenderCount": 1,
-      "latestRecommendedAt": "2026-06-17",
-      "averageRating": 4
-    },
-    {
-      "id": "hefei-jiujinfandian",
-      "city": "合肥",
-      "name": "九斤饭店",
-      "coordinates": null,
-      "createdAt": "2026-06-17T18:10:50.970Z",
-      "updatedAt": "2026-06-17T18:10:50.970Z",
+      "updatedAt": "2026-06-17T18:38:50.002Z",
       "recommenders": [
         {
           "authorId": "3546888255048212",
@@ -683,10 +796,73 @@
           "profileUrl": "https://space.bilibili.com/3546888255048212",
           "recommendedAt": "2026-06-17",
           "rating": 5,
-          "ratingSummary": "特厨探店|一口说脏话，村子里的徽菜天花板？—九斤饭店",
-          "reason": "特厨探店|一口说脏话，村子里的徽菜天花板？—九斤饭店",
-          "sourceVideoUrl": "https://www.bilibili.com/video/BV12QdKBTEyQ"
+          "ratingSummary": "强烈推荐：六张桌子但是全好评",
+          "reason": "特厨隋卞探店「我家小馆」，从菜品火候、调味与性价比综合体验来看，整体表现突出，多项菜品在线，值得专程打卡。观众热议：住附近的吃过的来评价一下这家店现在基本只接预约单，去年有个网红来探过一次，那段时间店老板膨胀了导致水平下降口碑爆炸。他家海鲜也就食材比较新鲜，菜单会根据季节变化，做法未必对你胃口，跟风慎重。；地址在龙湖西溪天街对面小区楼下商铺里，那附近还有个熊野拉面也很火爆",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1ATnpzzEa7",
+          "displayName": "特厨隋卞"
         }
+      ],
+      "cuisine": [
+        "苏菜"
+      ],
+      "recommenderCount": 1,
+      "latestRecommendedAt": "2026-06-17",
+      "averageRating": 5
+    },
+    {
+      "id": "hefei-huicaibowuguan",
+      "city": "合肥",
+      "name": "徽菜博物馆",
+      "coordinates": null,
+      "createdAt": "2026-06-17T18:10:56.238Z",
+      "updatedAt": "2026-06-17T18:38:51.405Z",
+      "recommenders": [
+        {
+          "authorId": "3546888255048212",
+          "platform": "bilibili",
+          "profileUrl": "https://space.bilibili.com/3546888255048212",
+          "recommendedAt": "2026-06-17",
+          "rating": 2,
+          "ratingSummary": "略有失望：下了高铁冒着雨来的餐厅，就这",
+          "reason": "特厨隋卞探店「徽菜博物馆」，从菜品火候、调味与性价比综合体验来看，与预期有差距，部分菜品或体验拖了后腿。观众热议：我们在这吃出一根头发；说谢谢了吗",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1DLQhBPE7W",
+          "displayName": "特厨隋卞"
+        }
+      ],
+      "cuisine": [
+        "徽菜"
+      ],
+      "recommenderCount": 1,
+      "latestRecommendedAt": "2026-06-17",
+      "averageRating": 2
+    },
+    {
+      "id": "hefei-jiujinfandian",
+      "city": "合肥",
+      "name": "九斤饭店",
+      "coordinates": null,
+      "createdAt": "2026-06-17T18:10:50.970Z",
+      "updatedAt": "2026-06-17T18:38:52.802Z",
+      "recommenders": [
+        {
+          "authorId": "3546888255048212",
+          "platform": "bilibili",
+          "profileUrl": "https://space.bilibili.com/3546888255048212",
+          "recommendedAt": "2026-06-17",
+          "rating": 5,
+          "ratingSummary": "水准在线：一口说脏话，村子里的徽菜天花板",
+          "reason": "特厨隋卞探店「九斤饭店」，从菜品火候、调味与性价比综合体验来看，整体表现突出，多项菜品在线，值得专程打卡。观众热议：人在黄山的酒店躺尸，还在纠结午饭去哪吃，就刷到视频了，现在中午十一点，开车过去大概半小时，兄弟们等我消息；还有20分钟就到，方便就直播推荐尝试：九斤饭。",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV12QdKBTEyQ",
+          "dishes": [
+            {
+              "name": "九斤饭"
+            }
+          ],
+          "displayName": "特厨隋卞"
+        }
+      ],
+      "cuisine": [
+        "徽菜"
       ],
       "recommenderCount": 1,
       "latestRecommendedAt": "2026-06-17",
@@ -698,7 +874,7 @@
       "name": "老太婆家常菜",
       "coordinates": null,
       "createdAt": "2026-06-17T18:10:47.508Z",
-      "updatedAt": "2026-06-17T18:10:47.508Z",
+      "updatedAt": "2026-06-17T18:38:54.203Z",
       "recommenders": [
         {
           "authorId": "3546888255048212",
@@ -706,10 +882,14 @@
           "profileUrl": "https://space.bilibili.com/3546888255048212",
           "recommendedAt": "2026-06-17",
           "rating": 4,
-          "ratingSummary": "特厨探店|不惊艳，但是吃着超级舒服的家常菜—老太婆家常菜",
-          "reason": "特厨探店|不惊艳，但是吃着超级舒服的家常菜—老太婆家常菜",
-          "sourceVideoUrl": "https://www.bilibili.com/video/BV1RUGf6oE74"
+          "ratingSummary": "值得一试：不惊艳，但是吃着超级舒服的家常菜",
+          "reason": "特厨隋卞探店「老太婆家常菜」，从菜品火候、调味与性价比综合体验来看，整体味道靠谱，有几道亮点菜，适合附近觅食。观众热议：哇！更多民间地道滋味，速戳https://www.bilibili.com/bangumi/play/ss111333 ！；三百万了，i人团队是不是看见气的牙痒痒啊",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1RUGf6oE74",
+          "displayName": "特厨隋卞"
         }
+      ],
+      "cuisine": [
+        "徽菜"
       ],
       "recommenderCount": 1,
       "latestRecommendedAt": "2026-06-17",
@@ -721,22 +901,26 @@
       "name": "新安辣菜馆",
       "coordinates": null,
       "createdAt": "2026-06-17T18:10:54.484Z",
-      "updatedAt": "2026-06-17T18:10:54.484Z",
+      "updatedAt": "2026-06-17T18:38:55.621Z",
       "recommenders": [
         {
           "authorId": "3546888255048212",
           "platform": "bilibili",
           "profileUrl": "https://space.bilibili.com/3546888255048212",
           "recommendedAt": "2026-06-17",
-          "rating": 4,
-          "ratingSummary": "特厨探店|辣但不是干辣！调味也非常好的—新安辣菜馆",
-          "reason": "特厨探店|辣但不是干辣！调味也非常好的—新安辣菜馆",
-          "sourceVideoUrl": "https://www.bilibili.com/video/BV1pmo7BYEX7"
+          "rating": 3,
+          "ratingSummary": "中规中矩：辣但不是干辣！调味也非常好的",
+          "reason": "特厨隋卞探店「新安辣菜馆」，从菜品火候、调味与性价比综合体验来看，优缺点都比较明显，建议按招牌菜点单。观众热议：你要是夸隋老师菜做的好，他也就微微一笑。但你要是夸隋老师长的帅还能吃辣，他高低要送你一盘虾。；而且是中辣",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1pmo7BYEX7",
+          "displayName": "特厨隋卞"
         }
+      ],
+      "cuisine": [
+        "徽菜"
       ],
       "recommenderCount": 1,
       "latestRecommendedAt": "2026-06-17",
-      "averageRating": 4
+      "averageRating": 3
     },
     {
       "id": "huaian-huaianhuojiangchaoduodehuaianbinguan",
@@ -744,22 +928,26 @@
       "name": "淮安获奖超多的淮安宾馆",
       "coordinates": null,
       "createdAt": "2026-06-17T18:10:51.855Z",
-      "updatedAt": "2026-06-17T18:10:51.855Z",
+      "updatedAt": "2026-06-17T18:38:57.001Z",
       "recommenders": [
         {
           "authorId": "3546888255048212",
           "platform": "bilibili",
           "profileUrl": "https://space.bilibili.com/3546888255048212",
           "recommendedAt": "2026-06-17",
-          "rating": 4,
-          "ratingSummary": "特厨探店|淮安获奖超多的淮安宾馆餐厅体验到底怎么样？",
-          "reason": "特厨探店|淮安获奖超多的淮安宾馆餐厅体验到底怎么样？",
-          "sourceVideoUrl": "https://www.bilibili.com/video/BV1cqRJBwEo6"
+          "rating": 2,
+          "ratingSummary": "略有失望：淮安获奖超多的淮安宾馆餐厅体验到底怎么样",
+          "reason": "特厨隋卞探店「淮安获奖超多的淮安宾馆」，从菜品火候、调味与性价比综合体验来看，与预期有差距，部分菜品或体验拖了后腿。观众热议：我记得隋厨说过，有时候会吃到一半，后厨会换大师傅来做，味道明显不一样，这一点他不会特地说，因为代表这个饭店有做好品质的能力，而且他只评价自己吃到的味道。；不太适合下馆子一句就已经点明了",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1cqRJBwEo6",
+          "displayName": "特厨隋卞"
         }
+      ],
+      "cuisine": [
+        "淮扬菜"
       ],
       "recommenderCount": 1,
       "latestRecommendedAt": "2026-06-17",
-      "averageRating": 4
+      "averageRating": 2
     },
     {
       "id": "huaian-puxiancaiguan",
@@ -767,22 +955,26 @@
       "name": "蒲鲜菜馆",
       "coordinates": null,
       "createdAt": "2026-06-17T18:10:55.372Z",
-      "updatedAt": "2026-06-17T18:10:55.372Z",
+      "updatedAt": "2026-06-17T18:38:58.464Z",
       "recommenders": [
         {
           "authorId": "3546888255048212",
           "platform": "bilibili",
           "profileUrl": "https://space.bilibili.com/3546888255048212",
           "recommendedAt": "2026-06-17",
-          "rating": 4,
-          "ratingSummary": "特厨探店|来淮安物理意义上的\"偷\"菜—蒲鲜菜馆",
-          "reason": "特厨探店|来淮安物理意义上的\"偷\"菜—蒲鲜菜馆",
-          "sourceVideoUrl": "https://www.bilibili.com/video/BV1KToHB7Est"
+          "rating": 3,
+          "ratingSummary": "不算惊艳：来淮安物理意义上的\"偷\"菜",
+          "reason": "特厨隋卞探店「蒲鲜菜馆」，从菜品火候、调味与性价比综合体验来看，优缺点都比较明显，建议按招牌菜点单。观众热议：随老师我想吃小龙虾了什么时候复刻一期；刚好他到淮安了，淮安的小龙虾也非常出名",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1KToHB7Est",
+          "displayName": "特厨隋卞"
         }
+      ],
+      "cuisine": [
+        "淮扬菜"
       ],
       "recommenderCount": 1,
       "latestRecommendedAt": "2026-06-17",
-      "averageRating": 4
+      "averageRating": 3
     },
     {
       "id": "huaian-xiaoliuzijiaomiandian",
@@ -790,22 +982,34 @@
       "name": "小六子饺面店",
       "coordinates": null,
       "createdAt": "2026-06-17T18:10:53.595Z",
-      "updatedAt": "2026-06-17T18:10:53.595Z",
+      "updatedAt": "2026-06-17T18:38:59.851Z",
       "recommenders": [
         {
           "authorId": "3546888255048212",
           "platform": "bilibili",
           "profileUrl": "https://space.bilibili.com/3546888255048212",
           "recommendedAt": "2026-06-17",
-          "rating": 4,
-          "ratingSummary": "特厨探店|什么样的店才能被称为人生饭店？—小六子饺面店",
-          "reason": "特厨探店|什么样的店才能被称为人生饭店？—小六子饺面店",
-          "sourceVideoUrl": "https://www.bilibili.com/video/BV1PE9tBpEek"
+          "rating": 5,
+          "ratingSummary": "强烈推荐：什么样的店才能被称为人生饭店",
+          "reason": "特厨隋卞探店「小六子饺面店」，从菜品火候、调味与性价比综合体验来看，整体表现突出，多项菜品在线，值得专程打卡。观众热议：十年前价格更加美丽；哇还有老资历推荐尝试：店才能被称为人生饭、小六子饺面。",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1PE9tBpEek",
+          "dishes": [
+            {
+              "name": "店才能被称为人生饭"
+            },
+            {
+              "name": "小六子饺面"
+            }
+          ],
+          "displayName": "特厨隋卞"
         }
+      ],
+      "cuisine": [
+        "淮扬菜"
       ],
       "recommenderCount": 1,
       "latestRecommendedAt": "2026-06-17",
-      "averageRating": 4
+      "averageRating": 5
     },
     {
       "id": "huangshan-yejiadayuan",
@@ -813,22 +1017,23 @@
       "name": "叶家大院",
       "coordinates": null,
       "createdAt": "2026-06-17T18:10:50.104Z",
-      "updatedAt": "2026-06-17T18:10:50.104Z",
+      "updatedAt": "2026-06-17T18:39:01.317Z",
       "recommenders": [
         {
           "authorId": "3546888255048212",
           "platform": "bilibili",
           "profileUrl": "https://space.bilibili.com/3546888255048212",
           "recommendedAt": "2026-06-17",
-          "rating": 4,
-          "ratingSummary": "特厨探店|吃过但是剪视频又看馋了的—叶家大院",
-          "reason": "特厨探店|吃过但是剪视频又看馋了的—叶家大院",
-          "sourceVideoUrl": "https://www.bilibili.com/video/BV11z536jELv"
+          "rating": 3,
+          "ratingSummary": "中规中矩：吃过但是剪视频又看馋了的",
+          "reason": "特厨隋卞探店「叶家大院」，从菜品火候、调味与性价比综合体验来看，优缺点都比较明显，建议按招牌菜点单。观众热议：老板太精了，把店开山里，来了先爬一个小时山，又累又饿，吃什么都香；你不懂，以前这种菜馆都是吃野味的，现在抓的比较严，吃野味要会打暗号。在江西，这种野菜馆不少。很多广州，浙江一带的老板来吃的，评价很高。所以菜品一般不放什么辣椒。",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV11z536jELv",
+          "displayName": "特厨隋卞"
         }
       ],
       "recommenderCount": 1,
       "latestRecommendedAt": "2026-06-17",
-      "averageRating": 4
+      "averageRating": 3
     },
     {
       "id": "huhehaote-siziwangmenbadun",
@@ -836,22 +1041,28 @@
       "name": "四子王焖把炖",
       "coordinates": null,
       "createdAt": "2026-06-17T18:10:52.721Z",
-      "updatedAt": "2026-06-17T18:10:52.721Z",
+      "updatedAt": "2026-06-17T18:39:02.775Z",
       "recommenders": [
         {
           "authorId": "3546888255048212",
           "platform": "bilibili",
           "profileUrl": "https://space.bilibili.com/3546888255048212",
           "recommendedAt": "2026-06-17",
-          "rating": 4,
-          "ratingSummary": "特厨探店|在内蒙吃肉还能吃到爽？！—四子王焖把炖",
-          "reason": "特厨探店|在内蒙吃肉还能吃到爽？！—四子王焖把炖",
-          "sourceVideoUrl": "https://www.bilibili.com/video/BV17pREBQEDS"
+          "rating": 3,
+          "ratingSummary": "有好有坏：在内蒙吃肉还能吃到爽",
+          "reason": "特厨隋卞探店「四子王焖把炖」，从菜品火候、调味与性价比综合体验来看，优缺点都比较明显，建议按招牌菜点单。观众热议：看著真好吃，可惜有點遠，去不了；回复 @S117_OFFICIAL :必须让台湾同胞跟我们享受一样的工时推荐尝试：在内蒙吃肉。",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV17pREBQEDS",
+          "dishes": [
+            {
+              "name": "在内蒙吃肉"
+            }
+          ],
+          "displayName": "特厨隋卞"
         }
       ],
       "recommenderCount": 1,
       "latestRecommendedAt": "2026-06-17",
-      "averageRating": 4
+      "averageRating": 3
     },
     {
       "id": "jinan-lucaigen",
@@ -859,22 +1070,26 @@
       "name": "鲁菜根",
       "coordinates": null,
       "createdAt": "2026-06-17T18:12:07.574Z",
-      "updatedAt": "2026-06-17T18:12:07.574Z",
+      "updatedAt": "2026-06-17T18:39:04.239Z",
       "recommenders": [
         {
           "authorId": "3546888255048212",
           "platform": "bilibili",
           "profileUrl": "https://space.bilibili.com/3546888255048212",
           "recommendedAt": "2026-06-17",
-          "rating": 4,
-          "ratingSummary": "特厨探店 |厨师的职责到底是什么？—鲁菜根",
-          "reason": "特厨探店 |厨师的职责到底是什么？—鲁菜根",
-          "sourceVideoUrl": "https://www.bilibili.com/video/BV1Ep7KzCE34"
+          "rating": 3,
+          "ratingSummary": "有好有坏：厨师的职责到底是什么",
+          "reason": "特厨隋卞探店「鲁菜根」，从菜品火候、调味与性价比综合体验来看，优缺点都比较明显，建议按招牌菜点单。观众热议：做个总结 \n1.鲤鱼刚从土里挖出来 很新鲜\n2.35块钱一根的葱 配3.5块的碱\n3.生蒜鲜辣椒拌回锅柴鸡\n4.溜鞋底；总结：倒贴4块 还不好吃",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1Ep7KzCE34",
+          "displayName": "特厨隋卞"
         }
+      ],
+      "cuisine": [
+        "鲁菜"
       ],
       "recommenderCount": 1,
       "latestRecommendedAt": "2026-06-17",
-      "averageRating": 4
+      "averageRating": 3
     },
     {
       "id": "luoyang-chuanweijiaxiaochi",
@@ -882,22 +1097,28 @@
       "name": "川味家小吃",
       "coordinates": null,
       "createdAt": "2026-06-17T18:11:41.164Z",
-      "updatedAt": "2026-06-17T18:11:41.164Z",
+      "updatedAt": "2026-06-17T18:39:05.700Z",
       "recommenders": [
         {
           "authorId": "3546888255048212",
           "platform": "bilibili",
           "profileUrl": "https://space.bilibili.com/3546888255048212",
           "recommendedAt": "2026-06-17",
-          "rating": 4,
-          "ratingSummary": "特厨探店 |全国最便宜的盖浇饭？他们不要成本的？—川味家小吃",
-          "reason": "特厨探店 |全国最便宜的盖浇饭？他们不要成本的？—川味家小吃",
-          "sourceVideoUrl": "https://www.bilibili.com/video/BV1YTaxzxEAA"
+          "rating": 2,
+          "ratingSummary": "慎重选择：全国最便宜的盖浇饭？他们不要成本的",
+          "reason": "特厨隋卞探店「川味家小吃」，从菜品火候、调味与性价比综合体验来看，与预期有差距，部分菜品或体验拖了后腿。观众热议：7块钱带肉，我要啥自行车，；回复 @但斫柴薪换酒钱 : 7块钱带肉，不要自行车我自带自行车，推荐尝试：全国最便宜的盖浇饭。",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1YTaxzxEAA",
+          "dishes": [
+            {
+              "name": "全国最便宜的盖浇饭"
+            }
+          ],
+          "displayName": "特厨隋卞"
         }
       ],
       "recommenderCount": 1,
       "latestRecommendedAt": "2026-06-17",
-      "averageRating": 4
+      "averageRating": 2
     },
     {
       "id": "nanning-laosanpian",
@@ -905,7 +1126,7 @@
       "name": "老三篇",
       "coordinates": null,
       "createdAt": "2026-06-17T18:11:23.505Z",
-      "updatedAt": "2026-06-17T18:11:23.505Z",
+      "updatedAt": "2026-06-17T18:39:07.133Z",
       "recommenders": [
         {
           "authorId": "3546888255048212",
@@ -913,9 +1134,10 @@
           "profileUrl": "https://space.bilibili.com/3546888255048212",
           "recommendedAt": "2026-06-17",
           "rating": 4,
-          "ratingSummary": "特厨探店|在南宁被各种酸料香晕—老三篇",
-          "reason": "特厨探店|在南宁被各种酸料香晕—老三篇",
-          "sourceVideoUrl": "https://www.bilibili.com/video/BV1C4yKBNEjF"
+          "ratingSummary": "值得一试：在南宁被各种酸料香晕",
+          "reason": "特厨隋卞探店「老三篇」，从菜品火候、调味与性价比综合体验来看，整体味道靠谱，有几道亮点菜，适合附近觅食。观众热议：上一期刚笑隋老师的食堂没了，转眼我的食堂就没了；老哥这店叫啥",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1C4yKBNEjF",
+          "displayName": "特厨隋卞"
         }
       ],
       "recommenderCount": 1,
@@ -928,22 +1150,31 @@
       "name": "旧款宁波饭店",
       "coordinates": null,
       "createdAt": "2026-06-17T18:10:46.642Z",
-      "updatedAt": "2026-06-17T18:10:46.642Z",
+      "updatedAt": "2026-06-17T18:39:08.546Z",
       "recommenders": [
         {
           "authorId": "3546888255048212",
           "platform": "bilibili",
           "profileUrl": "https://space.bilibili.com/3546888255048212",
           "recommendedAt": "2026-06-17",
-          "rating": 4,
-          "ratingSummary": "特厨探店|四张桌子的小店一顿吃几千？—旧款宁波饭店",
-          "reason": "特厨探店|四张桌子的小店一顿吃几千？—旧款宁波饭店",
-          "sourceVideoUrl": "https://www.bilibili.com/video/BV1t7VQ6fEN7"
+          "rating": 3,
+          "ratingSummary": "不算惊艳：四张桌子的小店一顿吃几千",
+          "reason": "特厨隋卞探店「旧款宁波饭店」，从菜品火候、调味与性价比综合体验来看，优缺点都比较明显，建议按招牌菜点单。观众热议：这种店也只可能出现在上海了，沪币再次证明了自己；依旧不看完，这么大个鲍鱼放哪儿卖的便宜推荐尝试：旧款宁波饭。",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1t7VQ6fEN7",
+          "dishes": [
+            {
+              "name": "旧款宁波饭"
+            }
+          ],
+          "displayName": "特厨隋卞"
         }
+      ],
+      "cuisine": [
+        "浙菜"
       ],
       "recommenderCount": 1,
       "latestRecommendedAt": "2026-06-17",
-      "averageRating": 4
+      "averageRating": 3
     },
     {
       "id": "qiqihaer-baodianmalachuan",
@@ -951,122 +1182,7 @@
       "name": "爆点麻辣串",
       "coordinates": null,
       "createdAt": "2026-06-17T18:11:19.067Z",
-      "updatedAt": "2026-06-17T18:11:19.067Z",
-      "recommenders": [
-        {
-          "authorId": "3546888255048212",
-          "platform": "bilibili",
-          "profileUrl": "https://space.bilibili.com/3546888255048212",
-          "recommendedAt": "2026-06-17",
-          "rating": 4,
-          "ratingSummary": "特厨探店|只有六张桌子的小店，却吃的热泪盈眶？—爆点麻辣串",
-          "reason": "特厨探店|只有六张桌子的小店，却吃的热泪盈眶？—爆点麻辣串",
-          "sourceVideoUrl": "https://www.bilibili.com/video/BV1Jtm3BSE3s"
-        }
-      ],
-      "recommenderCount": 1,
-      "latestRecommendedAt": "2026-06-17",
-      "averageRating": 4
-    },
-    {
-      "id": "qiqihaer-huasongfandian",
-      "city": "齐齐哈尔",
-      "name": "华松饭店",
-      "coordinates": null,
-      "createdAt": "2026-06-17T18:11:20.854Z",
-      "updatedAt": "2026-06-17T18:11:20.854Z",
-      "recommenders": [
-        {
-          "authorId": "3546888255048212",
-          "platform": "bilibili",
-          "profileUrl": "https://space.bilibili.com/3546888255048212",
-          "recommendedAt": "2026-06-17",
-          "rating": 4,
-          "ratingSummary": "特厨探店|开车一小时才找到的齐齐哈尔神店！—华松饭店",
-          "reason": "特厨探店|开车一小时才找到的齐齐哈尔神店！—华松饭店",
-          "sourceVideoUrl": "https://www.bilibili.com/video/BV1fc2eBkEMS"
-        }
-      ],
-      "recommenderCount": 1,
-      "latestRecommendedAt": "2026-06-17",
-      "averageRating": 4
-    },
-    {
-      "id": "qiqihaer-huibinbaozi",
-      "city": "齐齐哈尔",
-      "name": "汇宾包子",
-      "coordinates": null,
-      "createdAt": "2026-06-17T18:11:19.969Z",
-      "updatedAt": "2026-06-17T18:11:19.969Z",
-      "recommenders": [
-        {
-          "authorId": "3546888255048212",
-          "platform": "bilibili",
-          "profileUrl": "https://space.bilibili.com/3546888255048212",
-          "recommendedAt": "2026-06-17",
-          "rating": 4,
-          "ratingSummary": "特厨探店|在牛肉这么好的齐齐哈尔吃牛肉包子是什么体验？—汇宾包子",
-          "reason": "特厨探店|在牛肉这么好的齐齐哈尔吃牛肉包子是什么体验？—汇宾包子",
-          "sourceVideoUrl": "https://www.bilibili.com/video/BV15NmPBpEwr"
-        }
-      ],
-      "recommenderCount": 1,
-      "latestRecommendedAt": "2026-06-17",
-      "averageRating": 4
-    },
-    {
-      "id": "qiqihaer-kaorouzhidouzuihuodeliangjiashaokao",
-      "city": "齐齐哈尔",
-      "name": "烤肉之都最火的两家烧烤",
-      "coordinates": null,
-      "createdAt": "2026-06-17T18:11:21.747Z",
-      "updatedAt": "2026-06-17T18:11:21.747Z",
-      "recommenders": [
-        {
-          "authorId": "3546888255048212",
-          "platform": "bilibili",
-          "profileUrl": "https://space.bilibili.com/3546888255048212",
-          "recommendedAt": "2026-06-17",
-          "rating": 4,
-          "ratingSummary": "特厨探店|烤肉之都最火的两家烧烤，一个视频带你吃透！",
-          "reason": "特厨探店|烤肉之都最火的两家烧烤，一个视频带你吃透！",
-          "sourceVideoUrl": "https://www.bilibili.com/video/BV1fvSzBvEot"
-        }
-      ],
-      "recommenderCount": 1,
-      "latestRecommendedAt": "2026-06-17",
-      "averageRating": 4
-    },
-    {
-      "id": "shanghai-bahaoyuaner",
-      "city": "上海",
-      "name": "八号院儿",
-      "coordinates": null,
-      "createdAt": "2026-06-17T18:10:45.760Z",
-      "updatedAt": "2026-06-17T18:10:45.760Z",
-      "recommenders": [
-        {
-          "authorId": "3546888255048212",
-          "platform": "bilibili",
-          "profileUrl": "https://space.bilibili.com/3546888255048212",
-          "recommendedAt": "2026-06-17",
-          "rating": 4,
-          "ratingSummary": "特厨探店|明星开的小面馆，真实水平到底怎么样—八号院儿",
-          "reason": "特厨探店|明星开的小面馆，真实水平到底怎么样—八号院儿",
-          "sourceVideoUrl": "https://www.bilibili.com/video/BV1AnEx68Eh5"
-        }
-      ],
-      "recommenderCount": 1,
-      "latestRecommendedAt": "2026-06-17",
-      "averageRating": 4
-    },
-    {
-      "id": "shanghai-dakuaitoupaidang",
-      "city": "上海",
-      "name": "大块头排挡",
-      "coordinates": null,
-      "createdAt": "2026-06-17T18:11:44.668Z",
-      "updatedAt": "2026-06-17T18:11:44.668Z",
+      "updatedAt": "2026-06-17T18:39:09.916Z",
       "recommenders": [
         {
           "authorId": "3546888255048212",
@@ -1074,9 +1190,164 @@
           "profileUrl": "https://space.bilibili.com/3546888255048212",
           "recommendedAt": "2026-06-17",
           "rating": 5,
-          "ratingSummary": "特厨探店 |半夜来吃上海夜宵天花板？—大块头排挡",
-          "reason": "特厨探店 |半夜来吃上海夜宵天花板？—大块头排挡",
-          "sourceVideoUrl": "https://www.bilibili.com/video/BV1nWYtzjE7d"
+          "ratingSummary": "水准在线：只有六张桌子的小店，却吃的热泪盈眶",
+          "reason": "特厨隋卞探店「爆点麻辣串」，从菜品火候、调味与性价比综合体验来看，整体表现突出，多项菜品在线，值得专程打卡。观众热议：本来这家饭点就排队吃不上，这下本地人还能吃上了吗？顺便说一下他家的炒冷面好吃到离谱；店名叫什么",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1Jtm3BSE3s",
+          "displayName": "特厨隋卞"
+        }
+      ],
+      "cuisine": [
+        "川菜",
+        "东北菜"
+      ],
+      "recommenderCount": 1,
+      "latestRecommendedAt": "2026-06-17",
+      "averageRating": 5
+    },
+    {
+      "id": "qiqihaer-huasongfandian",
+      "city": "齐齐哈尔",
+      "name": "华松饭店",
+      "coordinates": null,
+      "createdAt": "2026-06-17T18:11:20.854Z",
+      "updatedAt": "2026-06-17T18:39:11.345Z",
+      "recommenders": [
+        {
+          "authorId": "3546888255048212",
+          "platform": "bilibili",
+          "profileUrl": "https://space.bilibili.com/3546888255048212",
+          "recommendedAt": "2026-06-17",
+          "rating": 3,
+          "ratingSummary": "看个人口味：开车一小时才找到的齐齐哈尔神店",
+          "reason": "特厨隋卞探店「华松饭店」，从菜品火候、调味与性价比综合体验来看，优缺点都比较明显，建议按招牌菜点单。观众热议：齐齐哈尔牛肉就是纯粹的数值怪，一点操作都不用。不管你是煮还是烤还是怎么做，只要做熟了就好吃。当然切薄片生吃也行。在这基础上只要加上点厨艺，那就是绝美~；回复 @下雨声真烦 :品种加气候加纬度推荐尝试：华松饭。",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1fc2eBkEMS",
+          "dishes": [
+            {
+              "name": "华松饭"
+            }
+          ],
+          "displayName": "特厨隋卞"
+        }
+      ],
+      "cuisine": [
+        "东北菜"
+      ],
+      "recommenderCount": 1,
+      "latestRecommendedAt": "2026-06-17",
+      "averageRating": 3
+    },
+    {
+      "id": "qiqihaer-huibinbaozi",
+      "city": "齐齐哈尔",
+      "name": "汇宾包子",
+      "coordinates": null,
+      "createdAt": "2026-06-17T18:11:19.969Z",
+      "updatedAt": "2026-06-17T18:39:12.799Z",
+      "recommenders": [
+        {
+          "authorId": "3546888255048212",
+          "platform": "bilibili",
+          "profileUrl": "https://space.bilibili.com/3546888255048212",
+          "recommendedAt": "2026-06-17",
+          "rating": 2,
+          "ratingSummary": "不太推荐：在牛肉这么好的齐齐哈尔吃牛肉包子是什么体验",
+          "reason": "特厨隋卞探店「汇宾包子」，从菜品火候、调味与性价比综合体验来看，与预期有差距，部分菜品或体验拖了后腿。观众热议：我突然有一天想起来我姥爷是齐齐哈尔人，于是我问他在他小的时候当地的烤肉是不是已经很有名了。\n我姥爷：当时连饭都没得吃，哪来的烤肉？我看你像烤肉……；最后那句话太真实了，我爷爷也这么说过我推荐尝试：在牛肉、好的齐齐哈尔吃牛肉、汇宾包子。",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV15NmPBpEwr",
+          "dishes": [
+            {
+              "name": "在牛肉"
+            },
+            {
+              "name": "好的齐齐哈尔吃牛肉"
+            },
+            {
+              "name": "汇宾包子"
+            }
+          ],
+          "displayName": "特厨隋卞"
+        }
+      ],
+      "cuisine": [
+        "东北菜"
+      ],
+      "recommenderCount": 1,
+      "latestRecommendedAt": "2026-06-17",
+      "averageRating": 2
+    },
+    {
+      "id": "qiqihaer-kaorouzhidouzuihuodeliangjiashaokao",
+      "city": "齐齐哈尔",
+      "name": "烤肉之都最火的两家烧烤",
+      "coordinates": null,
+      "createdAt": "2026-06-17T18:11:21.747Z",
+      "updatedAt": "2026-06-17T18:39:14.206Z",
+      "recommenders": [
+        {
+          "authorId": "3546888255048212",
+          "platform": "bilibili",
+          "profileUrl": "https://space.bilibili.com/3546888255048212",
+          "recommendedAt": "2026-06-17",
+          "rating": 3,
+          "ratingSummary": "看个人口味：烤肉之都最火的两家烧烤，一个视频带你吃透",
+          "reason": "特厨隋卞探店「烤肉之都最火的两家烧烤」，从菜品火候、调味与性价比综合体验来看，优缺点都比较明显，建议按招牌菜点单。观众热议：红红火火恍恍惚惚；吃的面目狰狞是吧",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1fvSzBvEot",
+          "displayName": "特厨隋卞"
+        }
+      ],
+      "cuisine": [
+        "东北菜"
+      ],
+      "recommenderCount": 1,
+      "latestRecommendedAt": "2026-06-17",
+      "averageRating": 3
+    },
+    {
+      "id": "shanghai-bahaoyuaner",
+      "city": "上海",
+      "name": "八号院儿",
+      "coordinates": null,
+      "createdAt": "2026-06-17T18:10:45.760Z",
+      "updatedAt": "2026-06-17T18:39:15.643Z",
+      "recommenders": [
+        {
+          "authorId": "3546888255048212",
+          "platform": "bilibili",
+          "profileUrl": "https://space.bilibili.com/3546888255048212",
+          "recommendedAt": "2026-06-17",
+          "rating": 2,
+          "ratingSummary": "慎重选择：明星开的小面馆，真实水平到底怎么样",
+          "reason": "特厨隋卞探店「八号院儿」，从菜品火候、调味与性价比综合体验来看，与预期有差距，部分菜品或体验拖了后腿。观众热议：明星不明星的 在我眼里 挂这个招牌就没必要吃；那句话怎么说的，网红店可以去，网红的店千万别去推荐尝试：明星开的小面。",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1AnEx68Eh5",
+          "dishes": [
+            {
+              "name": "明星开的小面"
+            }
+          ],
+          "displayName": "特厨隋卞"
+        }
+      ],
+      "recommenderCount": 1,
+      "latestRecommendedAt": "2026-06-17",
+      "averageRating": 2
+    },
+    {
+      "id": "shanghai-dakuaitoupaidang",
+      "city": "上海",
+      "name": "大块头排挡",
+      "coordinates": null,
+      "createdAt": "2026-06-17T18:11:44.668Z",
+      "updatedAt": "2026-06-17T18:39:17.111Z",
+      "recommenders": [
+        {
+          "authorId": "3546888255048212",
+          "platform": "bilibili",
+          "profileUrl": "https://space.bilibili.com/3546888255048212",
+          "recommendedAt": "2026-06-17",
+          "rating": 5,
+          "ratingSummary": "水准在线：半夜来吃上海夜宵天花板",
+          "reason": "特厨隋卞探店「大块头排挡」，从菜品火候、调味与性价比综合体验来看，整体表现突出，多项菜品在线，值得专程打卡。观众热议：隋老师什么时候能重启教学啊，家庭菜谱急需补充啊；之前小李回过了，在找场地，估计9-10月份",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1nWYtzjE7d",
+          "displayName": "特厨隋卞"
         }
       ],
       "recommenderCount": 1,
@@ -1089,7 +1360,7 @@
       "name": "福1088",
       "coordinates": null,
       "createdAt": "2026-06-17T18:11:42.043Z",
-      "updatedAt": "2026-06-17T18:11:42.043Z",
+      "updatedAt": "2026-06-17T18:39:18.571Z",
       "recommenders": [
         {
           "authorId": "3546888255048212",
@@ -1097,9 +1368,10 @@
           "profileUrl": "https://space.bilibili.com/3546888255048212",
           "recommendedAt": "2026-06-17",
           "rating": 4,
-          "ratingSummary": "特厨探店 |人均1000还有性价比？—福1088",
-          "reason": "特厨探店 |人均1000还有性价比？—福1088",
-          "sourceVideoUrl": "https://www.bilibili.com/video/BV1a7hvz2Ew5"
+          "ratingSummary": "整体不错：人均1000还有性价比",
+          "reason": "特厨隋卞探店「福1088」，从菜品火候、调味与性价比综合体验来看，整体味道靠谱，有几道亮点菜，适合附近觅食。观众热议：生成式ai经典说了很多但是又约等于啥都没说；战斗力.001随",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1a7hvz2Ew5",
+          "displayName": "特厨隋卞"
         }
       ],
       "recommenderCount": 1,
@@ -1112,22 +1384,23 @@
       "name": "姐妹",
       "coordinates": null,
       "createdAt": "2026-06-17T18:10:57.130Z",
-      "updatedAt": "2026-06-17T18:10:57.130Z",
+      "updatedAt": "2026-06-17T18:39:20.014Z",
       "recommenders": [
         {
           "authorId": "3546888255048212",
           "platform": "bilibili",
           "profileUrl": "https://space.bilibili.com/3546888255048212",
           "recommendedAt": "2026-06-17",
-          "rating": 4,
-          "ratingSummary": "特厨探店|全好评！全好吃！上海街边小馆到底多好吃—姐妹餐厅",
-          "reason": "特厨探店|全好评！全好吃！上海街边小馆到底多好吃—姐妹餐厅",
-          "sourceVideoUrl": "https://www.bilibili.com/video/BV1BRQNBrEcB"
+          "rating": 5,
+          "ratingSummary": "强烈推荐：全好评！全好吃！上海街边小馆到底多好吃",
+          "reason": "特厨隋卞探店「姐妹」，从菜品火候、调味与性价比综合体验来看，整体表现突出，多项菜品在线，值得专程打卡。观众热议：老板骄傲的说都是自己买菜的时候，并没有料到视频发布后会发生什么；要是知道怕是要把隋老师轰出去",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1BRQNBrEcB",
+          "displayName": "特厨隋卞"
         }
       ],
       "recommenderCount": 1,
       "latestRecommendedAt": "2026-06-17",
-      "averageRating": 4
+      "averageRating": 5
     },
     {
       "id": "shanghai-luyuan",
@@ -1135,22 +1408,23 @@
       "name": "鹿园",
       "coordinates": null,
       "createdAt": "2026-06-17T18:10:59.726Z",
-      "updatedAt": "2026-06-17T18:10:59.726Z",
+      "updatedAt": "2026-06-17T18:39:21.454Z",
       "recommenders": [
         {
           "authorId": "3546888255048212",
           "platform": "bilibili",
           "profileUrl": "https://space.bilibili.com/3546888255048212",
           "recommendedAt": "2026-06-17",
-          "rating": 4,
-          "ratingSummary": "特厨探店|连续8年米*林？真实水平到底如何！—鹿园餐厅",
-          "reason": "特厨探店|连续8年米*林？真实水平到底如何！—鹿园餐厅",
-          "sourceVideoUrl": "https://www.bilibili.com/video/BV11x93BkEnq"
+          "rating": 3,
+          "ratingSummary": "中规中矩：连续8年米*林？真实水平到底如何",
+          "reason": "特厨隋卞探店「鹿园」，从菜品火候、调味与性价比综合体验来看，优缺点都比较明显，建议按招牌菜点单。观众热议：宝塔肉在监狱里学做过，回来后就春节尝试过一次，感觉比当年退步了。；说出你的故事",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV11x93BkEnq",
+          "displayName": "特厨隋卞"
         }
       ],
       "recommenderCount": 1,
       "latestRecommendedAt": "2026-06-17",
-      "averageRating": 4
+      "averageRating": 3
     },
     {
       "id": "shanghai-maoshengyinshidian",
@@ -1158,22 +1432,23 @@
       "name": "茂盛饮食店",
       "coordinates": null,
       "createdAt": "2026-06-17T18:10:58.859Z",
-      "updatedAt": "2026-06-17T18:10:58.859Z",
+      "updatedAt": "2026-06-17T18:39:22.835Z",
       "recommenders": [
         {
           "authorId": "3546888255048212",
           "platform": "bilibili",
           "profileUrl": "https://space.bilibili.com/3546888255048212",
           "recommendedAt": "2026-06-17",
-          "rating": 4,
-          "ratingSummary": "特厨探店|上海的...小店？—茂盛饮食店",
-          "reason": "特厨探店|上海的...小店？—茂盛饮食店",
-          "sourceVideoUrl": "https://www.bilibili.com/video/BV1qoDgBQE8E"
+          "rating": 2,
+          "ratingSummary": "慎重选择：上海的...小店",
+          "reason": "特厨隋卞探店「茂盛饮食店」，从菜品火候、调味与性价比综合体验来看，与预期有差距，部分菜品或体验拖了后腿。观众热议：这是要固定封面风格了吗；我感觉是这样的封面，暗示是广",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1qoDgBQE8E",
+          "displayName": "特厨隋卞"
         }
       ],
       "recommenderCount": 1,
       "latestRecommendedAt": "2026-06-17",
-      "averageRating": 4
+      "averageRating": 2
     },
     {
       "id": "shanghai-shigui",
@@ -1181,22 +1456,23 @@
       "name": "食贵",
       "coordinates": null,
       "createdAt": "2026-06-17T18:12:00.478Z",
-      "updatedAt": "2026-06-17T18:12:00.478Z",
+      "updatedAt": "2026-06-17T18:39:24.224Z",
       "recommenders": [
         {
           "authorId": "3546888255048212",
           "platform": "bilibili",
           "profileUrl": "https://space.bilibili.com/3546888255048212",
           "recommendedAt": "2026-06-17",
-          "rating": 4,
-          "ratingSummary": "特厨探店 |在上海主动要差评的餐厅是什么样的？—食贵",
-          "reason": "特厨探店 |在上海主动要差评的餐厅是什么样的？—食贵",
-          "sourceVideoUrl": "https://www.bilibili.com/video/BV1MZKhziEKD"
+          "rating": 1,
+          "ratingSummary": "建议避雷：在上海主动要差评的餐厅是什么样的",
+          "reason": "特厨隋卞探店「食贵」，从菜品火候、调味与性价比综合体验来看，整体不太理想，不建议抱太高期待。观众热议：这家老板什么水平？\n不知道，但是给他擦桌子的是隋坡。；苏联笑活永不过时",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1MZKhziEKD",
+          "displayName": "特厨隋卞"
         }
       ],
       "recommenderCount": 1,
       "latestRecommendedAt": "2026-06-17",
-      "averageRating": 4
+      "averageRating": 1
     },
     {
       "id": "shanghai-shilu",
@@ -1204,22 +1480,23 @@
       "name": "食庐",
       "coordinates": null,
       "createdAt": "2026-06-17T18:11:57.851Z",
-      "updatedAt": "2026-06-17T18:11:57.851Z",
+      "updatedAt": "2026-06-17T18:39:25.651Z",
       "recommenders": [
         {
           "authorId": "3546888255048212",
           "platform": "bilibili",
           "profileUrl": "https://space.bilibili.com/3546888255048212",
           "recommendedAt": "2026-06-17",
-          "rating": 4,
-          "ratingSummary": "特厨探店 |来上海收到私信最多的餐厅—食庐餐厅",
-          "reason": "特厨探店 |来上海收到私信最多的餐厅—食庐餐厅",
-          "sourceVideoUrl": "https://www.bilibili.com/video/BV1LjgCzoEEo"
+          "rating": 2,
+          "ratingSummary": "略有失望：来上海收到私信最多的餐厅",
+          "reason": "特厨隋卞探店「食庐」，从菜品火候、调味与性价比综合体验来看，与预期有差距，部分菜品或体验拖了后腿。观众热议：狮子头无差评的小妙招——隋老师来了就说卖完了；“狮子头一份😋”\n“没有😳”\n“这个可以有😠”\n“这个真没有😭”",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1LjgCzoEEo",
+          "displayName": "特厨隋卞"
         }
       ],
       "recommenderCount": 1,
       "latestRecommendedAt": "2026-06-17",
-      "averageRating": 4
+      "averageRating": 2
     },
     {
       "id": "shanghai-xijiao5hao",
@@ -1227,22 +1504,28 @@
       "name": "西郊5号",
       "coordinates": null,
       "createdAt": "2026-06-17T18:10:57.993Z",
-      "updatedAt": "2026-06-17T18:10:57.993Z",
+      "updatedAt": "2026-06-17T18:39:27.048Z",
       "recommenders": [
         {
           "authorId": "3546888255048212",
           "platform": "bilibili",
           "profileUrl": "https://space.bilibili.com/3546888255048212",
           "recommendedAt": "2026-06-17",
-          "rating": 4,
-          "ratingSummary": "特厨探店|一顿饭4x万？是噱头还是实力—西郊5号",
-          "reason": "特厨探店|一顿饭4x万？是噱头还是实力—西郊5号",
-          "sourceVideoUrl": "https://www.bilibili.com/video/BV1j9DJB1EdU"
+          "rating": 3,
+          "ratingSummary": "看个人口味：一顿饭4x万？是噱头还是实力",
+          "reason": "特厨隋卞探店「西郊5号」，从菜品火候、调味与性价比综合体验来看，优缺点都比较明显，建议按招牌菜点单。观众热议：当你压力大的时候，想想在隋特厨旁边堂烹鲍鱼的厨师；新手偷师来了（推荐尝试：一顿饭。",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1j9DJB1EdU",
+          "dishes": [
+            {
+              "name": "一顿饭"
+            }
+          ],
+          "displayName": "特厨隋卞"
         }
       ],
       "recommenderCount": 1,
       "latestRecommendedAt": "2026-06-17",
-      "averageRating": 4
+      "averageRating": 3
     },
     {
       "id": "shanghai-yangfanghuoguo",
@@ -1250,22 +1533,26 @@
       "name": "洋房火锅",
       "coordinates": null,
       "createdAt": "2026-06-17T18:11:43.809Z",
-      "updatedAt": "2026-06-17T18:11:43.809Z",
+      "updatedAt": "2026-06-17T18:39:28.514Z",
       "recommenders": [
         {
           "authorId": "3546888255048212",
           "platform": "bilibili",
           "profileUrl": "https://space.bilibili.com/3546888255048212",
           "recommendedAt": "2026-06-17",
-          "rating": 4,
-          "ratingSummary": "特厨探店 |上海“最”出名的火锅？！洋房火锅到底怎么个事!",
-          "reason": "特厨探店 |上海“最”出名的火锅？！洋房火锅到底怎么个事!",
-          "sourceVideoUrl": "https://www.bilibili.com/video/BV1FyYSzGEtg"
+          "rating": 2,
+          "ratingSummary": "慎重选择：上海“最”出名的火锅？！洋房火锅到底怎么个事",
+          "reason": "特厨隋卞探店「洋房火锅」，从菜品火候、调味与性价比综合体验来看，与预期有差距，部分菜品或体验拖了后腿。观众热议：上海洋房最经典的应该就是之前LPL时期，那时候LPL的人吃火锅全去洋房，在洋房日常可以遇到职业选手；吃洋房那两年那可是lpl元年，热度加选手工资都是一顶一",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1FyYSzGEtg",
+          "displayName": "特厨隋卞"
         }
+      ],
+      "cuisine": [
+        "川菜"
       ],
       "recommenderCount": 1,
       "latestRecommendedAt": "2026-06-17",
-      "averageRating": 4
+      "averageRating": 2
     },
     {
       "id": "shanghai-yuwaitan",
@@ -1273,22 +1560,23 @@
       "name": "遇外滩",
       "coordinates": null,
       "createdAt": "2026-06-17T18:11:45.545Z",
-      "updatedAt": "2026-06-17T18:11:45.545Z",
+      "updatedAt": "2026-06-17T18:39:29.916Z",
       "recommenders": [
         {
           "authorId": "3546888255048212",
           "platform": "bilibili",
           "profileUrl": "https://space.bilibili.com/3546888255048212",
           "recommendedAt": "2026-06-17",
-          "rating": 4,
-          "ratingSummary": "特厨探店 |大陆第一餐厅？特厨来尝到底怎么回事！—遇外滩",
-          "reason": "特厨探店 |大陆第一餐厅？特厨来尝到底怎么回事！—遇外滩",
-          "sourceVideoUrl": "https://www.bilibili.com/video/BV1rFYBzkEwt"
+          "rating": 3,
+          "ratingSummary": "有好有坏：大陆第一餐厅？特厨来尝到底怎么回事",
+          "reason": "特厨隋卞探店「遇外滩」，从菜品火候、调味与性价比综合体验来看，优缺点都比较明显，建议按招牌菜点单。观众热议：这家餐厅真牛逼，这个价格能被隋老师夸，甚至除了第一道菜，没有提出什么缺点\n那说明水平非常非常高了；第一道菜要是卤全部入味反而外层的不好吃",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1rFYBzkEwt",
+          "displayName": "特厨隋卞"
         }
       ],
       "recommenderCount": 1,
       "latestRecommendedAt": "2026-06-17",
-      "averageRating": 4
+      "averageRating": 3
     },
     {
       "id": "shenyang-dingxiangxiaozhen",
@@ -1296,22 +1584,26 @@
       "name": "丁香小镇",
       "coordinates": null,
       "createdAt": "2026-06-17T18:11:49.082Z",
-      "updatedAt": "2026-06-17T18:11:49.082Z",
+      "updatedAt": "2026-06-17T18:39:31.383Z",
       "recommenders": [
         {
           "authorId": "3546888255048212",
           "platform": "bilibili",
           "profileUrl": "https://space.bilibili.com/3546888255048212",
           "recommendedAt": "2026-06-17",
-          "rating": 4,
-          "ratingSummary": "特厨探店 |家常菜馆藏着哈尔滨最好的锅包肉？—丁香小镇",
-          "reason": "特厨探店 |家常菜馆藏着哈尔滨最好的锅包肉？—丁香小镇",
-          "sourceVideoUrl": "https://www.bilibili.com/video/BV1Nc8GzKEEM"
+          "rating": 3,
+          "ratingSummary": "中规中矩：家常菜馆藏着哈尔滨最好的锅包肉",
+          "reason": "特厨隋卞探店「丁香小镇」，从菜品火候、调味与性价比综合体验来看，优缺点都比较明显，建议按招牌菜点单。观众热议：来看看哈尔滨的锅包肉为什么这么好吃：https://www.bilibili.com/bangumi/play/ep2167158；这玩意儿敢叫纪录片？",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1Nc8GzKEEM",
+          "displayName": "特厨隋卞"
         }
+      ],
+      "cuisine": [
+        "东北菜"
       ],
       "recommenderCount": 1,
       "latestRecommendedAt": "2026-06-17",
-      "averageRating": 4
+      "averageRating": 3
     },
     {
       "id": "shenyang-laochujia",
@@ -1319,22 +1611,31 @@
       "name": "老厨家",
       "coordinates": null,
       "createdAt": "2026-06-17T18:11:47.314Z",
-      "updatedAt": "2026-06-17T18:11:47.314Z",
+      "updatedAt": "2026-06-17T18:39:32.950Z",
       "recommenders": [
         {
           "authorId": "3546888255048212",
           "platform": "bilibili",
           "profileUrl": "https://space.bilibili.com/3546888255048212",
           "recommendedAt": "2026-06-17",
-          "rating": 4,
-          "ratingSummary": "特厨探店 |评价两极分化的锅包肉创始店？—老厨家",
-          "reason": "特厨探店 |评价两极分化的锅包肉创始店？—老厨家",
-          "sourceVideoUrl": "https://www.bilibili.com/video/BV19bhpzSEyv"
+          "rating": 3,
+          "ratingSummary": "有好有坏：评价两极分化的锅包肉创始店",
+          "reason": "特厨隋卞探店「老厨家」，从菜品火候、调味与性价比综合体验来看，优缺点都比较明显，建议按招牌菜点单。观众热议：“来都来了”中译中→“也就那样”；只能说是很委婉了推荐尝试：评价两极分化的锅包肉。",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV19bhpzSEyv",
+          "dishes": [
+            {
+              "name": "评价两极分化的锅包肉"
+            }
+          ],
+          "displayName": "特厨隋卞"
         }
+      ],
+      "cuisine": [
+        "东北菜"
       ],
       "recommenderCount": 1,
       "latestRecommendedAt": "2026-06-17",
-      "averageRating": 4
+      "averageRating": 3
     },
     {
       "id": "shenyang-zhiyinjiulou",
@@ -1342,22 +1643,26 @@
       "name": "知音酒楼",
       "coordinates": null,
       "createdAt": "2026-06-17T18:11:48.192Z",
-      "updatedAt": "2026-06-17T18:11:48.192Z",
+      "updatedAt": "2026-06-17T18:39:34.483Z",
       "recommenders": [
         {
           "authorId": "3546888255048212",
           "platform": "bilibili",
           "profileUrl": "https://space.bilibili.com/3546888255048212",
           "recommendedAt": "2026-06-17",
-          "rating": 4,
-          "ratingSummary": "特厨探店 |哈尔滨还得排两次队的家常菜馆？—知音酒楼",
-          "reason": "特厨探店 |哈尔滨还得排两次队的家常菜馆？—知音酒楼",
-          "sourceVideoUrl": "https://www.bilibili.com/video/BV1Hh8fzwESu"
+          "rating": 2,
+          "ratingSummary": "期待偏高：哈尔滨还得排两次队的家常菜馆",
+          "reason": "特厨隋卞探店「知音酒楼」，从菜品火候、调味与性价比综合体验来看，与预期有差距，部分菜品或体验拖了后腿。观众热议：看特厨这一口东北菜吃下去也太香啦！小源馋的直流口水🤤；来都来了，抽点什么吧",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1Hh8fzwESu",
+          "displayName": "特厨隋卞"
         }
+      ],
+      "cuisine": [
+        "东北菜"
       ],
       "recommenderCount": 1,
       "latestRecommendedAt": "2026-06-17",
-      "averageRating": 4
+      "averageRating": 2
     },
     {
       "id": "shenzhen-maiyulao",
@@ -1365,22 +1670,26 @@
       "name": "卖鱼佬",
       "coordinates": null,
       "createdAt": "2026-06-17T18:11:55.232Z",
-      "updatedAt": "2026-06-17T18:11:55.232Z",
+      "updatedAt": "2026-06-17T18:39:35.857Z",
       "recommenders": [
         {
           "authorId": "3546888255048212",
           "platform": "bilibili",
           "profileUrl": "https://space.bilibili.com/3546888255048212",
           "recommendedAt": "2026-06-17",
-          "rating": 4,
-          "ratingSummary": "特厨探店 |只在深夜开门的海鲜粥—卖鱼佬",
-          "reason": "特厨探店 |只在深夜开门的海鲜粥—卖鱼佬",
-          "sourceVideoUrl": "https://www.bilibili.com/video/BV17zGPzxELW"
+          "rating": 3,
+          "ratingSummary": "有好有坏：只在深夜开门的海鲜粥",
+          "reason": "特厨隋卞探店「卖鱼佬」，从菜品火候、调味与性价比综合体验来看，优缺点都比较明显，建议按招牌菜点单。观众热议：这粥 我不敢想会有多好吃；从嘴到胃都舒服了，就是烫，巨烫",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV17zGPzxELW",
+          "displayName": "特厨隋卞"
         }
+      ],
+      "cuisine": [
+        "粤菜"
       ],
       "recommenderCount": 1,
       "latestRecommendedAt": "2026-06-17",
-      "averageRating": 4
+      "averageRating": 3
     },
     {
       "id": "shijiazhuang-guofulaocaiguan",
@@ -1388,7 +1697,7 @@
       "name": "国富老菜馆",
       "coordinates": null,
       "createdAt": "2026-06-17T18:11:27.044Z",
-      "updatedAt": "2026-06-17T18:11:27.044Z",
+      "updatedAt": "2026-06-17T18:39:37.267Z",
       "recommenders": [
         {
           "authorId": "3546888255048212",
@@ -1396,9 +1705,10 @@
           "profileUrl": "https://space.bilibili.com/3546888255048212",
           "recommendedAt": "2026-06-17",
           "rating": 4,
-          "ratingSummary": "特厨探店|藏在菜市场，但菜做的很规矩！—国富老菜馆",
-          "reason": "特厨探店|藏在菜市场，但菜做的很规矩！—国富老菜馆",
-          "sourceVideoUrl": "https://www.bilibili.com/video/BV1xM1bBzEfD"
+          "ratingSummary": "值得推荐：藏在菜市场，但菜做的很规矩",
+          "reason": "特厨隋卞探店「国富老菜馆」，从菜品火候、调味与性价比综合体验来看，整体味道靠谱，有几道亮点菜，适合附近觅食。观众热议：河北省沧州市新华区九中前街15号\n国富老菜馆。\n当地人：坏了，我的宝藏店铺；上周听说国富不错还想去，加了一周班结果去估计要排大队了",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1xM1bBzEfD",
+          "displayName": "特厨隋卞"
         }
       ],
       "recommenderCount": 1,
@@ -1411,22 +1721,23 @@
       "name": "好再来",
       "coordinates": null,
       "createdAt": "2026-06-17T18:11:52.565Z",
-      "updatedAt": "2026-06-17T18:11:52.565Z",
+      "updatedAt": "2026-06-17T18:39:38.734Z",
       "recommenders": [
         {
           "authorId": "3546888255048212",
           "platform": "bilibili",
           "profileUrl": "https://space.bilibili.com/3546888255048212",
           "recommendedAt": "2026-06-17",
-          "rating": 4,
-          "ratingSummary": "特厨探店 |管管这家餐厅！—好再来",
-          "reason": "特厨探店 |管管这家餐厅！—好再来",
-          "sourceVideoUrl": "https://www.bilibili.com/video/BV1H2gFz7EDf"
+          "rating": 2,
+          "ratingSummary": "不太推荐：管管这家餐厅",
+          "reason": "特厨隋卞探店「好再来」，从菜品火候、调味与性价比综合体验来看，与预期有差距，部分菜品或体验拖了后腿。观众热议：其实这家味也就是一般水平，主要就是菜码大便宜，也就只有这种村里自家房子开店才能做到这样了；对，地方是自己的，压低成本，就是不知道是什么位置，面向什么客户，因为很明显普通食客很难来第二遍，因为菜量太大属于填肚子的地方，不是解馋的地方",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1H2gFz7EDf",
+          "displayName": "特厨隋卞"
         }
       ],
       "recommenderCount": 1,
       "latestRecommendedAt": "2026-06-17",
-      "averageRating": 4
+      "averageRating": 2
     },
     {
       "id": "shunde-shunfengshaoji",
@@ -1434,22 +1745,31 @@
       "name": "顺峰烧鸡",
       "coordinates": null,
       "createdAt": "2026-06-17T18:11:08.539Z",
-      "updatedAt": "2026-06-17T18:11:08.539Z",
+      "updatedAt": "2026-06-17T18:39:40.173Z",
       "recommenders": [
         {
           "authorId": "3546888255048212",
           "platform": "bilibili",
           "profileUrl": "https://space.bilibili.com/3546888255048212",
           "recommendedAt": "2026-06-17",
-          "rating": 4,
-          "ratingSummary": "特厨探店|一桌子菜吃出了上下两极？！—顺峰烧鸡",
-          "reason": "特厨探店|一桌子菜吃出了上下两极？！—顺峰烧鸡",
-          "sourceVideoUrl": "https://www.bilibili.com/video/BV1m4FXzyEt9"
+          "rating": 3,
+          "ratingSummary": "中规中矩：一桌子菜吃出了上下两极",
+          "reason": "特厨隋卞探店「顺峰烧鸡」，从菜品火候、调味与性价比综合体验来看，优缺点都比较明显，建议按招牌菜点单。观众热议：推荐鸽子好几次的原因可能就是不新鲜了老板着急了 鸡反正好卖老板不急；老板：还是你小子懂我，这外地口音一看就是游客，不是回头客，库存菜搞上推荐尝试：顺峰烧鸡。",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1m4FXzyEt9",
+          "dishes": [
+            {
+              "name": "顺峰烧鸡"
+            }
+          ],
+          "displayName": "特厨隋卞"
         }
+      ],
+      "cuisine": [
+        "粤菜"
       ],
       "recommenderCount": 1,
       "latestRecommendedAt": "2026-06-17",
-      "averageRating": 4
+      "averageRating": 3
     },
     {
       "id": "shunde-xiangjiangfandian",
@@ -1457,22 +1777,31 @@
       "name": "香江饭店",
       "coordinates": null,
       "createdAt": "2026-06-17T18:11:07.673Z",
-      "updatedAt": "2026-06-17T18:11:07.673Z",
+      "updatedAt": "2026-06-17T18:39:41.650Z",
       "recommenders": [
         {
           "authorId": "3546888255048212",
           "platform": "bilibili",
           "profileUrl": "https://space.bilibili.com/3546888255048212",
           "recommendedAt": "2026-06-17",
-          "rating": 4,
-          "ratingSummary": "特厨探店|美食之都最爱的老字号？！—香江饭店",
-          "reason": "特厨探店|美食之都最爱的老字号？！—香江饭店",
-          "sourceVideoUrl": "https://www.bilibili.com/video/BV1BUc4ztEsz"
+          "rating": 2,
+          "ratingSummary": "略有失望：美食之都最爱的老字号",
+          "reason": "特厨隋卞探店「香江饭店」，从菜品火候、调味与性价比综合体验来看，与预期有差距，部分菜品或体验拖了后腿。观众热议：我就一个建议，大家回村后不要晨跑，我昨天早上出去晨跑一圈回来，晚上就听到村里老人议论我，说我大清早的不知道从谁家被窝跑回家的；神了推荐尝试：香江饭。",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1BUc4ztEsz",
+          "dishes": [
+            {
+              "name": "香江饭"
+            }
+          ],
+          "displayName": "特厨隋卞"
         }
+      ],
+      "cuisine": [
+        "粤菜"
       ],
       "recommenderCount": 1,
       "latestRecommendedAt": "2026-06-17",
-      "averageRating": 4
+      "averageRating": 2
     },
     {
       "id": "shunde-zhengsiwei",
@@ -1480,22 +1809,31 @@
       "name": "蒸四味",
       "coordinates": null,
       "createdAt": "2026-06-17T18:11:05.896Z",
-      "updatedAt": "2026-06-17T18:11:05.896Z",
+      "updatedAt": "2026-06-17T18:39:43.029Z",
       "recommenders": [
         {
           "authorId": "3546888255048212",
           "platform": "bilibili",
           "profileUrl": "https://space.bilibili.com/3546888255048212",
           "recommendedAt": "2026-06-17",
-          "rating": 4,
-          "ratingSummary": "特厨探店|没有门头没有招牌的顺德小店—蒸四味",
-          "reason": "特厨探店|没有门头没有招牌的顺德小店—蒸四味",
-          "sourceVideoUrl": "https://www.bilibili.com/video/BV1wVcvzsEs9"
+          "rating": 3,
+          "ratingSummary": "看个人口味：没有门头没有招牌的顺德小店",
+          "reason": "特厨隋卞探店「蒸四味」，从菜品火候、调味与性价比综合体验来看，优缺点都比较明显，建议按招牌菜点单。观众热议：这一期神秘眼镜女在旁边猛吃；改了？现在咋没了推荐尝试：的顺德小店。",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1wVcvzsEs9",
+          "dishes": [
+            {
+              "name": "的顺德小店"
+            }
+          ],
+          "displayName": "特厨隋卞"
         }
+      ],
+      "cuisine": [
+        "粤菜"
       ],
       "recommenderCount": 1,
       "latestRecommendedAt": "2026-06-17",
-      "averageRating": 4
+      "averageRating": 3
     },
     {
       "id": "taiyuan-haiwanghuangjiangmianguan",
@@ -1503,22 +1841,34 @@
       "name": "海旺黄酱面馆",
       "coordinates": null,
       "createdAt": "2026-06-17T18:11:04.144Z",
-      "updatedAt": "2026-06-17T18:11:04.144Z",
+      "updatedAt": "2026-06-17T18:39:44.483Z",
       "recommenders": [
         {
           "authorId": "3546888255048212",
           "platform": "bilibili",
           "profileUrl": "https://space.bilibili.com/3546888255048212",
           "recommendedAt": "2026-06-17",
-          "rating": 4,
-          "ratingSummary": "特厨探店|麻麻咧咧的面是什么面？—海旺黄酱面馆",
-          "reason": "特厨探店|麻麻咧咧的面是什么面？—海旺黄酱面馆",
-          "sourceVideoUrl": "https://www.bilibili.com/video/BV17LNGzbEyd"
+          "rating": 3,
+          "ratingSummary": "看个人口味：麻麻咧咧的面是什么面",
+          "reason": "特厨隋卞探店「海旺黄酱面馆」，从菜品火候、调味与性价比综合体验来看，优缺点都比较明显，建议按招牌菜点单。观众热议：离我三公里啊，这下得找时间试试了；回复 @琉璃雏菊 :北方可涨不起来，跟南方不一样，如果因为火爆涨价，大概率一个月这家店就消失了推荐尝试：麻麻咧咧的面、是什么面、海旺黄酱面。",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV17LNGzbEyd",
+          "dishes": [
+            {
+              "name": "麻麻咧咧的面"
+            },
+            {
+              "name": "是什么面"
+            },
+            {
+              "name": "海旺黄酱面"
+            }
+          ],
+          "displayName": "特厨隋卞"
         }
       ],
       "recommenderCount": 1,
       "latestRecommendedAt": "2026-06-17",
-      "averageRating": 4
+      "averageRating": 3
     },
     {
       "id": "taiyuan-shanxifandian",
@@ -1526,7 +1876,7 @@
       "name": "山西饭店",
       "coordinates": null,
       "createdAt": "2026-06-17T18:11:03.231Z",
-      "updatedAt": "2026-06-17T18:11:03.231Z",
+      "updatedAt": "2026-06-17T18:39:45.916Z",
       "recommenders": [
         {
           "authorId": "3546888255048212",
@@ -1534,9 +1884,15 @@
           "profileUrl": "https://space.bilibili.com/3546888255048212",
           "recommendedAt": "2026-06-17",
           "rating": 5,
-          "ratingSummary": "特厨探店|山西菜天花板？！—山西饭店",
-          "reason": "特厨探店|山西菜天花板？！—山西饭店",
-          "sourceVideoUrl": "https://www.bilibili.com/video/BV1ozcCzBEMD"
+          "ratingSummary": "值得专程：山西菜天花板",
+          "reason": "特厨隋卞探店「山西饭店」，从菜品火候、调味与性价比综合体验来看，整体表现突出，多项菜品在线，值得专程打卡。观众热议：哈哈。我上次住里面，真晚上看的是震撼。全国最豪华的面馆；太损了推荐尝试：山西饭。",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1ozcCzBEMD",
+          "dishes": [
+            {
+              "name": "山西饭"
+            }
+          ],
+          "displayName": "特厨隋卞"
         }
       ],
       "recommenderCount": 1,
@@ -1549,7 +1905,7 @@
       "name": "同泽和",
       "coordinates": null,
       "createdAt": "2026-06-17T18:11:02.336Z",
-      "updatedAt": "2026-06-17T18:11:02.336Z",
+      "updatedAt": "2026-06-17T18:39:47.313Z",
       "recommenders": [
         {
           "authorId": "3546888255048212",
@@ -1557,9 +1913,15 @@
           "profileUrl": "https://space.bilibili.com/3546888255048212",
           "recommendedAt": "2026-06-17",
           "rating": 4,
-          "ratingSummary": "特厨探店|太原便宜又好吃的饭店是什么样的？—同泽和",
-          "reason": "特厨探店|太原便宜又好吃的饭店是什么样的？—同泽和",
-          "sourceVideoUrl": "https://www.bilibili.com/video/BV147wBzGEek"
+          "ratingSummary": "值得推荐：太原便宜又好吃的饭店是什么样的",
+          "reason": "特厨隋卞探店「同泽和」，从菜品火候、调味与性价比综合体验来看，整体味道靠谱，有几道亮点菜，适合附近觅食。观众热议：省流；拖出去，不对，裱起来！推荐尝试：太原便宜又好吃的饭。",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV147wBzGEek",
+          "dishes": [
+            {
+              "name": "太原便宜又好吃的饭"
+            }
+          ],
+          "displayName": "特厨隋卞"
         }
       ],
       "recommenderCount": 1,
@@ -1572,22 +1934,28 @@
       "name": "宏顺炒菜",
       "coordinates": null,
       "createdAt": "2026-06-17T18:11:56.105Z",
-      "updatedAt": "2026-06-17T18:11:56.105Z",
+      "updatedAt": "2026-06-17T18:39:48.691Z",
       "recommenders": [
         {
           "authorId": "3546888255048212",
           "platform": "bilibili",
           "profileUrl": "https://space.bilibili.com/3546888255048212",
           "recommendedAt": "2026-06-17",
-          "rating": 4,
-          "ratingSummary": "特厨探店 |在天津炸鸡怎么吃—宏顺炒菜",
-          "reason": "特厨探店 |在天津炸鸡怎么吃—宏顺炒菜",
-          "sourceVideoUrl": "https://www.bilibili.com/video/BV1zF3ez6Erw"
+          "rating": 3,
+          "ratingSummary": "有好有坏：在天津炸鸡怎么吃",
+          "reason": "特厨隋卞探店「宏顺炒菜」，从菜品火候、调味与性价比综合体验来看，优缺点都比较明显，建议按招牌菜点单。观众热议：上一家已经人满为患要关门了；这家早就是网红店了，饭点去等1-2小时是常态。老板实在人，干了20年了，口味不就和，菜量没降过。推荐尝试：在天津炸鸡。",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1zF3ez6Erw",
+          "dishes": [
+            {
+              "name": "在天津炸鸡"
+            }
+          ],
+          "displayName": "特厨隋卞"
         }
       ],
       "recommenderCount": 1,
       "latestRecommendedAt": "2026-06-17",
-      "averageRating": 4
+      "averageRating": 3
     },
     {
       "id": "tianjin-xinlaizicaiguan",
@@ -1595,22 +1963,23 @@
       "name": "鑫来子菜馆",
       "coordinates": null,
       "createdAt": "2026-06-17T18:11:56.967Z",
-      "updatedAt": "2026-06-17T18:11:56.967Z",
+      "updatedAt": "2026-06-17T18:39:50.121Z",
       "recommenders": [
         {
           "authorId": "3546888255048212",
           "platform": "bilibili",
           "profileUrl": "https://space.bilibili.com/3546888255048212",
           "recommendedAt": "2026-06-17",
-          "rating": 4,
-          "ratingSummary": "特厨探店 |来人管管天津菜—鑫来子菜馆",
-          "reason": "特厨探店 |来人管管天津菜—鑫来子菜馆",
-          "sourceVideoUrl": "https://www.bilibili.com/video/BV1Xa3gzhEVT"
+          "rating": 2,
+          "ratingSummary": "不太推荐：来人管管天津菜",
+          "reason": "特厨隋卞探店「鑫来子菜馆」，从菜品火候、调味与性价比综合体验来看，与预期有差距，部分菜品或体验拖了后腿。观众热议：在天津怎么点菜？今天来个保姆级教程；听劝，服务员姐姐告诉你够了，那一定是够了。看看隔壁桌点的啥，一般上岁数人排队的店都错不了。",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1Xa3gzhEVT",
+          "displayName": "特厨隋卞"
         }
       ],
       "recommenderCount": 1,
       "latestRecommendedAt": "2026-06-17",
-      "averageRating": 4
+      "averageRating": 2
     },
     {
       "id": "tianjin-yifashun",
@@ -1618,22 +1987,28 @@
       "name": "益发顺",
       "coordinates": null,
       "createdAt": "2026-06-17T18:11:49.953Z",
-      "updatedAt": "2026-06-17T18:11:49.953Z",
+      "updatedAt": "2026-06-17T18:39:51.589Z",
       "recommenders": [
         {
           "authorId": "3546888255048212",
           "platform": "bilibili",
           "profileUrl": "https://space.bilibili.com/3546888255048212",
           "recommendedAt": "2026-06-17",
-          "rating": 4,
-          "ratingSummary": "特厨探店 |评论里提到最多的天津饭店？—益发顺",
-          "reason": "特厨探店 |评论里提到最多的天津饭店？—益发顺",
-          "sourceVideoUrl": "https://www.bilibili.com/video/BV18hbSzjEGG"
+          "rating": 3,
+          "ratingSummary": "中规中矩：评论里提到最多的天津饭店",
+          "reason": "特厨隋卞探店「益发顺」，从菜品火候、调味与性价比综合体验来看，优缺点都比较明显，建议按招牌菜点单。观众热议：“我自己也在那个群里面”；这下隋厨得跟小李四处转进了推荐尝试：里提到最多的天津饭。",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV18hbSzjEGG",
+          "dishes": [
+            {
+              "name": "里提到最多的天津饭"
+            }
+          ],
+          "displayName": "特厨隋卞"
         }
       ],
       "recommenderCount": 1,
       "latestRecommendedAt": "2026-06-17",
-      "averageRating": 4
+      "averageRating": 3
     },
     {
       "id": "tianjin-yuquanfanzhuang",
@@ -1641,7 +2016,7 @@
       "name": "玉泉饭庄",
       "coordinates": null,
       "createdAt": "2026-06-17T18:11:50.830Z",
-      "updatedAt": "2026-06-17T18:11:50.830Z",
+      "updatedAt": "2026-06-17T18:39:53.041Z",
       "recommenders": [
         {
           "authorId": "3546888255048212",
@@ -1649,9 +2024,15 @@
           "profileUrl": "https://space.bilibili.com/3546888255048212",
           "recommendedAt": "2026-06-17",
           "rating": 4,
-          "ratingSummary": "特厨探店 |四位数也有性价比的一道菜？—玉泉饭庄",
-          "reason": "特厨探店 |四位数也有性价比的一道菜？—玉泉饭庄",
-          "sourceVideoUrl": "https://www.bilibili.com/video/BV1oGgnzcEiq"
+          "ratingSummary": "整体不错：四位数也有性价比的一道菜",
+          "reason": "特厨隋卞探店「玉泉饭庄」，从菜品火候、调味与性价比综合体验来看，整体味道靠谱，有几道亮点菜，适合附近觅食。观众热议：这个饭店吧，听天津本地的up主说过，出品极其不稳定，但是有规律可循，如果你去点菜点了这个扒海羊，所有的菜的质量都是上乘，如果你不点硬菜，那就随便做做了。不知道有没有天津的jiejie说一下是不是真的；据本地朋友讲 这家不拿摄像机 不点招牌菜  几大概率是学徒之类的来做的。 出品极其不稳定。。出了名的看人下菜推荐尝试：玉泉饭。",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1oGgnzcEiq",
+          "dishes": [
+            {
+              "name": "玉泉饭"
+            }
+          ],
+          "displayName": "特厨隋卞"
         }
       ],
       "recommenderCount": 1,
@@ -1664,7 +2045,7 @@
       "name": "特色辣子鸡大盘鸡",
       "coordinates": null,
       "createdAt": "2026-06-17T18:10:43.971Z",
-      "updatedAt": "2026-06-17T18:10:43.971Z",
+      "updatedAt": "2026-06-17T18:39:54.527Z",
       "recommenders": [
         {
           "authorId": "3546888255048212",
@@ -1672,10 +2053,19 @@
           "profileUrl": "https://space.bilibili.com/3546888255048212",
           "recommendedAt": "2026-06-17",
           "rating": 4,
-          "ratingSummary": "特厨探店|不好找，无环境，但好吃的—特色辣子鸡大盘鸡",
-          "reason": "特厨探店|不好找，无环境，但好吃的—特色辣子鸡大盘鸡",
-          "sourceVideoUrl": "https://www.bilibili.com/video/BV1qYJu6gEqk"
+          "ratingSummary": "值得一试：不好找，无环境，但好吃的",
+          "reason": "特厨隋卞探店「特色辣子鸡大盘鸡」，从菜品火候、调味与性价比综合体验来看，整体味道靠谱，有几道亮点菜，适合附近觅食。观众热议：哎，这人哈，连吃带拿的哈哈哈哈哈，偷方子嘿；嘿，这厨子又偷秘方了嘿，还有没有人管。推荐尝试：特色辣子鸡大盘鸡。",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1qYJu6gEqk",
+          "dishes": [
+            {
+              "name": "特色辣子鸡大盘鸡"
+            }
+          ],
+          "displayName": "特厨隋卞"
         }
+      ],
+      "cuisine": [
+        "西北菜"
       ],
       "recommenderCount": 1,
       "latestRecommendedAt": "2026-06-17",
@@ -1687,22 +2077,27 @@
       "name": "二泉园老菜馆",
       "coordinates": null,
       "createdAt": "2026-06-17T18:10:49.238Z",
-      "updatedAt": "2026-06-17T18:10:49.238Z",
+      "updatedAt": "2026-06-17T18:39:55.915Z",
       "recommenders": [
         {
           "authorId": "3546888255048212",
           "platform": "bilibili",
           "profileUrl": "https://space.bilibili.com/3546888255048212",
           "recommendedAt": "2026-06-17",
-          "rating": 4,
-          "ratingSummary": "特厨探店|讲究的淮扬菜是什么样？—二泉园老菜馆",
-          "reason": "特厨探店|讲究的淮扬菜是什么样？—二泉园老菜馆",
-          "sourceVideoUrl": "https://www.bilibili.com/video/BV1C8L36jEYN"
+          "rating": 3,
+          "ratingSummary": "不算惊艳：讲究的淮扬菜是什么样",
+          "reason": "特厨隋卞探店「二泉园老菜馆」，从菜品火候、调味与性价比综合体验来看，优缺点都比较明显，建议按招牌菜点单。观众热议：这几天的淮扬菜餐馆师傅belike；这家店5a景区里的,只要放假那个景区人就多",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1C8L36jEYN",
+          "displayName": "特厨隋卞"
         }
+      ],
+      "cuisine": [
+        "淮扬菜",
+        "苏菜"
       ],
       "recommenderCount": 1,
       "latestRecommendedAt": "2026-06-17",
-      "averageRating": 4
+      "averageRating": 3
     },
     {
       "id": "wuxi-pangmeifandian",
@@ -1710,7 +2105,7 @@
       "name": "胖妹饭店",
       "coordinates": null,
       "createdAt": "2026-06-17T18:10:48.373Z",
-      "updatedAt": "2026-06-17T18:10:48.373Z",
+      "updatedAt": "2026-06-17T18:39:57.383Z",
       "recommenders": [
         {
           "authorId": "3546888255048212",
@@ -1718,10 +2113,19 @@
           "profileUrl": "https://space.bilibili.com/3546888255048212",
           "recommendedAt": "2026-06-17",
           "rating": 4,
-          "ratingSummary": "特厨探店|差点全好评！超坦诚的老板做出来的菜是什么味道？—胖妹饭店",
-          "reason": "特厨探店|差点全好评！超坦诚的老板做出来的菜是什么味道？—胖妹饭店",
-          "sourceVideoUrl": "https://www.bilibili.com/video/BV1e4Ly64EvL"
+          "ratingSummary": "整体不错：差点全好评！超坦诚的老板做出来的菜是什么味道",
+          "reason": "特厨隋卞探店「胖妹饭店」，从菜品火候、调味与性价比综合体验来看，整体味道靠谱，有几道亮点菜，适合附近觅食。观众热议：评论区别说怎么全是甜的了，无锡那边的饮食就是偏甜口他们的习惯就那么吃；完了，本身就很火爆了，这下更火了推荐尝试：胖妹饭。",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1e4Ly64EvL",
+          "dishes": [
+            {
+              "name": "胖妹饭"
+            }
+          ],
+          "displayName": "特厨隋卞"
         }
+      ],
+      "cuisine": [
+        "苏菜"
       ],
       "recommenderCount": 1,
       "latestRecommendedAt": "2026-06-17",
@@ -1733,7 +2137,7 @@
       "name": "耀兴饭店",
       "coordinates": null,
       "createdAt": "2026-06-17T18:10:44.836Z",
-      "updatedAt": "2026-06-17T18:10:44.836Z",
+      "updatedAt": "2026-06-17T18:39:58.845Z",
       "recommenders": [
         {
           "authorId": "3546888255048212",
@@ -1741,10 +2145,19 @@
           "profileUrl": "https://space.bilibili.com/3546888255048212",
           "recommendedAt": "2026-06-17",
           "rating": 4,
-          "ratingSummary": "特厨探店|开在家里手慢无？！好吃的—耀兴饭店",
-          "reason": "特厨探店|开在家里手慢无？！好吃的—耀兴饭店",
-          "sourceVideoUrl": "https://www.bilibili.com/video/BV1xaEo6pEyd"
+          "ratingSummary": "值得一试：开在家里手慢无？！好吃的",
+          "reason": "特厨隋卞探店「耀兴饭店」，从菜品火候、调味与性价比综合体验来看，整体味道靠谱，有几道亮点菜，适合附近觅食。观众热议：省流：\n《刚才有老鼠》\n《真够烂的看着》\n《豆成泥了》\n《表面一层鳝鱼下面都是蒜》\n《菜没有名字》；护食？发来推荐尝试：耀兴饭。",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1xaEo6pEyd",
+          "dishes": [
+            {
+              "name": "耀兴饭"
+            }
+          ],
+          "displayName": "特厨隋卞"
         }
+      ],
+      "cuisine": [
+        "苏菜"
       ],
       "recommenderCount": 1,
       "latestRecommendedAt": "2026-06-17",
@@ -1756,22 +2169,26 @@
       "name": "莲花餐饮",
       "coordinates": null,
       "createdAt": "2026-06-17T18:11:53.452Z",
-      "updatedAt": "2026-06-17T18:11:53.452Z",
+      "updatedAt": "2026-06-17T18:40:00.235Z",
       "recommenders": [
         {
           "authorId": "3546888255048212",
           "platform": "bilibili",
           "profileUrl": "https://space.bilibili.com/3546888255048212",
           "recommendedAt": "2026-06-17",
-          "rating": 4,
-          "ratingSummary": "特厨探店 |西安全好评餐厅？！—莲花餐饮",
-          "reason": "特厨探店 |西安全好评餐厅？！—莲花餐饮",
-          "sourceVideoUrl": "https://www.bilibili.com/video/BV1URuBzaEAQ"
+          "rating": 5,
+          "ratingSummary": "水准在线：西安全好评餐厅",
+          "reason": "特厨隋卞探店「莲花餐饮」，从菜品火候、调味与性价比综合体验来看，整体表现突出，多项菜品在线，值得专程打卡。观众热议：送烧饼是桌桌都送，不是看摄影才送，因为烧饼这玩意真不值钱，尤其在西安，一天炉子不带停，有刚出炉的就直接送了，放那放凉了反而不好吃，这样保证桌桌都能吃到刚出炉的；烧饼有啥值钱的，很正常啊",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1URuBzaEAQ",
+          "displayName": "特厨隋卞"
         }
+      ],
+      "cuisine": [
+        "西北菜"
       ],
       "recommenderCount": 1,
       "latestRecommendedAt": "2026-06-17",
-      "averageRating": 4
+      "averageRating": 5
     },
     {
       "id": "xian-liujilazhiroujiumianpian",
@@ -1779,22 +2196,31 @@
       "name": "刘记腊汁肉揪面片",
       "coordinates": null,
       "createdAt": "2026-06-17T18:11:54.365Z",
-      "updatedAt": "2026-06-17T18:11:54.365Z",
+      "updatedAt": "2026-06-17T18:40:01.610Z",
       "recommenders": [
         {
           "authorId": "3546888255048212",
           "platform": "bilibili",
           "profileUrl": "https://space.bilibili.com/3546888255048212",
           "recommendedAt": "2026-06-17",
-          "rating": 4,
-          "ratingSummary": "特厨探店 |西安“香闷了”的面？-刘记腊汁肉揪面片",
-          "reason": "特厨探店 |西安“香闷了”的面？-刘记腊汁肉揪面片",
-          "sourceVideoUrl": "https://www.bilibili.com/video/BV1U1u3z9EAT"
+          "rating": 3,
+          "ratingSummary": "有好有坏：西安“香闷了”的面",
+          "reason": "特厨隋卞探店「刘记腊汁肉揪面片」，从菜品火候、调味与性价比综合体验来看，优缺点都比较明显，建议按招牌菜点单。观众热议：我听说伍佰老师在这的，人呢？怎么没看见？；剪头发了，视频里那短头发就是推荐尝试：刘记腊汁肉揪面。",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1U1u3z9EAT",
+          "dishes": [
+            {
+              "name": "刘记腊汁肉揪面"
+            }
+          ],
+          "displayName": "特厨隋卞"
         }
+      ],
+      "cuisine": [
+        "西北菜"
       ],
       "recommenderCount": 1,
       "latestRecommendedAt": "2026-06-17",
-      "averageRating": 4
+      "averageRating": 3
     },
     {
       "id": "xian-xianfanzhuang",
@@ -1802,22 +2228,34 @@
       "name": "西安饭庄",
       "coordinates": null,
       "createdAt": "2026-06-17T18:11:51.694Z",
-      "updatedAt": "2026-06-17T18:11:51.694Z",
+      "updatedAt": "2026-06-17T18:40:03.070Z",
       "recommenders": [
         {
           "authorId": "3546888255048212",
           "platform": "bilibili",
           "profileUrl": "https://space.bilibili.com/3546888255048212",
           "recommendedAt": "2026-06-17",
-          "rating": 4,
-          "ratingSummary": "特厨探店 |西安最有名的饭店？—西安饭庄",
-          "reason": "特厨探店 |西安最有名的饭店？—西安饭庄",
-          "sourceVideoUrl": "https://www.bilibili.com/video/BV1viumziEoF"
+          "rating": 3,
+          "ratingSummary": "有好有坏：西安最有名的饭店",
+          "reason": "特厨隋卞探店「西安饭庄」，从菜品火候、调味与性价比综合体验来看，优缺点都比较明显，建议按招牌菜点单。观众热议：猪脚饭+吮指原味鸡+番茄鱼薯条+肉夹馍，不说味道，我说实话，人家要吃招牌菜，服务员给上这种组合，也是人才。；隋老师就是见它啥菜都有，都给整不会了，才叫服务员推荐的推荐尝试：西安最有名的饭、西安饭。",
+          "sourceVideoUrl": "https://www.bilibili.com/video/BV1viumziEoF",
+          "dishes": [
+            {
+              "name": "西安最有名的饭"
+            },
+            {
+              "name": "西安饭"
+            }
+          ],
+          "displayName": "特厨隋卞"
         }
+      ],
+      "cuisine": [
+        "西北菜"
       ],
       "recommenderCount": 1,
       "latestRecommendedAt": "2026-06-17",
-      "averageRating": 4
+      "averageRating": 3
     }
   ]
 }

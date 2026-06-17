@@ -14,6 +14,7 @@ export interface Recommender {
   authorId: string
   platform: Platform
   profileUrl?: string
+  displayName?: string
   recommendedAt: string
   rating?: number
   ratingSummary?: string

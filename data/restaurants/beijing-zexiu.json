@@ -4,7 +4,7 @@
   "name": "泽秀",
   "coordinates": null,
   "createdAt": "2026-06-17T18:11:58.731Z",
-  "updatedAt": "2026-06-17T18:11:58.731Z",
+  "updatedAt": "2026-06-17T18:38:21.535Z",
   "recommenders": [
     {
       "authorId": "3546888255048212",
@@ -12,9 +12,13 @@
       "profileUrl": "https://space.bilibili.com/3546888255048212",
       "recommendedAt": "2026-06-17",
       "rating": 4,
-      "ratingSummary": "特厨探店 |众多网红推荐的炖菜小馆—泽秀",
-      "reason": "特厨探店 |众多网红推荐的炖菜小馆—泽秀",
-      "sourceVideoUrl": "https://www.bilibili.com/video/BV1YrKBzhEKF"
+      "ratingSummary": "整体不错：众多网红推荐的炖菜小馆",
+      "reason": "特厨隋卞探店「泽秀」，从菜品火候、调味与性价比综合体验来看，整体味道靠谱，有几道亮点菜，适合附近觅食。观众热议：高情商：（炖牛肉）买回来是熟的太高了这情商；这是最便宜那种牛肉，就是牛肉差到已经不把它用各种科技先处理好都没法卖的地步。网上很多十几二十块的牛肉就是这样的。",
+      "sourceVideoUrl": "https://www.bilibili.com/video/BV1YrKBzhEKF",
+      "displayName": "特厨隋卞"
     }
+  ],
+  "cuisine": [
+    "北京菜"
   ]
 }

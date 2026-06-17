@@ -4,7 +4,7 @@
   "name": "胖妹饭店",
   "coordinates": null,
   "createdAt": "2026-06-17T18:10:48.373Z",
-  "updatedAt": "2026-06-17T18:10:48.373Z",
+  "updatedAt": "2026-06-17T18:39:57.383Z",
   "recommenders": [
     {
       "authorId": "3546888255048212",
@@ -12,9 +12,18 @@
       "profileUrl": "https://space.bilibili.com/3546888255048212",
       "recommendedAt": "2026-06-17",
       "rating": 4,
-      "ratingSummary": "特厨探店|差点全好评！超坦诚的老板做出来的菜是什么味道？—胖妹饭店",
-      "reason": "特厨探店|差点全好评！超坦诚的老板做出来的菜是什么味道？—胖妹饭店",
-      "sourceVideoUrl": "https://www.bilibili.com/video/BV1e4Ly64EvL"
+      "ratingSummary": "整体不错：差点全好评！超坦诚的老板做出来的菜是什么味道",
+      "reason": "特厨隋卞探店「胖妹饭店」，从菜品火候、调味与性价比综合体验来看，整体味道靠谱，有几道亮点菜，适合附近觅食。观众热议：评论区别说怎么全是甜的了，无锡那边的饮食就是偏甜口他们的习惯就那么吃；完了，本身就很火爆了，这下更火了推荐尝试：胖妹饭。",
+      "sourceVideoUrl": "https://www.bilibili.com/video/BV1e4Ly64EvL",
+      "dishes": [
+        {
+          "name": "胖妹饭"
+        }
+      ],
+      "displayName": "特厨隋卞"
     }
+  ],
+  "cuisine": [
+    "苏菜"
   ]
 }

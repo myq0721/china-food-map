@@ -4,17 +4,26 @@
   "name": "许家菜",
   "coordinates": null,
   "createdAt": "2026-06-17T18:11:14.685Z",
-  "updatedAt": "2026-06-17T18:11:14.685Z",
+  "updatedAt": "2026-06-17T18:38:34.326Z",
   "recommenders": [
     {
       "authorId": "3546888255048212",
       "platform": "bilibili",
       "profileUrl": "https://space.bilibili.com/3546888255048212",
       "recommendedAt": "2026-06-17",
-      "rating": 4,
-      "ratingSummary": "特厨探店|128的炒鸡蛋还货不对板？—许家菜",
-      "reason": "特厨探店|128的炒鸡蛋还货不对板？—许家菜",
-      "sourceVideoUrl": "https://www.bilibili.com/video/BV1tJrgByEFC"
+      "rating": 3,
+      "ratingSummary": "不算惊艳：128的炒鸡蛋还货不对板",
+      "reason": "特厨隋卞探店「许家菜」，从菜品火候、调味与性价比综合体验来看，优缺点都比较明显，建议按招牌菜点单。观众热议：这么高档的菜馆，鸡蛋没有了不说，做出来货不对板也不退菜；炒鸡蛋那人叫蓝壳推荐尝试：的炒鸡。",
+      "sourceVideoUrl": "https://www.bilibili.com/video/BV1tJrgByEFC",
+      "dishes": [
+        {
+          "name": "的炒鸡"
+        }
+      ],
+      "displayName": "特厨隋卞"
     }
+  ],
+  "cuisine": [
+    "川菜"
   ]
 }

@@ -4,7 +4,7 @@
   "name": "特色辣子鸡大盘鸡",
   "coordinates": null,
   "createdAt": "2026-06-17T18:10:43.971Z",
-  "updatedAt": "2026-06-17T18:10:43.971Z",
+  "updatedAt": "2026-06-17T18:39:54.527Z",
   "recommenders": [
     {
       "authorId": "3546888255048212",
@@ -12,9 +12,18 @@
       "profileUrl": "https://space.bilibili.com/3546888255048212",
       "recommendedAt": "2026-06-17",
       "rating": 4,
-      "ratingSummary": "特厨探店|不好找，无环境，但好吃的—特色辣子鸡大盘鸡",
-      "reason": "特厨探店|不好找，无环境，但好吃的—特色辣子鸡大盘鸡",
-      "sourceVideoUrl": "https://www.bilibili.com/video/BV1qYJu6gEqk"
+      "ratingSummary": "值得一试：不好找，无环境，但好吃的",
+      "reason": "特厨隋卞探店「特色辣子鸡大盘鸡」，从菜品火候、调味与性价比综合体验来看，整体味道靠谱，有几道亮点菜，适合附近觅食。观众热议：哎，这人哈，连吃带拿的哈哈哈哈哈，偷方子嘿；嘿，这厨子又偷秘方了嘿，还有没有人管。推荐尝试：特色辣子鸡大盘鸡。",
+      "sourceVideoUrl": "https://www.bilibili.com/video/BV1qYJu6gEqk",
+      "dishes": [
+        {
+          "name": "特色辣子鸡大盘鸡"
+        }
+      ],
+      "displayName": "特厨隋卞"
     }
+  ],
+  "cuisine": [
+    "西北菜"
   ]
 }

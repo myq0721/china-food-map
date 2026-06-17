@@ -4,17 +4,21 @@
   "name": "小李",
   "coordinates": null,
   "createdAt": "2026-06-17T18:12:04.888Z",
-  "updatedAt": "2026-06-17T18:12:04.888Z",
+  "updatedAt": "2026-06-17T18:38:31.460Z",
   "recommenders": [
     {
       "authorId": "3546888255048212",
       "platform": "bilibili",
       "profileUrl": "https://space.bilibili.com/3546888255048212",
       "recommendedAt": "2026-06-17",
-      "rating": 4,
-      "ratingSummary": "特厨探店 |全网无差评？怎么我们就这么倒霉？—小李",
-      "reason": "特厨探店 |全网无差评？怎么我们就这么倒霉？—小李",
-      "sourceVideoUrl": "https://www.bilibili.com/video/BV1YWMHzREdb"
+      "rating": 2,
+      "ratingSummary": "略有失望：全网无差评？怎么我们就这么倒霉",
+      "reason": "特厨隋卞探店「小李」，从菜品火候、调味与性价比综合体验来看，与预期有差距，部分菜品或体验拖了后腿。观众热议：这家店方差巨大，\n我和朋友来旅游第一天差点把勺子吃进去，第二天巴巴盼着晚饭来吃了第二顿\n怎么说呢……还不如吃勺子呢；现在网友说话太硬核了，逼着我一高中毕业十几年的人回忆一下数学知识点",
+      "sourceVideoUrl": "https://www.bilibili.com/video/BV1YWMHzREdb",
+      "displayName": "特厨隋卞"
     }
+  ],
+  "cuisine": [
+    "川菜"
   ]
 }

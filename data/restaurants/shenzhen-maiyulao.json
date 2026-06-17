@@ -4,17 +4,21 @@
   "name": "卖鱼佬",
   "coordinates": null,
   "createdAt": "2026-06-17T18:11:55.232Z",
-  "updatedAt": "2026-06-17T18:11:55.232Z",
+  "updatedAt": "2026-06-17T18:39:35.857Z",
   "recommenders": [
     {
       "authorId": "3546888255048212",
       "platform": "bilibili",
       "profileUrl": "https://space.bilibili.com/3546888255048212",
       "recommendedAt": "2026-06-17",
-      "rating": 4,
-      "ratingSummary": "特厨探店 |只在深夜开门的海鲜粥—卖鱼佬",
-      "reason": "特厨探店 |只在深夜开门的海鲜粥—卖鱼佬",
-      "sourceVideoUrl": "https://www.bilibili.com/video/BV17zGPzxELW"
+      "rating": 3,
+      "ratingSummary": "有好有坏：只在深夜开门的海鲜粥",
+      "reason": "特厨隋卞探店「卖鱼佬」，从菜品火候、调味与性价比综合体验来看，优缺点都比较明显，建议按招牌菜点单。观众热议：这粥 我不敢想会有多好吃；从嘴到胃都舒服了，就是烫，巨烫",
+      "sourceVideoUrl": "https://www.bilibili.com/video/BV17zGPzxELW",
+      "displayName": "特厨隋卞"
     }
+  ],
+  "cuisine": [
+    "粤菜"
   ]
 }

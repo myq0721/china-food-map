@@ -4,17 +4,18 @@
   "name": "叶家大院",
   "coordinates": null,
   "createdAt": "2026-06-17T18:10:50.104Z",
-  "updatedAt": "2026-06-17T18:10:50.104Z",
+  "updatedAt": "2026-06-17T18:39:01.317Z",
   "recommenders": [
     {
       "authorId": "3546888255048212",
       "platform": "bilibili",
       "profileUrl": "https://space.bilibili.com/3546888255048212",
       "recommendedAt": "2026-06-17",
-      "rating": 4,
-      "ratingSummary": "特厨探店|吃过但是剪视频又看馋了的—叶家大院",
-      "reason": "特厨探店|吃过但是剪视频又看馋了的—叶家大院",
-      "sourceVideoUrl": "https://www.bilibili.com/video/BV11z536jELv"
+      "rating": 3,
+      "ratingSummary": "中规中矩：吃过但是剪视频又看馋了的",
+      "reason": "特厨隋卞探店「叶家大院」，从菜品火候、调味与性价比综合体验来看，优缺点都比较明显，建议按招牌菜点单。观众热议：老板太精了，把店开山里，来了先爬一个小时山，又累又饿，吃什么都香；你不懂，以前这种菜馆都是吃野味的，现在抓的比较严，吃野味要会打暗号。在江西，这种野菜馆不少。很多广州，浙江一带的老板来吃的，评价很高。所以菜品一般不放什么辣椒。",
+      "sourceVideoUrl": "https://www.bilibili.com/video/BV11z536jELv",
+      "displayName": "特厨隋卞"
     }
   ]
 }

@@ -4,17 +4,18 @@
   "name": "食庐",
   "coordinates": null,
   "createdAt": "2026-06-17T18:11:57.851Z",
-  "updatedAt": "2026-06-17T18:11:57.851Z",
+  "updatedAt": "2026-06-17T18:39:25.651Z",
   "recommenders": [
     {
       "authorId": "3546888255048212",
       "platform": "bilibili",
       "profileUrl": "https://space.bilibili.com/3546888255048212",
       "recommendedAt": "2026-06-17",
-      "rating": 4,
-      "ratingSummary": "特厨探店 |来上海收到私信最多的餐厅—食庐餐厅",
-      "reason": "特厨探店 |来上海收到私信最多的餐厅—食庐餐厅",
-      "sourceVideoUrl": "https://www.bilibili.com/video/BV1LjgCzoEEo"
+      "rating": 2,
+      "ratingSummary": "略有失望：来上海收到私信最多的餐厅",
+      "reason": "特厨隋卞探店「食庐」，从菜品火候、调味与性价比综合体验来看，与预期有差距，部分菜品或体验拖了后腿。观众热议：狮子头无差评的小妙招——隋老师来了就说卖完了；“狮子头一份😋”\n“没有😳”\n“这个可以有😠”\n“这个真没有😭”",
+      "sourceVideoUrl": "https://www.bilibili.com/video/BV1LjgCzoEEo",
+      "displayName": "特厨隋卞"
     }
   ]
 }

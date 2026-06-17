@@ -4,17 +4,18 @@
   "name": "遇外滩",
   "coordinates": null,
   "createdAt": "2026-06-17T18:11:45.545Z",
-  "updatedAt": "2026-06-17T18:11:45.545Z",
+  "updatedAt": "2026-06-17T18:39:29.916Z",
   "recommenders": [
     {
       "authorId": "3546888255048212",
       "platform": "bilibili",
       "profileUrl": "https://space.bilibili.com/3546888255048212",
       "recommendedAt": "2026-06-17",
-      "rating": 4,
-      "ratingSummary": "特厨探店 |大陆第一餐厅？特厨来尝到底怎么回事！—遇外滩",
-      "reason": "特厨探店 |大陆第一餐厅？特厨来尝到底怎么回事！—遇外滩",
-      "sourceVideoUrl": "https://www.bilibili.com/video/BV1rFYBzkEwt"
+      "rating": 3,
+      "ratingSummary": "有好有坏：大陆第一餐厅？特厨来尝到底怎么回事",
+      "reason": "特厨隋卞探店「遇外滩」，从菜品火候、调味与性价比综合体验来看，优缺点都比较明显，建议按招牌菜点单。观众热议：这家餐厅真牛逼，这个价格能被隋老师夸，甚至除了第一道菜，没有提出什么缺点\n那说明水平非常非常高了；第一道菜要是卤全部入味反而外层的不好吃",
+      "sourceVideoUrl": "https://www.bilibili.com/video/BV1rFYBzkEwt",
+      "displayName": "特厨隋卞"
     }
   ]
 }

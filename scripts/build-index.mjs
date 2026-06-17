@@ -70,13 +70,19 @@ const optionalCopies = [
   ['data/imports/drafts.json', 'imports/drafts.json'],
 ]
 
-for (const [src, dest] of optionalCopies) {
-  try {
-    await mkdir(join(publicDataDir, dirname(dest)), { recursive: true })
-    await copyFile(join(root, src), join(publicDataDir, dest))
-  } catch {
-    // optional file missing
+  for (const [src, dest] of optionalCopies) {
+    try {
+      await mkdir(join(publicDataDir, dirname(dest)), { recursive: true })
+      await copyFile(join(root, src), join(publicDataDir, dest))
+    } catch {
+      // optional file missing
+    }
   }
-}
+
+  try {
+    await copyFile(join(root, 'data', 'meta', 'giscus.json'), join(publicDataDir, 'meta', 'giscus.json'))
+  } catch {
+    // optional
+  }
 
 console.log(`Built index with ${restaurants.length} restaurants -> public/data/index.json`)

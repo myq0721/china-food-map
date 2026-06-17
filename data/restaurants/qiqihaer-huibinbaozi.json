@@ -4,17 +4,32 @@
   "name": "汇宾包子",
   "coordinates": null,
   "createdAt": "2026-06-17T18:11:19.969Z",
-  "updatedAt": "2026-06-17T18:11:19.969Z",
+  "updatedAt": "2026-06-17T18:39:12.799Z",
   "recommenders": [
     {
       "authorId": "3546888255048212",
       "platform": "bilibili",
       "profileUrl": "https://space.bilibili.com/3546888255048212",
       "recommendedAt": "2026-06-17",
-      "rating": 4,
-      "ratingSummary": "特厨探店|在牛肉这么好的齐齐哈尔吃牛肉包子是什么体验？—汇宾包子",
-      "reason": "特厨探店|在牛肉这么好的齐齐哈尔吃牛肉包子是什么体验？—汇宾包子",
-      "sourceVideoUrl": "https://www.bilibili.com/video/BV15NmPBpEwr"
+      "rating": 2,
+      "ratingSummary": "不太推荐：在牛肉这么好的齐齐哈尔吃牛肉包子是什么体验",
+      "reason": "特厨隋卞探店「汇宾包子」，从菜品火候、调味与性价比综合体验来看，与预期有差距，部分菜品或体验拖了后腿。观众热议：我突然有一天想起来我姥爷是齐齐哈尔人，于是我问他在他小的时候当地的烤肉是不是已经很有名了。\n我姥爷：当时连饭都没得吃，哪来的烤肉？我看你像烤肉……；最后那句话太真实了，我爷爷也这么说过我推荐尝试：在牛肉、好的齐齐哈尔吃牛肉、汇宾包子。",
+      "sourceVideoUrl": "https://www.bilibili.com/video/BV15NmPBpEwr",
+      "dishes": [
+        {
+          "name": "在牛肉"
+        },
+        {
+          "name": "好的齐齐哈尔吃牛肉"
+        },
+        {
+          "name": "汇宾包子"
+        }
+      ],
+      "displayName": "特厨隋卞"
     }
+  ],
+  "cuisine": [
+    "东北菜"
   ]
 }

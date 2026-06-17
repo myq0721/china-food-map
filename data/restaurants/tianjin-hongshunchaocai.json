@@ -4,17 +4,23 @@
   "name": "宏顺炒菜",
   "coordinates": null,
   "createdAt": "2026-06-17T18:11:56.105Z",
-  "updatedAt": "2026-06-17T18:11:56.105Z",
+  "updatedAt": "2026-06-17T18:39:48.691Z",
   "recommenders": [
     {
       "authorId": "3546888255048212",
       "platform": "bilibili",
       "profileUrl": "https://space.bilibili.com/3546888255048212",
       "recommendedAt": "2026-06-17",
-      "rating": 4,
-      "ratingSummary": "特厨探店 |在天津炸鸡怎么吃—宏顺炒菜",
-      "reason": "特厨探店 |在天津炸鸡怎么吃—宏顺炒菜",
-      "sourceVideoUrl": "https://www.bilibili.com/video/BV1zF3ez6Erw"
+      "rating": 3,
+      "ratingSummary": "有好有坏：在天津炸鸡怎么吃",
+      "reason": "特厨隋卞探店「宏顺炒菜」，从菜品火候、调味与性价比综合体验来看，优缺点都比较明显，建议按招牌菜点单。观众热议：上一家已经人满为患要关门了；这家早就是网红店了，饭点去等1-2小时是常态。老板实在人，干了20年了，口味不就和，菜量没降过。推荐尝试：在天津炸鸡。",
+      "sourceVideoUrl": "https://www.bilibili.com/video/BV1zF3ez6Erw",
+      "dishes": [
+        {
+          "name": "在天津炸鸡"
+        }
+      ],
+      "displayName": "特厨隋卞"
     }
   ]
 }

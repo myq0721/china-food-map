@@ -4,17 +4,21 @@
   "name": "浩南家家常菜",
   "coordinates": null,
   "createdAt": "2026-06-17T18:11:12.946Z",
-  "updatedAt": "2026-06-17T18:11:12.946Z",
+  "updatedAt": "2026-06-17T18:38:25.762Z",
   "recommenders": [
     {
       "authorId": "3546888255048212",
       "platform": "bilibili",
       "profileUrl": "https://space.bilibili.com/3546888255048212",
       "recommendedAt": "2026-06-17",
-      "rating": 4,
-      "ratingSummary": "特厨探店|网上没信息 全靠熟人推？！出品还好的—浩南家家常菜",
-      "reason": "特厨探店|网上没信息 全靠熟人推？！出品还好的—浩南家家常菜",
-      "sourceVideoUrl": "https://www.bilibili.com/video/BV1g9z8BKEkv"
+      "rating": 3,
+      "ratingSummary": "看个人口味：网上没信息 全靠熟人推？！出品还好的",
+      "reason": "特厨隋卞探店「浩南家家常菜」，从菜品火候、调味与性价比综合体验来看，优缺点都比较明显，建议按招牌菜点单。观众热议：这种店以前是专门用来商务宴请的，现在抓的严了所以说是熟人推荐才可以来。价格不高是因为现在也可以宴请，但有餐标，菜品价格超了就很麻烦了。普通人就不用想了，真面相普通人这店一开一个亏本的。；合理，有些店就是面相特定人群聚餐用的",
+      "sourceVideoUrl": "https://www.bilibili.com/video/BV1g9z8BKEkv",
+      "displayName": "特厨隋卞"
     }
+  ],
+  "cuisine": [
+    "川菜"
   ]
 }

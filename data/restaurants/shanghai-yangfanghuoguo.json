@@ -4,17 +4,21 @@
   "name": "洋房火锅",
   "coordinates": null,
   "createdAt": "2026-06-17T18:11:43.809Z",
-  "updatedAt": "2026-06-17T18:11:43.809Z",
+  "updatedAt": "2026-06-17T18:39:28.514Z",
   "recommenders": [
     {
       "authorId": "3546888255048212",
       "platform": "bilibili",
       "profileUrl": "https://space.bilibili.com/3546888255048212",
       "recommendedAt": "2026-06-17",
-      "rating": 4,
-      "ratingSummary": "特厨探店 |上海“最”出名的火锅？！洋房火锅到底怎么个事!",
-      "reason": "特厨探店 |上海“最”出名的火锅？！洋房火锅到底怎么个事!",
-      "sourceVideoUrl": "https://www.bilibili.com/video/BV1FyYSzGEtg"
+      "rating": 2,
+      "ratingSummary": "慎重选择：上海“最”出名的火锅？！洋房火锅到底怎么个事",
+      "reason": "特厨隋卞探店「洋房火锅」，从菜品火候、调味与性价比综合体验来看，与预期有差距，部分菜品或体验拖了后腿。观众热议：上海洋房最经典的应该就是之前LPL时期，那时候LPL的人吃火锅全去洋房，在洋房日常可以遇到职业选手；吃洋房那两年那可是lpl元年，热度加选手工资都是一顶一",
+      "sourceVideoUrl": "https://www.bilibili.com/video/BV1FyYSzGEtg",
+      "displayName": "特厨隋卞"
     }
+  ],
+  "cuisine": [
+    "川菜"
   ]
 }

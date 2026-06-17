@@ -4,17 +4,21 @@
   "name": "蒲鲜菜馆",
   "coordinates": null,
   "createdAt": "2026-06-17T18:10:55.372Z",
-  "updatedAt": "2026-06-17T18:10:55.372Z",
+  "updatedAt": "2026-06-17T18:38:58.464Z",
   "recommenders": [
     {
       "authorId": "3546888255048212",
       "platform": "bilibili",
       "profileUrl": "https://space.bilibili.com/3546888255048212",
       "recommendedAt": "2026-06-17",
-      "rating": 4,
-      "ratingSummary": "特厨探店|来淮安物理意义上的\"偷\"菜—蒲鲜菜馆",
-      "reason": "特厨探店|来淮安物理意义上的\"偷\"菜—蒲鲜菜馆",
-      "sourceVideoUrl": "https://www.bilibili.com/video/BV1KToHB7Est"
+      "rating": 3,
+      "ratingSummary": "不算惊艳：来淮安物理意义上的\"偷\"菜",
+      "reason": "特厨隋卞探店「蒲鲜菜馆」，从菜品火候、调味与性价比综合体验来看，优缺点都比较明显，建议按招牌菜点单。观众热议：随老师我想吃小龙虾了什么时候复刻一期；刚好他到淮安了，淮安的小龙虾也非常出名",
+      "sourceVideoUrl": "https://www.bilibili.com/video/BV1KToHB7Est",
+      "displayName": "特厨隋卞"
     }
+  ],
+  "cuisine": [
+    "淮扬菜"
   ]
 }

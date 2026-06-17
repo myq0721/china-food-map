@@ -4,17 +4,21 @@
   "name": "枣阁园",
   "coordinates": null,
   "createdAt": "2026-06-17T18:12:06.661Z",
-  "updatedAt": "2026-06-17T18:12:06.661Z",
+  "updatedAt": "2026-06-17T18:38:37.177Z",
   "recommenders": [
     {
       "authorId": "3546888255048212",
       "platform": "bilibili",
       "profileUrl": "https://space.bilibili.com/3546888255048212",
       "recommendedAt": "2026-06-17",
-      "rating": 4,
-      "ratingSummary": "特厨探店 |根本吃不完！成都美食暴击！—枣阁园",
-      "reason": "特厨探店 |根本吃不完！成都美食暴击！—枣阁园",
-      "sourceVideoUrl": "https://www.bilibili.com/video/BV1FtTGzMEEb"
+      "rating": 3,
+      "ratingSummary": "不算惊艳：根本吃不完！成都美食暴击",
+      "reason": "特厨隋卞探店「枣阁园」，从菜品火候、调味与性价比综合体验来看，优缺点都比较明显，建议按招牌菜点单。观众热议：光说便宜新鲜你们可能觉得没什么如果我说这家店开在成都1环内呢。；那不得夸老板做慈善，真是做了大功德。多少工薪阶级忙碌一天能15块吃顿新鲜热乎的饱饭哟。",
+      "sourceVideoUrl": "https://www.bilibili.com/video/BV1FtTGzMEEb",
+      "displayName": "特厨隋卞"
     }
+  ],
+  "cuisine": [
+    "川菜"
   ]
 }

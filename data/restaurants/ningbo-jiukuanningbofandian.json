@@ -4,17 +4,26 @@
   "name": "旧款宁波饭店",
   "coordinates": null,
   "createdAt": "2026-06-17T18:10:46.642Z",
-  "updatedAt": "2026-06-17T18:10:46.642Z",
+  "updatedAt": "2026-06-17T18:39:08.546Z",
   "recommenders": [
     {
       "authorId": "3546888255048212",
       "platform": "bilibili",
       "profileUrl": "https://space.bilibili.com/3546888255048212",
       "recommendedAt": "2026-06-17",
-      "rating": 4,
-      "ratingSummary": "特厨探店|四张桌子的小店一顿吃几千？—旧款宁波饭店",
-      "reason": "特厨探店|四张桌子的小店一顿吃几千？—旧款宁波饭店",
-      "sourceVideoUrl": "https://www.bilibili.com/video/BV1t7VQ6fEN7"
+      "rating": 3,
+      "ratingSummary": "不算惊艳：四张桌子的小店一顿吃几千",
+      "reason": "特厨隋卞探店「旧款宁波饭店」，从菜品火候、调味与性价比综合体验来看，优缺点都比较明显，建议按招牌菜点单。观众热议：这种店也只可能出现在上海了，沪币再次证明了自己；依旧不看完，这么大个鲍鱼放哪儿卖的便宜推荐尝试：旧款宁波饭。",
+      "sourceVideoUrl": "https://www.bilibili.com/video/BV1t7VQ6fEN7",
+      "dishes": [
+        {
+          "name": "旧款宁波饭"
+        }
+      ],
+      "displayName": "特厨隋卞"
     }
+  ],
+  "cuisine": [
+    "浙菜"
   ]
 }

@@ -4,17 +4,22 @@
   "name": "爆点麻辣串",
   "coordinates": null,
   "createdAt": "2026-06-17T18:11:19.067Z",
-  "updatedAt": "2026-06-17T18:11:19.067Z",
+  "updatedAt": "2026-06-17T18:39:09.916Z",
   "recommenders": [
     {
       "authorId": "3546888255048212",
       "platform": "bilibili",
       "profileUrl": "https://space.bilibili.com/3546888255048212",
       "recommendedAt": "2026-06-17",
-      "rating": 4,
-      "ratingSummary": "特厨探店|只有六张桌子的小店，却吃的热泪盈眶？—爆点麻辣串",
-      "reason": "特厨探店|只有六张桌子的小店，却吃的热泪盈眶？—爆点麻辣串",
-      "sourceVideoUrl": "https://www.bilibili.com/video/BV1Jtm3BSE3s"
+      "rating": 5,
+      "ratingSummary": "水准在线：只有六张桌子的小店，却吃的热泪盈眶",
+      "reason": "特厨隋卞探店「爆点麻辣串」，从菜品火候、调味与性价比综合体验来看，整体表现突出，多项菜品在线，值得专程打卡。观众热议：本来这家饭点就排队吃不上，这下本地人还能吃上了吗？顺便说一下他家的炒冷面好吃到离谱；店名叫什么",
+      "sourceVideoUrl": "https://www.bilibili.com/video/BV1Jtm3BSE3s",
+      "displayName": "特厨隋卞"
     }
+  ],
+  "cuisine": [
+    "川菜",
+    "东北菜"
   ]
 }

@@ -20,7 +20,7 @@ const containerId = computed(() => `giscus-${props.term ?? props.mapping}`)
 const scriptId = computed(() => `giscus-script-${props.term ?? props.mapping}`)
 
 function mountGiscus() {
-  if (!GISCUS_REPO_ID) return
+  if (!GISCUS_REPO_ID || !GISCUS_CATEGORY_ID) return
 
   document.getElementById(scriptId.value)?.remove()
   const container = document.getElementById(containerId.value)
@@ -62,10 +62,11 @@ onUnmounted(() => {
 
 <template>
   <div>
-    <div v-if="!GISCUS_REPO_ID" class="rounded-lg border border-amber-200 bg-amber-50 p-4 text-sm text-amber-800">
-      留言板尚未配置。请在仓库 Settings 启用 Discussions，并在
+    <div v-if="!GISCUS_REPO_ID || !GISCUS_CATEGORY_ID" class="rounded-lg border border-amber-200 bg-amber-50 p-4 text-sm text-amber-800">
+      留言板尚未完全配置。请在仓库 Settings → General 启用 Discussions，然后在 Actions 运行
+      <strong>Setup Giscus</strong> workflow；或访问
       <a href="https://giscus.app" target="_blank" rel="noopener" class="underline">giscus.app</a>
-      获取配置后设置环境变量 <code>VITE_GISCUS_REPO_ID</code> 与 <code>VITE_GISCUS_CATEGORY_ID</code>。
+      获取配置。
     </div>
     <div :id="containerId" class="giscus mt-4" />
   </div>

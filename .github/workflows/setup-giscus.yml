@@ -1,0 +1,66 @@
+name: Setup Giscus
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  discussions: write
+
+jobs:
+  setup:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/github-script@v7
+        id: giscus
+        with:
+          script: |
+            const { owner, repo } = context.repo
+            await github.rest.repos.update({
+              owner,
+              repo,
+              has_discussions: true,
+            })
+
+            const { repository } = await github.graphql(`
+              query($owner: String!, $name: String!) {
+                repository(owner: $owner, name: $name) {
+                  id
+                  discussionCategories(first: 20) {
+                    nodes { id name }
+                  }
+                }
+              }
+            `, { owner, name: repo })
+
+            const categories = repository.discussionCategories.nodes
+            let category = categories.find((c) => c.name === 'Guestbook')
+              || categories.find((c) => c.name === 'General')
+              || categories[0]
+
+            if (!category) {
+              core.setFailed('未找到 Discussion 分类')
+              return
+            }
+
+            const fs = require('fs')
+            const config = {
+              repo: `${owner}/${repo}`,
+              repoId: repository.id,
+              category: category.name,
+              categoryId: category.id,
+              updatedAt: new Date().toISOString(),
+            }
+            fs.writeFileSync('data/meta/giscus.json', JSON.stringify(config, null, 2) + '\n')
+            core.summary.addRaw(`Giscus 配置已写入 data/meta/giscus.json`)
+            return config
+
+      - name: Commit giscus config
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/meta/giscus.json
+          git diff --staged --quiet || git commit -m "chore: update giscus config from setup workflow"
+          git push

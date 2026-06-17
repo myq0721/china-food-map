@@ -4,7 +4,7 @@
   "name": "大块头排挡",
   "coordinates": null,
   "createdAt": "2026-06-17T18:11:44.668Z",
-  "updatedAt": "2026-06-17T18:11:44.668Z",
+  "updatedAt": "2026-06-17T18:39:17.111Z",
   "recommenders": [
     {
       "authorId": "3546888255048212",
@@ -12,9 +12,10 @@
       "profileUrl": "https://space.bilibili.com/3546888255048212",
       "recommendedAt": "2026-06-17",
       "rating": 5,
-      "ratingSummary": "特厨探店 |半夜来吃上海夜宵天花板？—大块头排挡",
-      "reason": "特厨探店 |半夜来吃上海夜宵天花板？—大块头排挡",
-      "sourceVideoUrl": "https://www.bilibili.com/video/BV1nWYtzjE7d"
+      "ratingSummary": "水准在线：半夜来吃上海夜宵天花板",
+      "reason": "特厨隋卞探店「大块头排挡」，从菜品火候、调味与性价比综合体验来看，整体表现突出，多项菜品在线，值得专程打卡。观众热议：隋老师什么时候能重启教学啊，家庭菜谱急需补充啊；之前小李回过了，在找场地，估计9-10月份",
+      "sourceVideoUrl": "https://www.bilibili.com/video/BV1nWYtzjE7d",
+      "displayName": "特厨隋卞"
     }
   ]
 }

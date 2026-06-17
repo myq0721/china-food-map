@@ -4,17 +4,26 @@
   "name": "江西小炒",
   "coordinates": null,
   "createdAt": "2026-06-17T18:11:01.471Z",
-  "updatedAt": "2026-06-17T18:11:01.471Z",
+  "updatedAt": "2026-06-17T18:38:12.807Z",
   "recommenders": [
     {
       "authorId": "3546888255048212",
       "platform": "bilibili",
       "profileUrl": "https://space.bilibili.com/3546888255048212",
       "recommendedAt": "2026-06-17",
-      "rating": 4,
-      "ratingSummary": "特厨探店|四张桌子干了三碗饭（来个下联）—江西小炒",
-      "reason": "特厨探店|四张桌子干了三碗饭（来个下联）—江西小炒",
-      "sourceVideoUrl": "https://www.bilibili.com/video/BV1uHANzsEEk"
+      "rating": 2,
+      "ratingSummary": "期待偏高：四张桌子干了三碗饭（来个下联）",
+      "reason": "特厨隋卞探店「江西小炒」，从菜品火候、调味与性价比综合体验来看，与预期有差距，部分菜品或体验拖了后腿。观众热议：已经吃完了，家常味，不要有太高期待，如果离得太远其实不用专门跑一趟，店里一共四张小桌子，已经被隋坡大军占领了老板夫妻两个人，老板炒菜老板娘切菜收桌，快要忙不过来了都；回复 @hahaheheeee : 这种馆子没那么多偷手的，这就不是个主打厨艺的店。食材够新鲜，猛火咵咵的这么一炒，味道就出来了。只要食材没问题，品控是有保证的。最多忙不过来。推荐尝试：四张桌子干了三碗饭。",
+      "sourceVideoUrl": "https://www.bilibili.com/video/BV1uHANzsEEk",
+      "dishes": [
+        {
+          "name": "四张桌子干了三碗饭"
+        }
+      ],
+      "displayName": "特厨隋卞"
     }
+  ],
+  "cuisine": [
+    "北京菜"
   ]
 }

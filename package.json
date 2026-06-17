@@ -16,6 +16,8 @@
     "import:bilibili": "node scripts/import-bilibili-full.mjs",
     "import:bilibili:full": "node scripts/import-bilibili-full.mjs",
     "clean:imports": "node scripts/clean-imports.mjs",
+    "enrich:restaurants": "node scripts/enrich-restaurants.mjs",
+    "convert:manual": "node scripts/convert-manual-draft.mjs",
     "transcribe:video": "node scripts/transcribe-and-evaluate.mjs"
   },
   "dependencies": {

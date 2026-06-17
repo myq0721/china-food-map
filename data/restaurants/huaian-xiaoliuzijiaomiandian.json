@@ -4,17 +4,29 @@
   "name": "小六子饺面店",
   "coordinates": null,
   "createdAt": "2026-06-17T18:10:53.595Z",
-  "updatedAt": "2026-06-17T18:10:53.595Z",
+  "updatedAt": "2026-06-17T18:38:59.851Z",
   "recommenders": [
     {
       "authorId": "3546888255048212",
       "platform": "bilibili",
       "profileUrl": "https://space.bilibili.com/3546888255048212",
       "recommendedAt": "2026-06-17",
-      "rating": 4,
-      "ratingSummary": "特厨探店|什么样的店才能被称为人生饭店？—小六子饺面店",
-      "reason": "特厨探店|什么样的店才能被称为人生饭店？—小六子饺面店",
-      "sourceVideoUrl": "https://www.bilibili.com/video/BV1PE9tBpEek"
+      "rating": 5,
+      "ratingSummary": "强烈推荐：什么样的店才能被称为人生饭店",
+      "reason": "特厨隋卞探店「小六子饺面店」，从菜品火候、调味与性价比综合体验来看，整体表现突出，多项菜品在线，值得专程打卡。观众热议：十年前价格更加美丽；哇还有老资历推荐尝试：店才能被称为人生饭、小六子饺面。",
+      "sourceVideoUrl": "https://www.bilibili.com/video/BV1PE9tBpEek",
+      "dishes": [
+        {
+          "name": "店才能被称为人生饭"
+        },
+        {
+          "name": "小六子饺面"
+        }
+      ],
+      "displayName": "特厨隋卞"
     }
+  ],
+  "cuisine": [
+    "淮扬菜"
   ]
 }

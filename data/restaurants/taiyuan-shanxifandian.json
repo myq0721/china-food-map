@@ -4,7 +4,7 @@
   "name": "山西饭店",
   "coordinates": null,
   "createdAt": "2026-06-17T18:11:03.231Z",
-  "updatedAt": "2026-06-17T18:11:03.231Z",
+  "updatedAt": "2026-06-17T18:39:45.916Z",
   "recommenders": [
     {
       "authorId": "3546888255048212",
@@ -12,9 +12,15 @@
       "profileUrl": "https://space.bilibili.com/3546888255048212",
       "recommendedAt": "2026-06-17",
       "rating": 5,
-      "ratingSummary": "特厨探店|山西菜天花板？！—山西饭店",
-      "reason": "特厨探店|山西菜天花板？！—山西饭店",
-      "sourceVideoUrl": "https://www.bilibili.com/video/BV1ozcCzBEMD"
+      "ratingSummary": "值得专程：山西菜天花板",
+      "reason": "特厨隋卞探店「山西饭店」，从菜品火候、调味与性价比综合体验来看，整体表现突出，多项菜品在线，值得专程打卡。观众热议：哈哈。我上次住里面，真晚上看的是震撼。全国最豪华的面馆；太损了推荐尝试：山西饭。",
+      "sourceVideoUrl": "https://www.bilibili.com/video/BV1ozcCzBEMD",
+      "dishes": [
+        {
+          "name": "山西饭"
+        }
+      ],
+      "displayName": "特厨隋卞"
     }
   ]
 }
