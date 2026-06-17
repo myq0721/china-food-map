@@ -32,6 +32,10 @@ function buildRecommender(form: SubmitFormData): Recommender {
     recommender.comments = form.comments.filter((c) => c.author.trim() && c.text.trim())
   }
   if (form.sourceVideoUrl.trim()) recommender.sourceVideoUrl = form.sourceVideoUrl.trim()
+  if (typeof form.rating === 'number' && form.rating >= 1 && form.rating <= 5) {
+    recommender.rating = form.rating
+  }
+  if (form.ratingSummary?.trim()) recommender.ratingSummary = form.ratingSummary.trim()
 
   return recommender
 }

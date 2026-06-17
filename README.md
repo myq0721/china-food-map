@@ -8,10 +8,10 @@
 
 - 首页展示最新推荐饭店（桌面端一行 4 张卡片）
 - 按城市、菜系筛选与搜索
-- 饭店详情页展示全部推荐者与评价（支持 GitHub / Twitter / 抖音 / B站 主页链接）
-- 投稿入口：多平台推荐者 → 待审核区 → 维护者 promote 后上线
-- 博主探店半自动导入（B 站 API + 抖音手动补链）
-- 留言板（Giscus + GitHub Discussions）
+- 饭店详情页展示全部推荐者与评价（支持 GitHub / Twitter / B站 主页链接）及 1-5 星综合推荐指数
+- 投稿入口：GitHub/Twitter 完整表单；B 站仅视频链接 + 自动解析 → 待审核区 → promote 后上线
+- 博主探店半自动导入（B 站 API + 可选 OpenAI）
+- 留言板与饭店详情评论区（Giscus + GitHub Discussions）
 
 ## 构建与推送
 
@@ -50,7 +50,7 @@ git push origin master
 
 1. **Settings → Pages → Source**：GitHub Actions
 2. **Settings → Secrets and variables → Actions**：
-   - Secret: `TURNSTILE_SECRET`
+   - Secret: `TURNSTILE_SECRET`, `OPENAI_API_KEY`（AI 打分与 B 站解析增强）
    - Variables: `VITE_GITHUB_CLIENT_ID`, `VITE_TURNSTILE_SITE_KEY`, `VITE_GISCUS_REPO_ID`, `VITE_GISCUS_CATEGORY_ID`
 3. **Settings → General → Discussions**：启用，创建 `Guestbook` 分类
 4. **OAuth App**（Device Flow）：Client ID 写入 `VITE_GITHUB_CLIENT_ID`
@@ -64,29 +64,41 @@ git push origin master
 - 博主草稿：`data/imports/drafts.json`
 - 博主配置：`data/meta/curated-creators.json`
 
-推荐者 `platform` 支持：`github` | `twitter` | `douyin` | `bilibili`  
+推荐者 `platform` 支持：`github` | `twitter` | `bilibili`  
+每条推荐含 `rating`（1-5 整数）与可选 `ratingSummary`。  
 Twitter 主页自动生成：`https://x.com/{用户名}`
 
 ## 投稿流程
 
-1. 网站「投稿」页填写饭店信息，选择推荐者平台（可用 Twitter ID，无需验证归属）
-2. GitHub 登录 + Turnstile 人机验证
-3. 自动创建 PR，写入 `data/pending/{uuid}.json`
-4. 维护者合并 PR 后，运行 **Promote Pending** Action（或本地 `node scripts/promote-pending.mjs --all`）
-5. 数据合并进 `data/restaurants/` 并上线
+1. **GitHub / Twitter**：填写饭店信息 + 综合推荐指数（1-5 星）
+2. **B 站**：粘贴探店视频链接，点击解析后提交
+3. GitHub 登录 + Turnstile 人机验证
+4. 自动创建 PR，写入 `data/pending/{uuid}.json`
+5. **Enrich Pending** Action 自动补全星级与字段（可选 `USE_WHISPER=1` 启用音轨转写）
+6. 维护者合并 PR 后，运行 **Promote Pending** Action（或本地 `node scripts/promote-pending.mjs --all`）
+7. 数据合并进 `data/restaurants/` 并上线
 
 ## 博主探店导入
 
-1. 在 `data/meta/curated-creators.json` 添加抖音/B站博主主页
-2. 运行 `node scripts/fetch-creator-videos.mjs`（或触发 **Sync Creators** Action）
-3. 维护者登录后访问 `/import` 页面审阅草稿、补全城市/店名
-4. 批量提交到待审核区，再走 promote 流程
-
-抖音因反爬限制，首版需在该页面手动粘贴视频链接。
+1. 在 `data/meta/curated-creators.json` 配置 B 站 UP 主（默认：特厨隋卞 `3546888255048212`）
+2. **批量 AI 导入**（直接写入 `data/restaurants/`）：
+   ```bash
+   OPENAI_API_KEY=sk-... node scripts/import-bilibili-ai.mjs
+   OPENAI_API_KEY=sk-... IMPORT_LIMIT=3 node scripts/import-bilibili-ai.mjs --dry-run
+   ```
+   或在 Actions 中手动触发 **Import Bilibili AI** workflow。
+3. **草稿审阅流程**：运行 `node scripts/fetch-creator-videos.mjs` → 维护者访问 `/import` 审阅 → 批量提交待审核
 
 ## 维护者命令
 
 ```bash
+# 将待审核投稿 AI 补全星级与字段
+node scripts/enrich-submission.mjs
+node scripts/enrich-submission.mjs <pending-uuid>
+
+# B 站 UP 主批量 AI 导入（直接入库）
+OPENAI_API_KEY=sk-... node scripts/import-bilibili-ai.mjs
+
 # 同步博主视频草稿
 node scripts/fetch-creator-videos.mjs
 

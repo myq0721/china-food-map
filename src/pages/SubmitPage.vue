@@ -4,14 +4,16 @@ import { useGitHubAuth } from '@/composables/useGitHubAuth'
 import { submitPendingPR } from '@/composables/useSubmit'
 import { useMeta } from '@/composables/useMeta'
 import { TURNSTILE_SITE_KEY } from '@/config'
-import type { Platform, SubmitFormData } from '@/types/restaurant'
+import type { Platform, SubmitFormData, BilibiliParseResult } from '@/types/restaurant'
 import { buildRestaurantId } from '@/utils/slug'
 import { PLATFORM_LABELS, normalizeAuthorId } from '@/utils/profileUrl'
+import { fetchBilibiliVideo, parseBilibiliMeta } from '@/utils/bilibili'
+import StarRating from '@/components/StarRating.vue'
 
 const { user, isAuthenticated, loginWithDeviceFlow, loginWithPat, logout, octokit } = useGitHubAuth()
 const { cuisines, curatedCreators, ensureMetaLoaded } = useMeta()
 
-const platforms: Platform[] = ['github', 'twitter', 'douyin', 'bilibili']
+const platforms: Platform[] = ['github', 'twitter', 'bilibili']
 
 const form = ref<SubmitFormData>({
   city: '',
@@ -25,7 +27,14 @@ const form = ref<SubmitFormData>({
   authorId: '',
   profileUrl: '',
   sourceVideoUrl: '',
+  rating: 4,
+  ratingSummary: '',
 })
+
+const bilibiliUrl = ref('')
+const bilibiliParsing = ref(false)
+const bilibiliParsed = ref<BilibiliParseResult | null>(null)
+const bilibiliVideoUrl = ref('')
 
 const patInput = ref('')
 const turnstileToken = ref('')
@@ -34,17 +43,17 @@ const error = ref('')
 const successUrl = ref('')
 const step = ref(1)
 
-const previewId = computed(() =>
-  form.value.city && form.value.name
-    ? buildRestaurantId(form.value.city, form.value.name)
-    : '',
+const isBilibili = computed(() => form.value.platform === 'bilibili')
+
+const bilibiliCreator = computed(() =>
+  curatedCreators.value.find((c) => c.platform === 'bilibili' && c.enabled),
 )
 
-const selectedCreator = computed(() =>
-  curatedCreators.value.find(
-    (c) => c.platform === form.value.platform && c.authorId === form.value.authorId,
-  ),
-)
+const previewId = computed(() => {
+  const city = isBilibili.value ? bilibiliParsed.value?.city : form.value.city
+  const name = isBilibili.value ? bilibiliParsed.value?.name : form.value.name
+  return city && name ? buildRestaurantId(city, name) : ''
+})
 
 watch(
   () => user.value?.login,
@@ -59,25 +68,28 @@ watch(
 watch(
   () => form.value.platform,
   (platform) => {
+    error.value = ''
+    bilibiliParsed.value = null
+    bilibiliUrl.value = ''
     if (platform === 'github' && user.value) {
       form.value.authorId = user.value.login
     } else if (platform !== 'github') {
       form.value.authorId = ''
     }
     form.value.profileUrl = ''
+    if (platform === 'bilibili' && bilibiliCreator.value) {
+      form.value.authorId = bilibiliCreator.value.authorId
+      form.value.profileUrl = bilibiliCreator.value.profileUrl
+    }
   },
 )
 
-function onCreatorSelect(authorId: string) {
-  const creator = curatedCreators.value.find((c) => c.authorId === authorId)
-  if (creator) {
-    form.value.authorId = creator.authorId
-    form.value.profileUrl = creator.profileUrl
-  }
-}
-
 onMounted(async () => {
   await ensureMetaLoaded()
+  if (form.value.platform === 'bilibili' && bilibiliCreator.value) {
+    form.value.authorId = bilibiliCreator.value.authorId
+    form.value.profileUrl = bilibiliCreator.value.profileUrl
+  }
   loadTurnstile()
 })
 
@@ -117,14 +129,32 @@ function removeDish(i: number) {
   form.value.dishes.splice(i, 1)
 }
 
-function addComment() {
-  form.value.comments.push({ author: '', text: '' })
-}
-
 function toggleCuisine(name: string) {
   const idx = form.value.cuisine.indexOf(name)
   if (idx >= 0) form.value.cuisine.splice(idx, 1)
   else form.value.cuisine.push(name)
+}
+
+async function handleParseBilibili() {
+  error.value = ''
+  bilibiliParsing.value = true
+  bilibiliParsed.value = null
+  try {
+    const meta = await fetchBilibiliVideo(bilibiliUrl.value.trim())
+    bilibiliVideoUrl.value = `https://www.bilibili.com/video/${meta.bvid}`
+    bilibiliParsed.value = parseBilibiliMeta(meta)
+    if (bilibiliCreator.value) {
+      form.value.authorId = bilibiliCreator.value.authorId
+      form.value.profileUrl = bilibiliCreator.value.profileUrl
+    }
+  } catch (e) {
+    error.value =
+      e instanceof Error
+        ? `${e.message}（若浏览器无法访问 B 站 API，可先提交链接，由维护者 AI 补全）`
+        : '解析失败'
+  } finally {
+    bilibiliParsing.value = false
+  }
 }
 
 async function handleLogin() {
@@ -145,17 +175,44 @@ async function handlePatLogin() {
   }
 }
 
+function buildSubmitForm(): SubmitFormData {
+  if (isBilibili.value && bilibiliParsed.value) {
+    const p = bilibiliParsed.value
+    return {
+      city: p.city.trim() || '待确认',
+      name: p.name.trim() || p.videoTitle.slice(0, 30) || '待确认店名',
+      cuisine: p.cuisine,
+      address: p.address,
+      dishes: p.dishes.length ? p.dishes : [{ name: '', price: '' }],
+      reason: p.reason,
+      comments: [],
+      platform: 'bilibili',
+      authorId: form.value.authorId || bilibiliCreator.value?.authorId || '',
+      profileUrl: form.value.profileUrl || bilibiliCreator.value?.profileUrl,
+      sourceVideoUrl: bilibiliVideoUrl.value,
+      rating: p.rating,
+      ratingSummary: p.ratingSummary,
+    }
+  }
+  return { ...form.value }
+}
+
 function validateForm(): string | null {
-  if (!form.value.city.trim()) return '请填写城市'
-  if (!form.value.name.trim()) return '请填写饭店名称'
-  if (form.value.platform === 'github' && !form.value.authorId.trim()) {
-    return 'GitHub 推荐需登录或填写 ID'
-  }
-  if (form.value.platform === 'twitter' && !normalizeAuthorId('twitter', form.value.authorId)) {
-    return '请填写 Twitter 用户名'
-  }
-  if ((form.value.platform === 'douyin' || form.value.platform === 'bilibili') && !form.value.authorId.trim()) {
-    return '请选择或填写博主 ID'
+  if (isBilibili.value) {
+    if (!bilibiliUrl.value.trim()) return '请填写 B 站视频链接'
+    if (!bilibiliParsed.value) return '请先点击「解析视频」'
+  } else {
+    if (!form.value.city.trim()) return '请填写城市'
+    if (!form.value.name.trim()) return '请填写饭店名称'
+    if (form.value.platform === 'github' && !form.value.authorId.trim()) {
+      return 'GitHub 推荐需登录或填写 ID'
+    }
+    if (form.value.platform === 'twitter' && !normalizeAuthorId('twitter', form.value.authorId)) {
+      return '请填写 Twitter 用户名'
+    }
+    if (!form.value.rating || form.value.rating < 1 || form.value.rating > 5) {
+      return '请选择 1-5 星综合推荐指数'
+    }
   }
   if (!TURNSTILE_SITE_KEY) return '未配置人机验证，请联系维护者'
   if (!turnstileToken.value) return '请完成人机验证'
@@ -170,21 +227,19 @@ async function handleSubmit() {
     return
   }
   if (!octokit.value || !user.value) {
-    error.value = '请先登录 GitHub（用于创建 PR，推荐者身份可填其他平台）'
+    error.value = '请先登录 GitHub（用于创建 PR）'
     return
   }
 
   submitting.value = true
   try {
-    if (form.value.platform === 'github') {
-      form.value.authorId = form.value.authorId || user.value.login
-    }
-    if (selectedCreator.value) {
-      form.value.profileUrl = selectedCreator.value.profileUrl
+    const submitForm = buildSubmitForm()
+    if (submitForm.platform === 'github') {
+      submitForm.authorId = submitForm.authorId || user.value.login
     }
 
     const url = await submitPendingPR({
-      form: form.value,
+      form: submitForm,
       turnstileToken: turnstileToken.value,
       octokit: octokit.value,
       githubLogin: user.value.login,
@@ -241,107 +296,121 @@ async function handleSubmit() {
             </div>
           </div>
 
-          <div v-if="form.platform === 'github'">
-            <label class="mb-1 block text-sm font-medium">GitHub 用户名</label>
-            <input
-              v-model="form.authorId"
-              class="w-full rounded-lg border border-stone-200 px-3 py-2 text-sm"
-              :placeholder="user?.login ?? '登录后自动填充'"
-              :readonly="!!user"
-            />
-          </div>
-
-          <div v-else-if="form.platform === 'twitter'">
-            <label class="mb-1 block text-sm font-medium">Twitter / X 用户名 *</label>
-            <input
-              v-model="form.authorId"
-              class="w-full rounded-lg border border-stone-200 px-3 py-2 text-sm"
-              placeholder="不含 @，如 foodlover"
-            />
-            <p class="mt-1 text-xs text-stone-400">无需验证账号归属，维护者审核后展示，主页链接将自动生成。</p>
-          </div>
-
-          <div v-else>
-            <label class="mb-1 block text-sm font-medium">博主 *</label>
-            <select
-              v-if="curatedCreators.filter((c) => c.platform === form.platform).length"
-              class="mb-2 w-full rounded-lg border border-stone-200 px-3 py-2 text-sm"
-              @change="onCreatorSelect(($event.target as HTMLSelectElement).value)"
-            >
-              <option value="">从配置列表选择…</option>
-              <option
-                v-for="c in curatedCreators.filter((c) => c.platform === form.platform)"
-                :key="c.authorId"
-                :value="c.authorId"
-              >
-                {{ c.displayName }}
-              </option>
-            </select>
-            <input
-              v-model="form.authorId"
-              class="w-full rounded-lg border border-stone-200 px-3 py-2 text-sm"
-              placeholder="博主 ID"
-            />
-          </div>
-
-          <div>
-            <label class="mb-1 block text-sm font-medium">探店视频链接（选填）</label>
-            <input
-              v-model="form.sourceVideoUrl"
-              class="w-full rounded-lg border border-stone-200 px-3 py-2 text-sm"
-              placeholder="抖音 / B站视频 URL"
-            />
-          </div>
-
-          <div>
-            <label class="mb-1 block text-sm font-medium">城市 *</label>
-            <input v-model="form.city" required class="w-full rounded-lg border border-stone-200 px-3 py-2 text-sm" placeholder="例如：杭州" />
-          </div>
-          <div>
-            <label class="mb-1 block text-sm font-medium">饭店名称 *</label>
-            <input v-model="form.name" required class="w-full rounded-lg border border-stone-200 px-3 py-2 text-sm" placeholder="例如：杭州酒家" />
-            <p v-if="previewId" class="mt-1 text-xs text-stone-400">ID: {{ previewId }}</p>
-          </div>
-          <div>
-            <label class="mb-1 block text-sm font-medium">菜系（可多选）</label>
-            <div class="flex flex-wrap gap-2">
-              <button
-                v-for="c in cuisines"
-                :key="c.slug"
-                type="button"
-                class="rounded-full border px-3 py-1 text-xs"
-                :class="form.cuisine.includes(c.name) ? 'border-brand bg-brand text-white' : 'border-stone-200'"
-                @click="toggleCuisine(c.name)"
-              >
-                {{ c.name }}
-              </button>
+          <!-- B 站：仅视频链接 -->
+          <template v-if="isBilibili">
+            <div class="rounded-lg border border-blue-100 bg-blue-50 p-3 text-sm text-blue-800">
+              推荐者：<strong>{{ bilibiliCreator?.displayName ?? '特厨隋卞' }}</strong>
+              <span v-if="bilibiliCreator" class="text-blue-600">（B 站 UP 主）</span>
             </div>
-          </div>
-          <div>
-            <label class="mb-1 block text-sm font-medium">地址（选填）</label>
-            <input v-model="form.address" class="w-full rounded-lg border border-stone-200 px-3 py-2 text-sm" placeholder="详细地址" />
-          </div>
-          <div>
-            <label class="mb-1 block text-sm font-medium">推荐菜与价格（选填）</label>
-            <div v-for="(dish, i) in form.dishes" :key="i" class="mb-2 flex gap-2">
-              <input v-model="dish.name" class="w-full flex-1 rounded-lg border border-stone-200 px-3 py-2 text-sm" placeholder="菜名" />
-              <input v-model="dish.price" class="w-28 rounded-lg border border-stone-200 px-3 py-2 text-sm" placeholder="价格" />
-              <button v-if="form.dishes.length > 1" type="button" class="text-stone-400" @click="removeDish(i)">删</button>
+            <div>
+              <label class="mb-1 block text-sm font-medium">B 站探店视频链接 *</label>
+              <div class="flex gap-2">
+                <input
+                  v-model="bilibiliUrl"
+                  class="w-full flex-1 rounded-lg border border-stone-200 px-3 py-2 text-sm"
+                  placeholder="https://www.bilibili.com/video/BV..."
+                />
+                <button
+                  type="button"
+                  class="shrink-0 rounded-lg bg-brand px-4 py-2 text-sm text-white disabled:opacity-50"
+                  :disabled="bilibiliParsing || !bilibiliUrl.trim()"
+                  @click="handleParseBilibili"
+                >
+                  {{ bilibiliParsing ? '解析中…' : '解析视频' }}
+                </button>
+              </div>
             </div>
-            <button type="button" class="text-sm text-brand" @click="addDish">+ 添加菜品</button>
-          </div>
-          <div>
-            <label class="mb-1 block text-sm font-medium">推荐理由（选填）</label>
-            <textarea v-model="form.reason" rows="3" class="w-full rounded-lg border border-stone-200 px-3 py-2 text-sm" placeholder="为什么推荐这家店？" />
-          </div>
-          <div>
-            <label class="mb-1 block text-sm font-medium">其他评论（选填）</label>
-            <div v-for="(c, i) in form.comments" :key="i" class="mb-2 flex gap-2">
-              <input v-model="c.author" class="w-32 rounded-lg border border-stone-200 px-3 py-2 text-sm" placeholder="评论者" />
-              <input v-model="c.text" class="w-full flex-1 rounded-lg border border-stone-200 px-3 py-2 text-sm" placeholder="评论内容" />
+            <div v-if="bilibiliParsed" class="rounded-xl border border-stone-200 bg-stone-50 p-4 text-sm">
+              <h3 class="mb-2 font-medium">解析预览</h3>
+              <dl class="space-y-1 text-stone-600">
+                <div class="flex gap-2"><dt class="text-stone-400">视频</dt><dd>{{ bilibiliParsed.videoTitle }}</dd></div>
+                <div class="flex gap-2"><dt class="text-stone-400">城市</dt><dd>{{ bilibiliParsed.city || '（待 AI 补全）' }}</dd></div>
+                <div class="flex gap-2"><dt class="text-stone-400">店名</dt><dd>{{ bilibiliParsed.name || '（待 AI 补全）' }}</dd></div>
+                <div class="flex items-center gap-2">
+                  <dt class="text-stone-400">推荐指数</dt>
+                  <dd><StarRating :rating="bilibiliParsed.rating" size="sm" /></dd>
+                </div>
+                <div v-if="bilibiliParsed.ratingSummary" class="flex gap-2">
+                  <dt class="text-stone-400">简评</dt><dd>{{ bilibiliParsed.ratingSummary }}</dd>
+                </div>
+              </dl>
+              <p v-if="previewId" class="mt-2 text-xs text-stone-400">ID: {{ previewId }}</p>
             </div>
-            <button type="button" class="text-sm text-brand" @click="addComment">+ 添加评论</button>
-          </div>
+          </template>
+
+          <!-- GitHub / Twitter：完整表单 -->
+          <template v-else>
+            <div v-if="form.platform === 'github'">
+              <label class="mb-1 block text-sm font-medium">GitHub 用户名</label>
+              <input
+                v-model="form.authorId"
+                class="w-full rounded-lg border border-stone-200 px-3 py-2 text-sm"
+                :placeholder="user?.login ?? '登录后自动填充'"
+                :readonly="!!user"
+              />
+            </div>
+
+            <div v-else-if="form.platform === 'twitter'">
+              <label class="mb-1 block text-sm font-medium">Twitter / X 用户名 *</label>
+              <input
+                v-model="form.authorId"
+                class="w-full rounded-lg border border-stone-200 px-3 py-2 text-sm"
+                placeholder="不含 @，如 foodlover"
+              />
+              <p class="mt-1 text-xs text-stone-400">无需验证账号归属，维护者审核后展示。</p>
+            </div>
+
+            <div>
+              <label class="mb-1 block text-sm font-medium">城市 *</label>
+              <input v-model="form.city" required class="w-full rounded-lg border border-stone-200 px-3 py-2 text-sm" placeholder="例如：杭州" />
+            </div>
+            <div>
+              <label class="mb-1 block text-sm font-medium">饭店名称 *</label>
+              <input v-model="form.name" required class="w-full rounded-lg border border-stone-200 px-3 py-2 text-sm" placeholder="例如：杭州酒家" />
+              <p v-if="previewId" class="mt-1 text-xs text-stone-400">ID: {{ previewId }}</p>
+            </div>
+            <div>
+              <label class="mb-1 block text-sm font-medium">菜系（可多选）</label>
+              <div class="flex flex-wrap gap-2">
+                <button
+                  v-for="c in cuisines"
+                  :key="c.slug"
+                  type="button"
+                  class="rounded-full border px-3 py-1 text-xs"
+                  :class="form.cuisine.includes(c.name) ? 'border-brand bg-brand text-white' : 'border-stone-200'"
+                  @click="toggleCuisine(c.name)"
+                >
+                  {{ c.name }}
+                </button>
+              </div>
+            </div>
+            <div>
+              <label class="mb-1 block text-sm font-medium">地址（选填）</label>
+              <input v-model="form.address" class="w-full rounded-lg border border-stone-200 px-3 py-2 text-sm" placeholder="详细地址" />
+            </div>
+            <div>
+              <label class="mb-1 block text-sm font-medium">推荐菜与价格（选填）</label>
+              <div v-for="(dish, i) in form.dishes" :key="i" class="mb-2 flex gap-2">
+                <input v-model="dish.name" class="w-full flex-1 rounded-lg border border-stone-200 px-3 py-2 text-sm" placeholder="菜名" />
+                <input v-model="dish.price" class="w-28 rounded-lg border border-stone-200 px-3 py-2 text-sm" placeholder="价格" />
+                <button v-if="form.dishes.length > 1" type="button" class="text-stone-400" @click="removeDish(i)">删</button>
+              </div>
+              <button type="button" class="text-sm text-brand" @click="addDish">+ 添加菜品</button>
+            </div>
+            <div>
+              <label class="mb-1 block text-sm font-medium">推荐理由（选填）</label>
+              <textarea v-model="form.reason" rows="3" class="w-full rounded-lg border border-stone-200 px-3 py-2 text-sm" placeholder="为什么推荐这家店？" />
+            </div>
+            <div>
+              <label class="mb-2 block text-sm font-medium">综合推荐指数 *</label>
+              <StarRating v-model:rating="form.rating!" interactive size="md" />
+              <input
+                v-model="form.ratingSummary"
+                class="mt-2 w-full rounded-lg border border-stone-200 px-3 py-2 text-sm"
+                placeholder="一句话简评（选填）"
+              />
+            </div>
+          </template>
         </fieldset>
 
         <div v-if="step >= 2" class="rounded-xl border border-stone-200 bg-stone-50 p-4">

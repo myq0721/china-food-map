@@ -13,22 +13,23 @@ import { RouterLink } from 'vue-router'
     <h2>共建规则</h2>
     <ul>
       <li>投稿须为真实就餐体验，禁止广告与虚假推荐</li>
-      <li>推荐者支持 GitHub、Twitter、抖音、B站等平台</li>
+      <li>推荐者支持 GitHub、Twitter、B 站等平台</li>
+      <li>每条推荐含 1-5 星综合推荐指数</li>
       <li>投稿先进入待审核区，维护者审核 promote 后才展示</li>
       <li>同一推荐者（平台+ID）对同一饭店仅可推荐一次</li>
     </ul>
 
     <h2>推荐者平台</h2>
     <ul>
-      <li><strong>GitHub</strong> — 登录后自动填充用户名</li>
-      <li><strong>Twitter / X</strong> — 填写用户名，链接指向 x.com 主页</li>
-      <li><strong>抖音 / B站</strong> — 可从维护者配置的博主列表选择，或手动填写</li>
+      <li><strong>GitHub</strong> — 登录后自动填充用户名，填写完整饭店信息</li>
+      <li><strong>Twitter / X</strong> — 填写用户名与饭店信息，链接指向 x.com 主页</li>
+      <li><strong>B 站</strong> — 粘贴探店视频链接，系统自动解析店名与城市</li>
     </ul>
 
     <h2>博主探店导入</h2>
     <p>
-      维护者可在配置文件中指定抖音/B站博主，系统半自动拉取探店视频草稿，
-      经人工确认后导入待审核区。
+      维护者可在配置文件中指定 B 站 UP 主，系统半自动拉取探店视频，
+      经 AI 解析与人工确认后导入地图。
     </p>
 
     <h2>参与方式</h2>

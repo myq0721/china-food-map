@@ -36,10 +36,16 @@ for (const file of files) {
     .map((r) => r.recommendedAt)
     .sort()
     .at(-1)
+  const rated = data.recommenders.filter((r) => typeof r.rating === 'number')
+  const averageRating =
+    rated.length > 0
+      ? Math.round((rated.reduce((s, r) => s + r.rating, 0) / rated.length) * 10) / 10
+      : undefined
   restaurants.push({
     ...data,
     recommenderCount: data.recommenders.length,
     latestRecommendedAt,
+    averageRating,
   })
 }
 

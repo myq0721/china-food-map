@@ -1,17 +1,4 @@
 {
-  "generatedAt": "2026-06-17T15:38:33.407Z",
-  "items": [
-    {
-      "id": "173295c6-31b0-4555-9ed9-6e11b7173f41",
-      "creatorAuthorId": "MS4wLjABAAAAbDI_4eSNqMmPw4hnqd2A9Pyd_CkFJVF8wIMw4hCu2bHuuxjBvaoG7pZMbWdoQey_",
-      "creatorDisplayName": "抖音探店博主",
-      "platform": "douyin",
-      "videoTitle": "（请手动补充）抖音探店博主 的探店视频",
-      "videoUrl": "https://www.douyin.com/user/MS4wLjABAAAAbDI_4eSNqMmPw4hnqd2A9Pyd_CkFJVF8wIMw4hCu2bHuuxjBvaoG7pZMbWdoQey_",
-      "suggestedName": "",
-      "suggestedCity": "",
-      "status": "draft",
-      "note": "抖音暂不支持自动拉取，请在导入页粘贴视频链接"
-    }
-  ]
+  "generatedAt": "2026-06-17T00:00:00.000Z",
+  "items": []
 }

@@ -20,8 +20,6 @@ export function buildProfileUrl(
       return `https://x.com/${id}`
     case 'bilibili':
       return `https://space.bilibili.com/${id}`
-    case 'douyin':
-      return `https://www.douyin.com/user/${id}`
     default:
       return undefined
   }
@@ -34,6 +32,5 @@ export function getRecommenderProfileUrl(rec: Recommender): string | undefined {
 export const PLATFORM_LABELS: Record<Platform, string> = {
   github: 'GitHub',
   twitter: 'Twitter / X',
-  douyin: '抖音',
   bilibili: 'Bilibili',
 }

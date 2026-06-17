@@ -1,0 +1,50 @@
+name: Enrich Pending
+
+on:
+  workflow_dispatch:
+    inputs:
+      pending_id:
+        description: 'Pending UUID（留空则处理全部）'
+        required: false
+        type: string
+  pull_request:
+    types: [opened, synchronize]
+    paths:
+      - 'data/pending/**'
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  enrich:
+    if: github.event_name == 'workflow_dispatch' || github.actor != 'dependabot[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event_name == 'pull_request' && github.head_ref || github.ref }}
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Enrich pending submissions
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          if [ -n "${{ inputs.pending_id }}" ]; then
+            node scripts/enrich-submission.mjs "${{ inputs.pending_id }}"
+          else
+            node scripts/enrich-submission.mjs
+          fi
+
+      - name: Commit enriched pending files
+        if: github.event_name == 'pull_request'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/pending/
+          git diff --staged --quiet || git commit -m "chore: enrich pending submissions with AI ratings"
+          git push

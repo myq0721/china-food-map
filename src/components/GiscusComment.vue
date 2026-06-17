@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { onMounted, onUnmounted } from 'vue'
+import { onMounted, onUnmounted, watch, computed } from 'vue'
 import {
   GISCUS_REPO,
   GISCUS_REPO_ID,
@@ -7,19 +7,35 @@ import {
   GISCUS_CATEGORY_ID,
 } from '@/config'
 
-const containerId = 'giscus-container'
+const props = withDefaults(
+  defineProps<{
+    mapping?: string
+    term?: string
+    title?: string
+  }>(),
+  { mapping: 'pathname' },
+)
 
-onMounted(() => {
-  if (document.getElementById('giscus-script')) return
+const containerId = computed(() => `giscus-${props.term ?? props.mapping}`)
+const scriptId = computed(() => `giscus-script-${props.term ?? props.mapping}`)
+
+function mountGiscus() {
+  if (!GISCUS_REPO_ID) return
+
+  document.getElementById(scriptId.value)?.remove()
+  const container = document.getElementById(containerId.value)
+  if (container) container.innerHTML = ''
 
   const script = document.createElement('script')
-  script.id = 'giscus-script'
+  script.id = scriptId.value
   script.src = 'https://giscus.app/client.js'
   script.setAttribute('data-repo', GISCUS_REPO)
   script.setAttribute('data-repo-id', GISCUS_REPO_ID)
   script.setAttribute('data-category', GISCUS_CATEGORY)
   script.setAttribute('data-category-id', GISCUS_CATEGORY_ID)
-  script.setAttribute('data-mapping', 'pathname')
+  script.setAttribute('data-mapping', props.term ? 'specific' : props.mapping)
+  if (props.term) script.setAttribute('data-term', props.term)
+  if (props.title) script.setAttribute('data-title', props.title)
   script.setAttribute('data-strict', '0')
   script.setAttribute('data-reactions-enabled', '1')
   script.setAttribute('data-emit-metadata', '0')
@@ -30,14 +46,16 @@ onMounted(() => {
   script.crossOrigin = 'anonymous'
   script.async = true
 
-  const container = document.getElementById(containerId)
-  if (container) container.appendChild(script)
-})
+  container?.appendChild(script)
+}
+
+onMounted(mountGiscus)
+
+watch(() => [props.term, props.mapping, props.title], mountGiscus)
 
 onUnmounted(() => {
-  const script = document.getElementById('giscus-script')
-  script?.remove()
-  const container = document.getElementById(containerId)
+  document.getElementById(scriptId.value)?.remove()
+  const container = document.getElementById(containerId.value)
   if (container) container.innerHTML = ''
 })
 </script>

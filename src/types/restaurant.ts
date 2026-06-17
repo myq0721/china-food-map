@@ -1,4 +1,4 @@
-export type Platform = 'github' | 'twitter' | 'douyin' | 'bilibili'
+export type Platform = 'github' | 'twitter' | 'bilibili'
 
 export interface Dish {
   name: string
@@ -15,6 +15,8 @@ export interface Recommender {
   platform: Platform
   profileUrl?: string
   recommendedAt: string
+  rating?: number
+  ratingSummary?: string
   dishes?: Dish[]
   reason?: string
   comments?: Comment[]
@@ -36,6 +38,7 @@ export interface Restaurant {
 export interface RestaurantIndexEntry extends Restaurant {
   recommenderCount: number
   latestRecommendedAt: string
+  averageRating?: number
 }
 
 export interface RestaurantIndex {
@@ -70,6 +73,8 @@ export interface SubmitFormData {
   authorId: string
   profileUrl?: string
   sourceVideoUrl: string
+  rating?: number
+  ratingSummary?: string
 }
 
 export interface CuratedCreator {
@@ -95,6 +100,18 @@ export interface ImportDraftItem {
 export interface ImportDrafts {
   generatedAt: string
   items: ImportDraftItem[]
+}
+
+export interface BilibiliParseResult {
+  city: string
+  name: string
+  cuisine: string[]
+  address: string
+  dishes: Dish[]
+  reason: string
+  rating: number
+  ratingSummary: string
+  videoTitle: string
 }
 
 export function recommenderKey(r: Pick<Recommender, 'platform' | 'authorId'>): string {

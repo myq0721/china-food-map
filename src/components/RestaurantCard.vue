@@ -5,6 +5,7 @@ import type { RestaurantIndexEntry } from '@/types/restaurant'
 import { recommenderKey } from '@/types/restaurant'
 import RecommendersModal from './RecommendersModal.vue'
 import RecommenderLink from './RecommenderLink.vue'
+import StarRating from './StarRating.vue'
 
 defineProps<{
   restaurant: RestaurantIndexEntry
@@ -20,9 +21,17 @@ const showModal = ref(false)
         <h3 class="text-lg font-semibold text-stone-900 group-hover:text-brand">
           {{ restaurant.name }}
         </h3>
-        <span class="shrink-0 rounded-full bg-brand/10 px-2 py-0.5 text-xs text-brand">
-          {{ restaurant.city }}
-        </span>
+        <div class="flex shrink-0 flex-col items-end gap-1">
+          <span class="rounded-full bg-brand/10 px-2 py-0.5 text-xs text-brand">
+            {{ restaurant.city }}
+          </span>
+          <StarRating
+            v-if="restaurant.averageRating"
+            :rating="restaurant.averageRating"
+            size="sm"
+            show-value
+          />
+        </div>
       </div>
       <p v-if="restaurant.cuisine?.length" class="mb-2 text-xs text-stone-500">
         {{ restaurant.cuisine.join(' · ') }}

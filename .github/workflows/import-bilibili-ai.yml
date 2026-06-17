@@ -1,0 +1,62 @@
+name: Import Bilibili AI
+
+on:
+  workflow_dispatch:
+    inputs:
+      import_limit:
+        description: '最多导入条数（0 表示不限制）'
+        required: false
+        default: '3'
+        type: string
+      dry_run:
+        description: '仅预览不写文件'
+        required: false
+        default: true
+        type: boolean
+      use_whisper:
+        description: '启用 yt-dlp + Whisper 音轨转写（需已安装 yt-dlp/ffmpeg）'
+        required: false
+        default: false
+        type: boolean
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: npm
+
+      - run: npm ci
+
+      - name: Install yt-dlp
+        if: inputs.use_whisper
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg && sudo curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o /usr/local/bin/yt-dlp && sudo chmod +x /usr/local/bin/yt-dlp
+
+      - name: Run Bilibili AI import
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          BILIBILI_MID: '3546888255048212'
+          IMPORT_LIMIT: ${{ inputs.import_limit }}
+          USE_WHISPER: ${{ inputs.use_whisper && '1' || '0' }}
+        run: |
+          ARGS=""
+          if [ "${{ inputs.dry_run }}" = "true" ]; then ARGS="--dry-run"; fi
+          node scripts/import-bilibili-ai.mjs $ARGS
+
+      - name: Create Pull Request
+        if: inputs.dry_run == false
+        uses: peter-evans/create-pull-request@v7
+        with:
+          commit-message: 'feat: import bilibili restaurants via AI'
+          title: 'feat: B 站探店 AI 批量导入'
+          body: '由 Import Bilibili AI workflow 自动生成，请审核 `data/restaurants/` 变更。'
+          branch: import/bilibili-ai
+          delete-branch: true

@@ -5,6 +5,8 @@ import { useRestaurants } from '@/composables/useRestaurants'
 import { recommenderKey } from '@/types/restaurant'
 import { formatDate } from '@/utils/slug'
 import RecommenderLink from '@/components/RecommenderLink.vue'
+import StarRating from '@/components/StarRating.vue'
+import RestaurantGiscus from '@/components/RestaurantGiscus.vue'
 
 const route = useRoute()
 const id = computed(() => route.params.id as string)
@@ -23,6 +25,10 @@ const restaurant = computed(() => getById(id.value))
       <div class="flex flex-wrap items-start justify-between gap-2">
         <h1 class="text-3xl font-bold text-stone-900">{{ restaurant.name }}</h1>
         <span class="rounded-full bg-brand/10 px-3 py-1 text-sm text-brand">{{ restaurant.city }}</span>
+      </div>
+      <div v-if="restaurant.averageRating" class="mt-2 flex items-center gap-2">
+        <StarRating :rating="restaurant.averageRating" show-value />
+        <span class="text-sm text-stone-500">综合推荐指数</span>
       </div>
       <p v-if="restaurant.cuisine?.length" class="mt-2 text-stone-600">
         {{ restaurant.cuisine.join(' · ') }}
@@ -43,7 +49,10 @@ const restaurant = computed(() => getById(id.value))
         <div class="mb-3 flex flex-wrap items-center gap-3">
           <RecommenderLink :recommender="rec" show-platform />
           <span class="text-xs text-stone-400">{{ formatDate(rec.recommendedAt) }}</span>
+          <StarRating v-if="rec.rating" :rating="rec.rating" size="sm" />
         </div>
+
+        <p v-if="rec.ratingSummary" class="mb-2 text-sm text-stone-600 italic">{{ rec.ratingSummary }}</p>
 
         <p v-if="rec.sourceVideoUrl" class="mb-3 text-sm">
           <a :href="rec.sourceVideoUrl" target="_blank" rel="noopener noreferrer" class="text-brand hover:underline">
@@ -73,6 +82,8 @@ const restaurant = computed(() => getById(id.value))
         </div>
       </article>
     </section>
+
+    <RestaurantGiscus :restaurant-id="restaurant.id" :restaurant-name="restaurant.name" />
   </div>
 
   <div v-else class="py-12 text-center text-stone-500">未找到该饭店</div>

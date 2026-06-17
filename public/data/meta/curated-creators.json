@@ -1,9 +1,9 @@
 [
   {
-    "platform": "douyin",
-    "displayName": "抖音探店博主",
-    "profileUrl": "https://www.douyin.com/user/MS4wLjABAAAAbDI_4eSNqMmPw4hnqd2A9Pyd_CkFJVF8wIMw4hCu2bHuuxjBvaoG7pZMbWdoQey_",
-    "authorId": "MS4wLjABAAAAbDI_4eSNqMmPw4hnqd2A9Pyd_CkFJVF8wIMw4hCu2bHuuxjBvaoG7pZMbWdoQey_",
+    "platform": "bilibili",
+    "displayName": "特厨隋卞",
+    "profileUrl": "https://space.bilibili.com/3546888255048212",
+    "authorId": "3546888255048212",
     "enabled": true
   }
 ]

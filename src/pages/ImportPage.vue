@@ -17,7 +17,7 @@ const submitting = ref(false)
 const patInput = ref('')
 
 const manualDraft = ref({
-  platform: 'douyin' as Platform,
+  platform: 'bilibili' as Platform,
   videoUrl: '',
   videoTitle: '',
   suggestedCity: '',
@@ -86,6 +86,8 @@ function draftToForm(draft: ImportDraftItem): SubmitFormData {
     authorId: draft.creatorAuthorId,
     profileUrl: '',
     sourceVideoUrl: draft.videoUrl,
+    rating: 4,
+    ratingSummary: '',
   }
 }
 
@@ -157,7 +159,7 @@ async function handleLogin() {
     </div>
 
     <section v-if="isMaintainer" class="mb-8 rounded-xl border border-stone-200 bg-white p-4">
-      <h2 class="mb-3 font-medium">手动添加抖音视频</h2>
+      <h2 class="mb-3 font-medium">手动添加 B 站视频</h2>
       <div class="grid gap-3 sm:grid-cols-2">
         <input v-model="manualDraft.videoUrl" class="rounded-lg border px-3 py-2 text-sm sm:col-span-2" placeholder="视频链接" />
         <input v-model="manualDraft.videoTitle" class="rounded-lg border px-3 py-2 text-sm" placeholder="视频标题" />

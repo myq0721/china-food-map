@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "predev": "node scripts/build-index.mjs",
-    "build": "vue-tsc -b && vite build",
+    "build": "vue-tsc -b && vite build && node scripts/post-build.mjs",
     "prebuild": "node scripts/build-index.mjs",
     "preview": "vite preview",
     "build:index": "node scripts/build-index.mjs"
